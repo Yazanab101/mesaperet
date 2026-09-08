@@ -57,6 +57,47 @@
   object-position: 50% 27%;
 }
 
+/* Testimonials H1 — ~140px band @ 1440 */
+.page-hero--hero-short .page-hero__band {
+  aspect-ratio: 1440 / 140;
+  min-height: 110px;
+}
+
+/* Full-bleed section banners — testimonials @ 1440×211 */
+.page-hero--bleed .page-hero__band {
+  aspect-ratio: 1440 / 211;
+  width: 100%;
+}
+
+.page-hero--bleed .page-hero__title--md {
+  font-size: clamp(2.75rem, 7.8vw, 7.03125rem);
+}
+
+.page-hero--bleed .page-hero__title--sm {
+  font-size: clamp(2rem, 5.5vw, 4.922rem);
+}
+
+/* Workshop category banners — inset ~1152×211 / title ~112.5px @ 1440 */
+.page-hero--section .page-hero__band {
+  aspect-ratio: 1152 / 211.14;
+  width: min(100% - 2rem, 1152px);
+  margin-inline: auto;
+}
+
+.page-hero--section .page-hero__title {
+  font-size: clamp(2.75rem, 7.8vw, 7.03125rem);
+}
+
+.page-hero--section-short .page-hero__band {
+  aspect-ratio: 1152 / 146.25;
+  width: min(100% - 2rem, 1152px);
+  margin-inline: auto;
+}
+
+.page-hero--section-short .page-hero__title {
+  font-size: clamp(2.4rem, 7.2vw, 7.03125rem);
+}
+
 @media (max-width: 900px) {
   .page-hero__band {
     aspect-ratio: 390 / 108;
@@ -65,5 +106,23 @@
 
   .page-hero__title {
     font-size: clamp(3.2rem, 23vw, 5.625rem);
+  }
+
+  .page-hero--hero-short .page-hero__band {
+    aspect-ratio: 390 / 88;
+  }
+
+  .page-hero--section .page-hero__band,
+  .page-hero--section-short .page-hero__band,
+  .page-hero--bleed .page-hero__band {
+    width: 100%;
+    aspect-ratio: 390 / 96;
+  }
+
+  .page-hero--section .page-hero__title,
+  .page-hero--section-short .page-hero__title,
+  .page-hero--bleed .page-hero__title--md,
+  .page-hero--bleed .page-hero__title--sm {
+    font-size: clamp(2.2rem, 12vw, 3.4rem);
   }
 }

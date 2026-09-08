@@ -57,6 +57,7 @@
 }
 
 .gallery__item {
+  position: relative;
   border: 0;
   padding: 0;
   background: transparent;
@@ -76,6 +77,24 @@
 
 .gallery__item:hover img {
   transform: scale(1.04);
+}
+
+.gallery__item--video .gallery__play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #1a1a1a;
+  pointer-events: none;
+  transition: transform 0.2s ease;
+}
+
+.gallery__item--video:hover .gallery__play {
+  transform: scale(1.06);
+}
+
+.gallery__item--video {
+  position: relative;
 }
 
 .gallery__controls {
@@ -101,9 +120,71 @@
   cursor: pointer;
 }
 
+/* Workshops galleries — 3-col square, ~10px gutters, content ≤1152 */
+.gallery--workshops,
+.gallery--workshops-sm {
+  direction: ltr;
+}
+
+.gallery--workshops .gallery__track,
+.gallery--workshops-sm .gallery__track {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.gallery--workshops .gallery__item,
+.gallery--workshops-sm .gallery__item {
+  border-radius: 0;
+  box-shadow: none;
+  aspect-ratio: 1;
+}
+
+.gallery--workshops .gallery__item:hover img,
+.gallery--workshops-sm .gallery__item:hover img {
+  transform: scale(1.02);
+}
+
+/* Testimonials screenshot stacks — single column, natural height */
+.gallery--stack .gallery__track {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.gallery--stack .gallery__item {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: unset;
+  border-radius: 0;
+  box-shadow: none;
+  cursor: zoom-in;
+  overflow: hidden;
+}
+
+.gallery--stack .gallery__item img {
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  object-position: top center;
+  display: block;
+  background: #fff;
+}
+
+.gallery--stack .gallery__item:hover img {
+  transform: none;
+}
+
 @media (max-width: 900px) {
   .gallery--grid .gallery__track {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .gallery--workshops .gallery__track,
+  .gallery--workshops-sm .gallery__track {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 8px;
   }
 
   .gallery--certs .gallery__item {
@@ -115,7 +196,9 @@
 
 @media (max-width: 560px) {
   .gallery--grid .gallery__track,
-  .gallery--masonry .gallery__track {
+  .gallery--masonry .gallery__track,
+  .gallery--workshops .gallery__track,
+  .gallery--workshops-sm .gallery__track {
     grid-template-columns: 1fr;
   }
 

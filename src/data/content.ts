@@ -1,4 +1,4 @@
-import { ASSETS, asset } from "./site";
+import { ASSETS, asset, videoAsset } from "./site";
 
 export const pageMeta: Record<
   string,
@@ -146,10 +146,20 @@ export const clientLogos = [
   { src: asset("44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg"), alt: "אמן" },
 ];
 
+/** Category jump cards — LTR order as measured on source (mothers leftmost) */
+export const workshopNavCards = [
+  { id: "mothers", title: "בוקר אמהות", icon: asset("workshop-cats/mothers.svg") },
+  { id: "bachelorette", title: "מסיבת רווקות", icon: asset("workshop-cats/bachelorette.svg") },
+  { id: "home-circles", title: "חוגי בית, ימי הולדת ומפגשי גיבוש", icon: asset("workshop-cats/home-circles.svg") },
+  { id: "retreats", title: "ריטריטים", icon: asset("workshop-cats/retreats.svg") },
+  { id: "company", title: "ארועי חברה וסדנאות", icon: asset("workshop-cats/company.svg") },
+] as const;
+
 export const workshopCategories = [
   {
     id: "company",
     title: "ארועי חברה וסדנאות",
+    band: "section" as const,
     images: [
       { src: asset("44c6b1_ebff3898554d431f9cbde45127becdfd~mv2.jpeg"), alt: "סדנת נומרולוגיה באירוע חברה", objectPosition: "41% 53%" },
       { src: asset("44c6b1_a7a7905f01e24825b5284934d408a917~mv2.jpeg"), alt: "סדנת נומרולוגיה באירוע חברה", objectPosition: "56% 54%" },
@@ -169,6 +179,7 @@ export const workshopCategories = [
   {
     id: "retreats",
     title: "ריטריטים",
+    band: "section" as const,
     images: [
       { src: asset("44c6b1_30a35a2d66e2496b8c8e18197c3a2c01~mv2.jpg"), alt: "הדרכת נומרולוגיה" },
       { src: asset("44c6b1_022d3a4733114e9dbd0394a7a0af7d78~mv2.jpg"), alt: "הדרכת נומרולוגיה מספרים" },
@@ -178,6 +189,7 @@ export const workshopCategories = [
   {
     id: "home-circles",
     title: "חוגי בית, ימי הולדת ומפגשי גיבוש",
+    band: "section-short" as const,
     images: [
       { src: asset("44c6b1_88a240aae49343d8916a4511c7d91698~mv2.jpeg"), alt: "סדנת נומרולוגיה ביום הולדת", objectPosition: "51% 37%" },
       { src: asset("44c6b1_cf56cda3b6624636afc8090f07a3c6e3~mv2.jpeg"), alt: "חוגי בית נומרולוגיה", objectPosition: "28% 21%" },
@@ -188,7 +200,11 @@ export const workshopCategories = [
       { src: asset("44c6b1_cd0be8b7f093415381bc11c0d68af0c4~mv2.jpeg"), alt: "חגיגות יום הולדת עם הרצאת נומרולוגיה", objectPosition: "51% 65%" },
       { src: asset("44c6b1_c37979a2d5254601bc2346593e04e2ce~mv2.jpeg"), alt: "סדנת נומרולוגיה", objectPosition: "50% 44%" },
       { src: asset("44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg"), alt: "סדנת נומרולוגיה", objectPosition: "39% 21%" },
-      { src: asset("44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg"), alt: "" },
+      {
+        src: asset("44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg"),
+        alt: "חגיגות יום הולדת",
+        video: videoAsset("workshop-home-circles.mp4"),
+      },
       { src: asset("44c6b1_ed285f6f166b423db80dcd8b56327bcf~mv2.jpg"), alt: "חגיגות יום הולדת", objectPosition: "44% 43%" },
       { src: asset("44c6b1_9a0613bd85a84c049db946c0745aab61~mv2.jpg"), alt: "חגיגות יום הולדת" },
       { src: asset("5acc8b_7f97f7fb8be44fec9275f932b1804cea~mv2.jpeg"), alt: "חגיגות יום הולדת עם הרצאת נומרולוגיה", objectPosition: "38% 65%" },
@@ -209,6 +225,8 @@ export const workshopCategories = [
   {
     id: "bachelorette",
     title: "מסיבת רווקות",
+    band: "section-short" as const,
+    gallery: "compact" as const,
     images: [
       { src: asset("44c6b1_6f103c96015245528ae4ba6b1c30fc47~mv2.jpg"), alt: "ערב של מסיבת רווקות" },
       { src: asset("44c6b1_b9b85fb1499149949c14bf6eb4952a8d~mv2.jpeg"), alt: "סדנת נומרולוגיה" },
@@ -218,6 +236,8 @@ export const workshopCategories = [
   {
     id: "mothers",
     title: "בוקר אמהות",
+    band: "section-short" as const,
+    gallery: "compact" as const,
     images: [
       { src: asset("5acc8b_522d118f2a134705ae0bf108f14bfad7~mv2.jpeg"), alt: "ערב של מסיבת רווקות עם מיטל גוטמן שקד" },
       { src: asset("5acc8b_84406c4745e14d1ca474e39692b48f57~mv2.jpeg"), alt: "ערב של מסיבת רווקות עם מיטל גוטמן שקד" },

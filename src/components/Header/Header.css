@@ -3,8 +3,8 @@
   top: 0;
   z-index: var(--z-header);
   background: rgba(242, 234, 231, 0.92);
-  backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(var(--color-28), 0.18);
+  /* no backdrop-filter here — it would trap position:fixed descendants */
 }
 
 .site-header--home {
@@ -13,14 +13,18 @@
   top: 0;
   background: transparent;
   border-bottom: 0;
-  backdrop-filter: none;
 }
 
 .site-header--home .site-header__logo {
   opacity: 0.92;
 }
 
+.site-header--home .site-header__bar {
+  background: transparent;
+}
+
 .site-header__bar {
+  position: relative;
   width: min(100% - 2rem, 1200px);
   margin-inline: auto;
   min-height: var(--header-height);
@@ -128,28 +132,34 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 0;
-  left: auto;
+  inset-inline-start: 0;
+  inset-inline-end: auto;
   z-index: 2;
   width: min(86vw, 360px);
   background: linear-gradient(180deg, #fff8f4, rgb(var(--color-26)));
-  box-shadow: -8px 0 30px rgba(0, 0, 0, 0.18);
-  transform: translateX(105%);
+  box-shadow: 8px 0 30px rgba(0, 0, 0, 0.18);
+  transform: translateX(-105%);
   transition: transform 0.35s ease;
   padding: 4.5rem 1.75rem 2rem;
   overflow-y: auto;
   pointer-events: auto;
 }
 
-.mobile-menu.is-open .mobile-menu__panel {
+/* RTL: drawer from the inline-start (right) */
+[dir="rtl"] .mobile-menu__panel {
+  transform: translateX(105%);
+  box-shadow: -8px 0 30px rgba(0, 0, 0, 0.18);
+}
+
+.mobile-menu.is-open .mobile-menu__panel,
+[dir="rtl"] .mobile-menu.is-open .mobile-menu__panel {
   transform: translateX(0);
 }
 
 .mobile-menu__close {
   position: absolute;
   top: 1rem;
-  right: 1rem;
-  left: auto;
+  inset-inline-end: 1rem;
   z-index: 3;
   width: 44px;
   height: 44px;
@@ -193,6 +203,6 @@
 
 @media (min-width: 981px) {
   .mobile-menu {
-    display: none;
+    display: none !important;
   }
 }

@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import "./Lightbox.css";
 
-type Item = { src: string; alt: string };
+type Item = { src: string; alt: string; video?: string };
 
 type Props = {
   items: Item[];
@@ -42,7 +42,19 @@ export function Lightbox({ items, index, onClose, onPrev, onNext }: Props) {
         <button type="button" className="lightbox__nav lightbox__nav--prev" onClick={onPrev} aria-label="הקודם">
           ‹
         </button>
-        <img src={item.src} alt={item.alt} />
+        {item.video ? (
+          <video
+            key={item.video}
+            className="lightbox__video"
+            src={item.video}
+            poster={item.src}
+            controls
+            autoPlay
+            playsInline
+          />
+        ) : (
+          <img src={item.src} alt={item.alt} />
+        )}
         <button type="button" className="lightbox__nav lightbox__nav--next" onClick={onNext} aria-label="הבא">
           ›
         </button>

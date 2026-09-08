@@ -1,4 +1,5 @@
 import { useEffect, useId, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 import { NavLink, useLocation } from "react-router-dom";
 import { ASSETS, NAV_ITEMS } from "../../data/site";
 import "./Header.css";
@@ -39,6 +40,44 @@ export function Header() {
 
   const isHome = location.pathname === "/";
 
+  const mobileMenu = (
+    <div
+      className={`mobile-menu ${open ? "is-open" : ""}`}
+      id={menuId}
+      aria-hidden={!open}
+    >
+      <button
+        type="button"
+        className="mobile-menu__backdrop"
+        aria-label="סגור תפריט"
+        tabIndex={-1}
+        onClick={closeMenu}
+      />
+      <div className="mobile-menu__panel" role="dialog" aria-modal={open} aria-label="תפריט נייד">
+        <button
+          ref={closeBtnRef}
+          type="button"
+          className="mobile-menu__close"
+          aria-label="סגור תפריט"
+          onClick={closeMenu}
+        >
+          ×
+        </button>
+        <nav aria-label="תפריט נייד">
+          <ul>
+            {NAV_ITEMS.map((item) => (
+              <li key={item.to}>
+                <NavLink to={item.to} end={item.to === "/"} onClick={closeMenu}>
+                  {item.label}
+                </NavLink>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  );
+
   return (
     <header className={`site-header ${isHome ? "site-header--home" : ""}`}>
       <div className="site-header__bar">
@@ -78,41 +117,7 @@ export function Header() {
         </button>
       </div>
 
-      <div
-        className={`mobile-menu ${open ? "is-open" : ""}`}
-        id={menuId}
-        aria-hidden={!open}
-      >
-        <button
-          type="button"
-          className="mobile-menu__backdrop"
-          aria-label="סגור תפריט"
-          tabIndex={-1}
-          onClick={closeMenu}
-        />
-        <div className="mobile-menu__panel" role="dialog" aria-modal={open} aria-label="תפריט נייד">
-          <button
-            ref={closeBtnRef}
-            type="button"
-            className="mobile-menu__close"
-            aria-label="סגור תפריט"
-            onClick={closeMenu}
-          >
-            ×
-          </button>
-          <nav aria-label="תפריט נייד">
-            <ul>
-              {NAV_ITEMS.map((item) => (
-                <li key={item.to}>
-                  <NavLink to={item.to} end={item.to === "/"} onClick={closeMenu}>
-                    {item.label}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </div>
-      </div>
+      {createPortal(mobileMenu, document.body)}
     </header>
   );
 }

@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "snippet": "nk\"},\"alt\":\"סדנת נומרולוגיה\",\"sourceName\":\"private\",\"tags\":[\"_fileOrigin_uploaded\"],\"height\":2048,\"width\":2048,\"focalPoint\":[0.504150390625,0.442626953125],\"fileName\":\"WhatsApp Image 2026-01-19 at 10.27.39.jpeg\",\"name\":\"44c6b1_c37979a2d5254601bc2346593e04e2ce~mv2.jpeg\"},\"mediaUrl\":\"44c6b1_c37979a2d5254601bc2346593e04e2ce~mv2.jpeg\"},{\"itemId\":\"415c4927-34ce-4852-9c88-9dfc00939926\",\"isSecure\":false,\"createdDate\":\"2026-01-19T18:40:33.000Z\",\"orderIndex\":-221106031590.5,\"metaData\":{\"title\":\"\",\"link\":{\"type\":\"none\",\"target\":\"_blank\"},\"alt\":\"סדנת נומרולוגיה\",\"sourceName\":\"private\",\"tags\":[\"_fileOrigin_uploaded\"],\"height\":2016,\"width\":1512,\"focalPoint\":[0.396494708994709,0.21378968253968253],\"fileName\":\"WhatsApp Image 2026-01-19 at 10.27.39 (1).jpeg\",\"name\":\"44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg\"},\"mediaUrl\":\"44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg\"},{\"itemId\":\"f98e09c8-b313-4fd9-b1d2-58f03833faeb\",\"isSecure\":false,\"createdDate\":\"2024-08-17T12:20:30.000Z\",\"orderIndex\":-33333,\"metaData\":{\"description\":\"חגיגות יום הולדת\",\"title\":\"חגיגות יום הולדת\",\"link\":{\"type\":\"none\",\"target\":\"_blank\"},\"type\":\"video\",\"customPoster\":\"\",\"isExternal\":false,\"height\":850,\"width\":478,\"name\":\"VID-20240727-WA0070.mp4\",\"posters\":[{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f000.jpg\"},{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f001.jpg\"},{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f002.jpg\"},{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg\"}],\"qualities\":[{\"formats\":[\"mp4\"],\"height\":850,\"quality\":\"480p\",\"width\":478},{\"formats\":[\"mp4\"],\"height\":360,\"quality\":\"360p\",\"width\":202}],\"duration\":16634},\"mediaUrl\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0\"},{\"itemId\":\"77408116-515f-47c1-9350-f6fe0a1363fd\",\"isSecure\":false,\"createdDate\":\"2024-08-17T12:20:02.000Z\",\"orderIndex\":861948583723.5,\"metaData\":{\"title\":\"חגיגות יום הולדת\",\"link\":{\"type\":\"none\",\"target\":\"_blank\"},\"alt\":\"חגיגות יום הולדת\",\"sourceName\":\"private\",\"tags\":[\"_fileOrigin_uploaded\"],\"height\":1599,\"width\":899,\"focalPoint\":[0.4421487603305785,0.4351851851851852],\"fileName\":\"IMG-20240727-WA0069.jpg\",\"name\":\"44c6b1_ed285f6f166b423db80dcd8b56327bcf~mv2.jpg\"},\"mediaUrl\":\"44c6b1_ed285f6f166b423db80dcd8b56327bcf~mv2.jpg\"},{\"itemId\":\"d32ab7ad-989e-4c93-ae26-599955be1d5b\",\"isSecure\":false,\"createdDate\":\"2024-08-17T12:20:02.000Z\",\"orderIndex\":1723897200780,\"metaData\":{\"title\":\"חגיגות יום הולדת\",\"link\":{\"type\":\"none\",\"target\":\"_blank\"},\"alt\":\"חגיגות יום הולדת\",\"sourceName\":\"private\",\"tags\":[\"_fileOrigin_uploaded\"],\"height\":2048,\"width\":1536,\"fileName\":\"IMG-20240718-WA0142.jpg\",\"name\":\"44c6b1_9a0613bd85a84c049",
+    "mediaUrl": "44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg"
+  },
+  "checks": [
+    {
+      "url": "https://video.wixstatic.com/video/44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg/480p/mp4/file.mp4",
+      "status": 403,
+      "type": "text/plain",
+      "len": "9"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg/360p/mp4/file.mp4",
+      "status": 403,
+      "type": "text/plain",
+      "len": "9"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg/720p/mp4/file.mp4",
+      "status": 403,
+      "type": "text/plain",
+      "len": "9"
+    },
+    {
+      "url": "https://video.wixstatic.com/video/44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg/1080p/mp4/file.mp4",
+      "status": 403,
+      "type": "text/plain",
+      "len": "9"
+    }
+  ],
+  "videoId": "44c6b1_a6aae4a3246f49909002d880c09a440a~mv2.jpeg"
+}

@@ -1,0 +1,49 @@
+{
+  "videoInfo": [
+    {
+      "x": 144,
+      "y": 6116.625,
+      "w": 477,
+      "h": 476,
+      "poster": "https://static.wixstatic.com/media/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg/v1/fill/w_477,h_476,q_90,enc_avif,quality_auto/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg",
+      "videoSrc": null,
+      "sources": [
+        null
+      ],
+      "mp4Match": null,
+      "wixVideo": [
+        "static.wixstatic.com/media/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg/v1/fill/w_477,h_476,q_90,enc_avif,quality_auto/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg",
+        "static.wixstatic.com/media/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg/v1/fill/w_638,h_636,q_90,enc_avif,quality_auto/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg",
+        "static.wixstatic.com/media/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg/v1/fill/w_638,h_636,q_90,enc_avif,quality_auto/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg",
+        "static.wixstatic.com/media/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg/v1/fill/w_638,h_636,q_90,enc_avif,quality_auto/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg",
+        "static.wixstatic.com/media/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg/v1/fill/w_638,h_636,q_90,enc_avif,quality_auto/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg",
+        "static.wixstatic.com/media/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg/v1/fill/w_477,h_476,q_90,enc_avif,quality_auto/44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg"
+      ],
+      "attrs": {
+        "class": "gallery-item-content item-content-regular image-item gallery-item-visible gallery-item gallery-item-preloaded  load-with-color   video-item gallery-item-video",
+        "data-hook": "image-item",
+        "style": "width:477px;height:476px;margin-top:0;margin-left:0"
+      },
+      "className": "gallery-item-content item-content-regular image-item gallery-item-visible gallery-item gallery-item-preloaded  load-with-color   video-item gallery-item-video"
+    }
+  ],
+  "afterClick": {
+    "videoSrc": null,
+    "sources": [],
+    "allMp4": []
+  },
+  "mp4Urls": [],
+  "perf": [],
+  "wixData": {
+    "hits": [
+      {
+        "snippet": "ink\":{\"type\":\"none\",\"target\":\"_blank\"},\"type\":\"video\",\"customPoster\":\"\",\"isExternal\":false,\"height\":850,\"width\":478,\"name\":\"VID-20240727-WA0070.mp4\",\"posters\":[{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f000.jpg\"},{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f001.jpg\"},{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f002.jpg\"},{\"height\":850,\"width\":478,\"url\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0f003.jpg\"}],\"qualities\":[{\"formats\":[\"mp4\"],\"height\":850,\"quality\":\"480p\",\"width\":478},{\"formats\":[\"mp4\"],\"height\":360,\"quality\":\"360p\",\"width\":202}],\"duration\":16634},\"mediaUrl\":\"44c6b1_141ac5afeb3a4d3d92207865cf6891d0"
+      }
+    ],
+    "keys": [
+      "viewerModel",
+      "webpackJsonp__wix_thunderbolt_app",
+      "wixCustomElements"
+    ]
+  }
+}

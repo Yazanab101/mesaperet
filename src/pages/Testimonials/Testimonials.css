@@ -1,57 +1,179 @@
-.testimonials-page__top {
-  background: rgb(var(--color-26));
+/* Testimonials — measured from live Wix @ 1440×900 */
+
+.testimonials-page {
+  background: #fff;
 }
 
-.testimonials-page__tabs {
+.testimonials-page__featured {
+  padding: 1rem 0 0.5rem;
+  background: #fff;
+}
+
+.testimonials-page__stack {
+  width: min(100% - 2rem, 720px);
+  margin-inline: auto;
+}
+
+.testimonials-page__video-card {
+  margin: 0 0 1.35rem;
+}
+
+.testimonials-page__video-card figcaption {
+  margin-top: 0.65rem;
+  text-align: center;
+  font-family: var(--font-body);
+  font-size: 1.375rem;
+  line-height: 1.3;
+  color: #000;
+}
+
+.testimonials-page__video-btn {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: #111;
+  cursor: pointer;
+  overflow: hidden;
+  aspect-ratio: 848 / 480;
+}
+
+.testimonials-page__video-btn img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.testimonials-page__play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: #1a1a1a;
+  pointer-events: none;
+  transition: transform 0.2s ease;
+}
+
+.testimonials-page__video-btn:hover .testimonials-page__play {
+  transform: scale(1.06);
+}
+
+/* Category jump cards — 2 cols with teal star icons */
+.testimonials-page__cats {
+  direction: ltr;
+  width: min(100% - 2rem, 520px);
+  margin: 0.85rem auto 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  align-items: start;
+}
+
+.testimonials-page__cat {
   display: flex;
-  justify-content: center;
-  gap: 0.75rem;
-  margin-bottom: 1.5rem;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.45rem;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
 }
 
-.testimonials-page__tabs a {
-  padding: 0.55rem 1.1rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.85);
-  border: 1px solid rgba(var(--color-28), 0.25);
+.testimonials-page__cat:hover {
+  opacity: 0.82;
 }
 
-.testimonials-page__tabs a:hover {
-  background: rgb(var(--color-28));
-  color: #fff;
+.testimonials-page__cat-icon {
+  display: grid;
+  place-items: center;
+  width: min(100%, 184px);
+  aspect-ratio: 184 / 146;
+}
+
+.testimonials-page__cat-icon img {
+  width: 62%;
+  height: auto;
+  display: block;
+  transform-origin: center center;
+}
+
+.testimonials-page__cat:hover .testimonials-page__cat-icon img {
+  animation: testimonials-cat-spin 0.85s ease-in-out;
+}
+
+@keyframes testimonials-cat-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .testimonials-page__cat:hover .testimonials-page__cat-icon img {
+    animation: none;
+  }
+}
+
+.testimonials-page__cat-label {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 1.4vw, 1.266rem);
+  line-height: 1.6;
+}
+
+.testimonials-page__anchor {
+  scroll-margin-top: calc(var(--header-height) + 8px);
 }
 
 .testimonials-page__block {
-  background: linear-gradient(180deg, rgb(var(--color-31)), rgb(var(--color-26)));
-  scroll-margin-top: calc(var(--header-height) + 12px);
-}
-
-.testimonials-page__block--alt {
-  background: rgb(var(--color-26));
-}
-
-.testimonials-page__h3 {
-  font-family: var(--font-display);
-  font-size: clamp(1.35rem, 3vw, 1.9rem);
-  font-weight: 400;
-  text-align: center;
-  margin: 0 0 1.25rem;
-}
-
-.testimonials-page__cta {
-  display: flex;
-  justify-content: center;
-  margin-top: 2rem;
-}
-
-.testimonials-page .gallery--masonry .gallery__item {
-  aspect-ratio: auto;
-}
-
-.testimonials-page .gallery--masonry .gallery__item img {
-  height: auto;
-  max-height: none;
-  object-fit: contain;
+  padding: 0.85rem 0 1.5rem;
   background: #fff;
+}
+
+.testimonials-page__cta-band {
+  margin-top: 0.5rem;
+}
+
+.testimonials-page__cta-band-inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 183;
+  min-height: 120px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.testimonials-page__cta-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 27%;
+  pointer-events: none;
+}
+
+.testimonials-page__cta-band-inner .whatsapp-btn {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 900px) {
+  .testimonials-page__stack {
+    width: min(100% - 1.25rem, 720px);
+  }
+
+  .testimonials-page__cats {
+    width: min(100% - 1.25rem, 420px);
+    gap: 0.75rem;
+  }
+
+  .testimonials-page__cta-band-inner {
+    aspect-ratio: 390 / 112;
+  }
 }

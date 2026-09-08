@@ -23,13 +23,19 @@
   place-items: center;
 }
 
-.lightbox__panel img {
+.lightbox__panel img,
+.lightbox__panel .lightbox__video {
   max-height: 85vh;
   width: auto;
   max-width: 100%;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.lightbox__video {
+  width: min(92vw, 848px);
+  background: #000;
 }
 
 .lightbox__close,

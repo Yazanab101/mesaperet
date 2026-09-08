@@ -1,4 +1,4 @@
-import { clientLogos, workshopCategories, workshopsIntro } from "../../data/content";
+import { clientLogos, workshopCategories, workshopNavCards, workshopsIntro } from "../../data/content";
 import { ASSETS } from "../../data/site";
 import { PageHero } from "../../components/PageHero/PageHero";
 import { ScrollReveal } from "../../components/ScrollReveal/ScrollReveal";
@@ -14,56 +14,71 @@ export function WorkshopsPage() {
     <div className="workshops-page">
       <PageHero title="סדנאות והרצאות" breadcrumb="סדנאות" bannerAlt="הדרכות נומרולוגיה" />
 
-      <section className="section workshops-page__clients">
-        <div className="container">
-          <ScrollReveal>
-            <h2 className="section-subtitle">בין לקוחותי</h2>
-          </ScrollReveal>
-          <ScrollReveal delay={80}>
-            <div className="workshops-page__logos" aria-label="לוגואים של לקוחות">
-              {[...clientLogos, ...clientLogos].map((logo, i) => (
-                <div className="workshops-page__logo" key={`${logo.src}-${i}`}>
-                  <img src={logo.src} alt={logo.alt} loading="lazy" />
-                </div>
-              ))}
-            </div>
-          </ScrollReveal>
-          <ScrollReveal delay={120}>
-            <div className="prose workshops-page__intro">
-              {workshopsIntro.map((p) => (
-                <p key={p}>{p}</p>
-              ))}
-            </div>
-          </ScrollReveal>
-          <nav className="workshops-page__cats" aria-label="קטגוריות סדנאות">
-            {workshopCategories.map((cat) => (
-              <a key={cat.id} href={`#${cat.id}`}>
-                {cat.title}
-              </a>
+      <section className="workshops-page__clients" aria-label="בין לקוחותי">
+        <ScrollReveal>
+          <h2 className="workshops-page__clients-title">בין לקוחותי</h2>
+        </ScrollReveal>
+
+        <div className="workshops-page__logos" aria-label="לוגואים של לקוחות">
+          <div className="workshops-page__logos-track">
+            {[...clientLogos, ...clientLogos, ...clientLogos].map((logo, i) => (
+              <div className="workshops-page__logo" key={`${logo.src}-${i}`}>
+                <img src={logo.src} alt={logo.alt} loading="lazy" />
+              </div>
             ))}
-          </nav>
+          </div>
         </div>
+
+        <ScrollReveal delay={80}>
+          <div className="workshops-page__intro">
+            {workshopsIntro.map((p) => (
+              <p key={p}>{p}</p>
+            ))}
+          </div>
+        </ScrollReveal>
+
+        <nav className="workshops-page__cats" aria-label="קטגוריות סדנאות">
+          {workshopNavCards.map((cat) => (
+            <a key={cat.id} className="workshops-page__cat" href={`#${cat.id}`}>
+              <span className="workshops-page__cat-icon" aria-hidden="true">
+                <img src={cat.icon} alt="" />
+              </span>
+              <span className="workshops-page__cat-label">{cat.title}</span>
+            </a>
+          ))}
+        </nav>
       </section>
 
       {workshopCategories.map((cat) => (
-        <section key={cat.id} id={cat.id} className="section workshops-page__category">
-          <div className="container">
-            <div className="workshops-page__divider decorative-overlay" aria-hidden="true">
-              <img src={ASSETS.bannerMagic} alt="" />
-            </div>
+        <section key={cat.id} className="workshops-page__category">
+          <PageHero
+            id={cat.id}
+            title={cat.title}
+            as="h2"
+            band={cat.band}
+            bannerAlt="הדרכות נומרולוגיה"
+            className="workshops-page__cat-hero"
+          />
+          <div className="workshops-page__gallery-wrap">
             <ScrollReveal>
-              <h2 className="section-subtitle">{cat.title}</h2>
-            </ScrollReveal>
-            <ScrollReveal delay={100}>
-              <Gallery images={[...cat.images]} variant="grid" />
+              <Gallery
+                images={[...cat.images]}
+                variant={cat.gallery === "compact" ? "workshops-sm" : "workshops"}
+              />
             </ScrollReveal>
           </div>
         </section>
       ))}
 
-      <section className="section">
-        <div className="container" style={{ display: "flex", justifyContent: "center" }}>
-          <WhatsAppButton />
+      <section className="workshops-page__cta-band" aria-label="יצירת קשר">
+        <div className="workshops-page__cta-band-inner">
+          <img
+            className="workshops-page__cta-bg"
+            src={ASSETS.bannerMagic}
+            alt=""
+            aria-hidden="true"
+          />
+          <WhatsAppButton className="whatsapp-btn--site" />
         </div>
       </section>
     </div>

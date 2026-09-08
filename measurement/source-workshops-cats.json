@@ -1,0 +1,304 @@
+{
+  "cards": [
+    {
+      "text": "בוקר אמהות",
+      "box": {
+        "x": 144,
+        "y": 939.61,
+        "w": 215.73,
+        "h": 223.7
+      },
+      "href": "https://www.me-saperet.com/סדנאות",
+      "img": null
+    },
+    {
+      "text": "מסיבת רווקות",
+      "box": {
+        "x": 376.8,
+        "y": 939.61,
+        "w": 215.73,
+        "h": 223.7
+      },
+      "href": "https://www.me-saperet.com/סדנאות",
+      "img": null
+    },
+    {
+      "text": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+      "box": {
+        "x": 609.59,
+        "y": 939.61,
+        "w": 215.73,
+        "h": 223.7
+      },
+      "href": "https://www.me-saperet.com/סדנאות",
+      "img": null
+    },
+    {
+      "text": "ריטריטים",
+      "box": {
+        "x": 842.39,
+        "y": 939.61,
+        "w": 215.73,
+        "h": 223.7
+      },
+      "href": "https://www.me-saperet.com/סדנאות",
+      "img": null
+    },
+    {
+      "text": "ארועי חברה וסדנאות",
+      "box": {
+        "x": 1075.19,
+        "y": 939.61,
+        "w": 215.73,
+        "h": 223.7
+      },
+      "href": "https://www.me-saperet.com/סדנאות",
+      "img": null
+    }
+  ],
+  "logos": [
+    {
+      "alt": "לוגו תנובה",
+      "x": 57.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_fc494b3665994ae68baec77fa53c31fe~mv2.jpeg/v1/fill/w_180,h_180,q_90,enc_avif,quality_auto/44c6b1_fc494b3665994ae68baec77fa53c31fe~mv2.jpeg",
+      "file": "44c6b1_fc494b3665994ae68baec77fa53c31fe~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו  MEDASSIST",
+      "x": 789.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_63c7d695f1bd4a8ebc5da01d6dcf33f9~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_63c7d695f1bd4a8ebc5da01d6dcf33f9~mv2.jpeg",
+      "file": "44c6b1_63c7d695f1bd4a8ebc5da01d6dcf33f9~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו מנורה",
+      "x": 1521.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_e3908b7af5904b77ac689d773f965bfb~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_e3908b7af5904b77ac689d773f965bfb~mv2.jpeg",
+      "file": "44c6b1_e3908b7af5904b77ac689d773f965bfb~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו ענבי ציון",
+      "x": 2253.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_60be8d5dcec244f6901e046c516d5fbd~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_60be8d5dcec244f6901e046c516d5fbd~mv2.jpeg",
+      "file": "44c6b1_60be8d5dcec244f6901e046c516d5fbd~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו מכבי טבעי",
+      "x": 2985.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_830047cea8634f53ac657dd8ed85e306~mv2.jpeg/v1/fill/w_320,h_320,q_90,enc_avif,quality_auto/44c6b1_830047cea8634f53ac657dd8ed85e306~mv2.jpeg",
+      "file": "44c6b1_830047cea8634f53ac657dd8ed85e306~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "אמן",
+      "x": 3717.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg",
+      "file": "44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו תנובה",
+      "x": 4449.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_fc494b3665994ae68baec77fa53c31fe~mv2.jpeg/v1/fill/w_180,h_180,q_90,enc_avif,quality_auto/44c6b1_fc494b3665994ae68baec77fa53c31fe~mv2.jpeg",
+      "file": "44c6b1_fc494b3665994ae68baec77fa53c31fe~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו  MEDASSIST",
+      "x": 5181.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_63c7d695f1bd4a8ebc5da01d6dcf33f9~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_63c7d695f1bd4a8ebc5da01d6dcf33f9~mv2.jpeg",
+      "file": "44c6b1_63c7d695f1bd4a8ebc5da01d6dcf33f9~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו מנורה",
+      "x": 5913.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_e3908b7af5904b77ac689d773f965bfb~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_e3908b7af5904b77ac689d773f965bfb~mv2.jpeg",
+      "file": "44c6b1_e3908b7af5904b77ac689d773f965bfb~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו ענבי ציון",
+      "x": 6645.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_60be8d5dcec244f6901e046c516d5fbd~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_60be8d5dcec244f6901e046c516d5fbd~mv2.jpeg",
+      "file": "44c6b1_60be8d5dcec244f6901e046c516d5fbd~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "לוגו מכבי טבעי",
+      "x": 7377.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_830047cea8634f53ac657dd8ed85e306~mv2.jpeg/v1/fill/w_320,h_320,q_90,enc_avif,quality_auto/44c6b1_830047cea8634f53ac657dd8ed85e306~mv2.jpeg",
+      "file": "44c6b1_830047cea8634f53ac657dd8ed85e306~mv2.jpeg",
+      "objectFit": "cover"
+    },
+    {
+      "alt": "אמן",
+      "x": 8109.27,
+      "y": 608.14,
+      "w": 700,
+      "h": 700,
+      "src": "https://static.wixstatic.com/media/44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg/v1/fill/w_700,h_700,q_90,enc_avif,quality_auto/44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg",
+      "file": "44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg",
+      "objectFit": "cover"
+    }
+  ],
+  "logoBox": {
+    "x": 0,
+    "y": 585.31,
+    "w": 1440,
+    "h": 155.63
+  },
+  "banners": [
+    {
+      "id": "comp-lzy343yo",
+      "box": {
+        "x": 144,
+        "y": 1192.11,
+        "w": 1152,
+        "h": 211.14
+      },
+      "title": "ארועי חברה וסדנאות",
+      "titleBox": {
+        "x": 215.34,
+        "y": 1224.55,
+        "w": 1009.31,
+        "h": 146.25
+      },
+      "img": {
+        "x": 144,
+        "y": 1192.11,
+        "w": 1152,
+        "h": 211.14,
+        "file": "44c6b1_5bdd566bb84b4832937af1d4eb4e19e2~mv2.png"
+      }
+    },
+    {
+      "id": "comp-m77cc1ic",
+      "box": {
+        "x": 144,
+        "y": 3823.25,
+        "w": 1152,
+        "h": 213.13
+      },
+      "title": "ריטריטים",
+      "titleBox": {
+        "x": 215.34,
+        "y": 3856.69,
+        "w": 1009.31,
+        "h": 146.25
+      },
+      "img": {
+        "x": 144,
+        "y": 3823.25,
+        "w": 1152,
+        "h": 213.13,
+        "file": "44c6b1_5bdd566bb84b4832937af1d4eb4e19e2~mv2.png"
+      }
+    },
+    {
+      "id": "comp-lzy3oimr",
+      "box": {
+        "x": 144,
+        "y": 4512.38,
+        "w": 1152,
+        "h": 146.25
+      },
+      "title": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+      "titleBox": {
+        "x": 215.34,
+        "y": 4512.38,
+        "w": 1009.31,
+        "h": 146.25
+      },
+      "img": {
+        "x": 144,
+        "y": 4512.38,
+        "w": 1152,
+        "h": 146.25,
+        "file": "44c6b1_5bdd566bb84b4832937af1d4eb4e19e2~mv2.png"
+      }
+    },
+    {
+      "id": "comp-lzy45fds",
+      "box": {
+        "x": 144.02,
+        "y": 9022.63,
+        "w": 1151.97,
+        "h": 146.25
+      },
+      "title": "מסיבת רווקות",
+      "titleBox": {
+        "x": 215.36,
+        "y": 9022.63,
+        "w": 1009.28,
+        "h": 146.25
+      },
+      "img": {
+        "x": 144.02,
+        "y": 9022.63,
+        "w": 1151.97,
+        "h": 146.25,
+        "file": "44c6b1_5bdd566bb84b4832937af1d4eb4e19e2~mv2.png"
+      }
+    },
+    {
+      "id": "comp-m5pe3rqd",
+      "box": {
+        "x": 144,
+        "y": 9515.88,
+        "w": 1152,
+        "h": 146.25
+      },
+      "title": "בוקר אמהות",
+      "titleBox": {
+        "x": 215.34,
+        "y": 9515.88,
+        "w": 1009.31,
+        "h": 146.25
+      },
+      "img": {
+        "x": 144,
+        "y": 9515.88,
+        "w": 1152,
+        "h": 146.25,
+        "file": "44c6b1_5bdd566bb84b4832937af1d4eb4e19e2~mv2.png"
+      }
+    }
+  ]
+}

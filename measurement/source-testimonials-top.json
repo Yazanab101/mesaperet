@@ -1,0 +1,549 @@
+{
+  "info": {
+    "section": {
+      "y": 313.96875,
+      "h": 7243.1875,
+      "w": 1440
+    },
+    "imgCount": 8,
+    "imgsInView": [],
+    "imgsAll": [
+      {
+        "alt": "",
+        "file": "44c6b1_db1995abdaf845de9c5a03702bc83e4af003.jpg",
+        "x": -370,
+        "y": 343,
+        "w": 1450,
+        "h": 821
+      },
+      {
+        "alt": "",
+        "file": "44c6b1_756cff09dd6740a6acdf6ffcaac3ca7df003.jpg",
+        "x": -370,
+        "y": 1270,
+        "w": 1450,
+        "h": 817
+      },
+      {
+        "alt": "",
+        "file": "44c6b1_322109697fc549f384911d07406caad7f003.jpg",
+        "x": -370,
+        "y": 2192,
+        "w": 1450,
+        "h": 817
+      },
+      {
+        "alt": "",
+        "file": "44c6b1_2c5da40fb42246c7af08cb3354edfcb9f003.jpg",
+        "x": -370,
+        "y": 3115,
+        "w": 1450,
+        "h": 817
+      },
+      {
+        "alt": "",
+        "file": "44c6b1_adf9111900f144a9ae949782a1db12fbf003.jpg",
+        "x": -370,
+        "y": 4038,
+        "w": 1450,
+        "h": 821
+      },
+      {
+        "alt": "",
+        "file": "44c6b1_3a1d1f1c2f5b4fb5a1a63bfe32e9628ef003.jpg",
+        "x": -370,
+        "y": 4965,
+        "w": 1450,
+        "h": 821
+      },
+      {
+        "alt": "",
+        "file": "44c6b1_1fbce7c58dd743d0a12cbc1022fc4f7af003.jpg",
+        "x": -370,
+        "y": 5892,
+        "w": 1450,
+        "h": 653
+      },
+      {
+        "alt": "",
+        "file": "44c6b1_b59d2965507647c8aa9721778c6ce7faf003.jpg",
+        "x": -370,
+        "y": 6650,
+        "w": 1450,
+        "h": 821
+      }
+    ],
+    "galleries": [
+      {
+        "id": "gallery-wrapper-comp-lups2l2d",
+        "cls": "",
+        "y": 343,
+        "w": 720,
+        "h": 7214,
+        "imgCount": 8
+      },
+      {
+        "id": "pro-gallery-comp-lups2l2d",
+        "cls": "pro-gallery",
+        "y": 343,
+        "w": 720,
+        "h": 7214,
+        "imgCount": 8
+      },
+      {
+        "id": "",
+        "cls": "pro-gallery-parent-container",
+        "y": 343,
+        "w": 720,
+        "h": 7214,
+        "imgCount": 8
+      },
+      {
+        "id": "pro-gallery-container-comp-lups2l2d",
+        "cls": "pro-gallery inline-styles  rtl ",
+        "y": 343,
+        "w": 720,
+        "h": 7214,
+        "imgCount": 8
+      },
+      {
+        "id": "pro-gallery-margin-container-comp-lups2l2d",
+        "cls": "pro-gallery-margin-container",
+        "y": 343,
+        "w": 1450,
+        "h": 7214,
+        "imgCount": 8
+      },
+      {
+        "id": "pgia7aefb83d55942f8956f4853d9c94c25_0",
+        "cls": "gallery-item-container item-container-regular has-custom-focus visible clickable",
+        "y": 343,
+        "w": 1450,
+        "h": 907,
+        "imgCount": 1
+      },
+      {
+        "id": "item-wrapper-a7aefb83-d559-42f8-956f-4853d9c94c25",
+        "cls": "gallery-item-wrapper visible [object Object]",
+        "y": 343,
+        "w": 1450,
+        "h": 821,
+        "imgCount": 1
+      },
+      {
+        "id": "",
+        "cls": "gallery-item-content item-content-regular image-item gallery-item-visible galler",
+        "y": 343,
+        "w": 1450,
+        "h": 821,
+        "imgCount": 1
+      },
+      {
+        "id": "0",
+        "cls": "gallery-item-visible gallery-item gallery-item-preloaded",
+        "y": 343,
+        "w": 1450,
+        "h": 821,
+        "imgCount": 0
+      },
+      {
+        "id": "",
+        "cls": "gallery-item-video-play-triangle play-triangle ",
+        "y": 723,
+        "w": 60,
+        "h": 60,
+        "imgCount": 0
+      },
+      {
+        "id": "",
+        "cls": "gallery-item-video-play-background play-background ",
+        "y": 723,
+        "w": 60,
+        "h": 60,
+        "imgCount": 0
+      },
+      {
+        "id": "",
+        "cls": "gallery-item-hover fullscreen-enabled item-overlay-regular",
+        "y": 343,
+        "w": 1450,
+        "h": 821,
+        "imgCount": 0
+      },
+      {
+        "id": "",
+        "cls": "gallery-item-common-info-outer [object Object]",
+        "y": 1164,
+        "w": 1450,
+        "h": 86,
+        "imgCount": 0
+      },
+      {
+        "id": "",
+        "cls": "gallery-item-common-info gallery-item-bottom-info",
+        "y": 1164,
+        "w": 1450,
+        "h": 86,
+        "imgCount": 0
+      },
+      {
+        "id": "pgi00f7c608f75347c2b9ee51698c87509d_1",
+        "cls": "gallery-item-container item-container-regular has-custom-focus visible clickable",
+        "y": 1270,
+        "w": 1450,
+        "h": 903,
+        "imgCount": 1
+      }
+    ],
+    "tabChildren": [
+      {
+        "tag": "DIV",
+        "id": "comp-mrtn37cd__item-mrdu239m",
+        "text": "סדנאות",
+        "x": 482,
+        "y": 7796,
+        "w": 226,
+        "h": 169,
+        "fontSize": "10px",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "start",
+        "href": null
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-mrtn37ce5__item-mrdu239m",
+        "text": "סדנאות",
+        "x": 499,
+        "y": 7807,
+        "w": 193,
+        "h": 146,
+        "fontSize": "10px",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "start",
+        "href": null
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-mrtn37dz__item-mrdu239m",
+        "text": "סדנאות",
+        "x": 499,
+        "y": 7921,
+        "w": 193,
+        "h": 32,
+        "fontSize": "10px",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "start",
+        "href": null
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "text": "סדנאות",
+        "x": 499,
+        "y": 7921,
+        "w": 193,
+        "h": 32,
+        "fontSize": "20.25px",
+        "fontFamily": "almoni-dl-aaa-400, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "center",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "סדנאות",
+        "x": 568,
+        "y": 7925,
+        "w": 56,
+        "h": 24,
+        "fontSize": "20.25px",
+        "fontFamily": "almoni-dl-aaa-400, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "center",
+        "href": "https://www.me-saperet.com/המלצות"
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-mrtn37cd__item-mrdu8etw",
+        "text": "מפגשים אישיים",
+        "x": 731,
+        "y": 7796,
+        "w": 226,
+        "h": 169,
+        "fontSize": "10px",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "start",
+        "href": null
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-mrtn37ce5__item-mrdu8etw",
+        "text": "מפגשים אישיים",
+        "x": 748,
+        "y": 7807,
+        "w": 193,
+        "h": 146,
+        "fontSize": "10px",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "start",
+        "href": null
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-mrtn37dz__item-mrdu8etw",
+        "text": "מפגשים אישיים",
+        "x": 748,
+        "y": 7921,
+        "w": 193,
+        "h": 32,
+        "fontSize": "10px",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "start",
+        "href": null
+      },
+      {
+        "tag": "P",
+        "id": "",
+        "text": "מפגשים אישיים",
+        "x": 748,
+        "y": 7921,
+        "w": 193,
+        "h": 32,
+        "fontSize": "20.25px",
+        "fontFamily": "almoni-dl-aaa-400, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "center",
+        "href": null
+      },
+      {
+        "tag": "A",
+        "id": "",
+        "text": "מפגשים אישיים",
+        "x": 787,
+        "y": 7925,
+        "w": 114,
+        "h": 24,
+        "fontSize": "20.25px",
+        "fontFamily": "almoni-dl-aaa-400, sans-serif",
+        "color": "rgb(0, 0, 0)",
+        "bg": "rgba(0, 0, 0, 0)",
+        "borderRadius": "0px",
+        "textAlign": "center",
+        "href": "https://www.me-saperet.com/המלצות"
+      }
+    ],
+    "nameEls": [
+      {
+        "text": "יעל",
+        "x": 339,
+        "y": 1180,
+        "w": 32,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "מרים",
+        "x": 331,
+        "y": 2103,
+        "w": 49,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "חנה",
+        "x": 335,
+        "y": 3025,
+        "w": 40,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "רפאל",
+        "x": 330,
+        "y": 3948,
+        "w": 50,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "ליאת",
+        "x": 331,
+        "y": 4875,
+        "w": 48,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "שלי",
+        "x": 338,
+        "y": 5802,
+        "w": 34,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "נטי",
+        "x": 340,
+        "y": 6561,
+        "w": 30,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      },
+      {
+        "text": "ינטי",
+        "x": 336,
+        "y": 7487,
+        "w": 37,
+        "h": 28,
+        "fontSize": "22px",
+        "color": "rgb(0, 0, 0)"
+      }
+    ],
+    "personal": {
+      "y": 8204.328125,
+      "h": 19524.796875,
+      "w": 1440,
+      "x": 0
+    },
+    "personalImgs": [
+      {
+        "file": "44c6b1_b7e1b851d4994f1fa72ab93c5626b8ac~mv2.jpg",
+        "x": 504,
+        "w": 1450,
+        "h": 1338,
+        "objectFit": "cover",
+        "parentW": 1450
+      },
+      {
+        "file": "44c6b1_64d900345f24463bb5615318ba87e5b1~mv2.jpeg",
+        "x": 504,
+        "w": 1450,
+        "h": 707,
+        "objectFit": "cover",
+        "parentW": 1450
+      },
+      {
+        "file": "44c6b1_6b250f6d382d472f96c5bfdad66c98e8~mv2.jpeg",
+        "x": 504,
+        "w": 1450,
+        "h": 569,
+        "objectFit": "cover",
+        "parentW": 1450
+      },
+      {
+        "file": "44c6b1_cc0fbafc8088404eb641c6e9001e6a43~mv2.jpeg",
+        "x": 504,
+        "w": 1450,
+        "h": 1109,
+        "objectFit": "cover",
+        "parentW": 1450
+      },
+      {
+        "file": "44c6b1_a8143006bded4e2abfeada8d136821f7~mv2.jpeg",
+        "x": 504,
+        "w": 1450,
+        "h": 355,
+        "objectFit": "cover",
+        "parentW": 1450
+      }
+    ]
+  },
+  "afterScroll": [
+    {
+      "alt": "",
+      "file": "44c6b1_db1995abdaf845de9c5a03702bc83e4af003.jpg",
+      "x": -370,
+      "y": 343,
+      "w": 1450,
+      "h": 821
+    },
+    {
+      "alt": "",
+      "file": "44c6b1_756cff09dd6740a6acdf6ffcaac3ca7df003.jpg",
+      "x": -370,
+      "y": 1270,
+      "w": 1450,
+      "h": 817
+    },
+    {
+      "alt": "",
+      "file": "44c6b1_322109697fc549f384911d07406caad7f003.jpg",
+      "x": -370,
+      "y": 2192,
+      "w": 1450,
+      "h": 817
+    },
+    {
+      "alt": "",
+      "file": "44c6b1_2c5da40fb42246c7af08cb3354edfcb9f003.jpg",
+      "x": -370,
+      "y": 3115,
+      "w": 1450,
+      "h": 817
+    },
+    {
+      "alt": "",
+      "file": "44c6b1_adf9111900f144a9ae949782a1db12fbf003.jpg",
+      "x": -370,
+      "y": 4038,
+      "w": 1450,
+      "h": 821
+    },
+    {
+      "alt": "",
+      "file": "44c6b1_3a1d1f1c2f5b4fb5a1a63bfe32e9628ef003.jpg",
+      "x": -370,
+      "y": 4965,
+      "w": 1450,
+      "h": 821
+    },
+    {
+      "alt": "",
+      "file": "44c6b1_1fbce7c58dd743d0a12cbc1022fc4f7af003.jpg",
+      "x": -370,
+      "y": 5892,
+      "w": 1450,
+      "h": 653
+    },
+    {
+      "alt": "",
+      "file": "44c6b1_b59d2965507647c8aa9721778c6ce7faf003.jpg",
+      "x": -370,
+      "y": 6650,
+      "w": 1450,
+      "h": 821
+    }
+  ]
+}

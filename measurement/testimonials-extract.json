@@ -1,0 +1,24 @@
+{
+  "tabs": [
+    {
+      "id": "comp-mrtn37ce5__item-mrdu239m",
+      "label": "סדנאות",
+      "fills": [
+        "#010101"
+      ]
+    },
+    {
+      "id": "comp-mrtn37ce5__item-mrdu8etw",
+      "label": "מפגשים אישיים",
+      "fills": [
+        "#010101"
+      ]
+    }
+  ],
+  "videoMeta": {
+    "count": 8,
+    "hits": [],
+    "snippet": "deo\",\"customPoster\":\"\",\"isExternal\":false,\"height\":480,\"width\":848,\"name\":\"VID-20240216-WA0025.mp4\",\"posters\":[{\"height\":480,\"width\":848,\"url\":\"44c6b1_db1995abdaf845de9c5a03702bc83e4af000.jpg\"},{\"height\":480,\"width\":848,\"url\":\"44c6b1_db1995abdaf845de9c5a03702bc83e4af001.jpg\"},{\"height\":480,\"width\":848,\"url\":\"44c6b1_db1995abdaf845de9c5a03702bc83e4af002.jpg\"},{\"height\":480,\"width\":848,\"url\":\"44c6b1_db1995abdaf845de9c5a03702bc83e4af003.jpg\"}],\"qualities\":[{\"formats\":[\"mp4\"],\"height\":480,\"quality\":\"480p\",\"width\":848},{\"formats\":[\"mp4\"],\"height\":360,\"quality\":\"360p\",\"width\":636}],\"duration\":122165},\"mediaUrl\":\"44c6b1_db1995abdaf845de9c5a03702bc83e4a\"},{\"itemId\":\"00f7c608-f753-47c2-b9ee-51698c87509d\",\"isSecure\":false,\"createdDate\":\"2024-04-07T17:11:05.000Z\",\"orderIndex\":1712509842458,\"metaData\":{\"description\":\"המלצה ממרים\",\"title\":\"מרים\",\"link\":{\"type\":\"none\",\"target\":\"_blank\"},\"type\":\"video\",\"customPoster\":\"\",\"isExternal\":false,\"height\":478,\"width\":848,\"name\":\"VID-20240313-WA0107.mp4\",\"post",
+    "topVideos": 8
+  }
+}

@@ -1,14 +1,60 @@
 import { asset } from "./site";
 
-export const testimonialScreenshots = [
-  { src: asset("44c6b1_db1995abdaf845de9c5a03702bc83e4af003.jpg"), alt: "המלצה" },
-  { src: asset("44c6b1_756cff09dd6740a6acdf6ffcaac3ca7df003.jpg"), alt: "המלצה" },
-  { src: asset("44c6b1_322109697fc549f384911d07406caad7f003.jpg"), alt: "המלצה" },
-  { src: asset("44c6b1_2c5da40fb42246c7af08cb3354edfcb9f003.jpg"), alt: "המלצה" },
-  { src: asset("44c6b1_adf9111900f144a9ae949782a1db12fbf003.jpg"), alt: "המלצה" },
-  { src: asset("44c6b1_3a1d1f1c2f5b4fb5a1a63bfe32e9628ef003.jpg"), alt: "המלצה" },
-  { src: asset("44c6b1_1fbce7c58dd743d0a12cbc1022fc4f7af003.jpg"), alt: "המלצה" },
-  { src: asset("44c6b1_b59d2965507647c8aa9721778c6ce7faf003.jpg"), alt: "המלצה" }
+/** Featured video testimonials at top of /המלצות — streamed from Wix CDN */
+export const featuredVideoTestimonials = [
+  {
+    name: "יעל",
+    poster: asset("44c6b1_db1995abdaf845de9c5a03702bc83e4af003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_db1995abdaf845de9c5a03702bc83e4a/480p/mp4/file.mp4",
+  },
+  {
+    name: "מרים",
+    poster: asset("44c6b1_756cff09dd6740a6acdf6ffcaac3ca7df003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_756cff09dd6740a6acdf6ffcaac3ca7d/480p/mp4/file.mp4",
+  },
+  {
+    name: "חנה",
+    poster: asset("44c6b1_322109697fc549f384911d07406caad7f003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_322109697fc549f384911d07406caad7/480p/mp4/file.mp4",
+  },
+  {
+    name: "רפאל",
+    poster: asset("44c6b1_2c5da40fb42246c7af08cb3354edfcb9f003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_2c5da40fb42246c7af08cb3354edfcb9/480p/mp4/file.mp4",
+  },
+  {
+    name: "ליאת",
+    poster: asset("44c6b1_adf9111900f144a9ae949782a1db12fbf003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_adf9111900f144a9ae949782a1db12fb/480p/mp4/file.mp4",
+  },
+  {
+    name: "שלי",
+    poster: asset("44c6b1_3a1d1f1c2f5b4fb5a1a63bfe32e9628ef003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_3a1d1f1c2f5b4fb5a1a63bfe32e9628e/480p/mp4/file.mp4",
+  },
+  {
+    name: "נטי",
+    poster: asset("44c6b1_1fbce7c58dd743d0a12cbc1022fc4f7af003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_1fbce7c58dd743d0a12cbc1022fc4f7a/480p/mp4/file.mp4",
+  },
+  {
+    name: "ינטי",
+    poster: asset("44c6b1_b59d2965507647c8aa9721778c6ce7faf003.jpg"),
+    video: "https://video.wixstatic.com/video/44c6b1_b59d2965507647c8aa9721778c6ce7fa/480p/mp4/file.mp4",
+  },
+] as const;
+
+export const testimonialNavCards = [
+  {
+    id: "workshops-recs",
+    title: "סדנאות",
+    icon: asset("testimonial-cats/workshops.svg"),
+  },
+  {
+    id: "personal",
+    title: "מפגשים אישיים",
+    icon: asset("testimonial-cats/personal.svg"),
+  },
 ] as const;
 
 export const personalTestimonials = [
@@ -36,7 +82,7 @@ export const personalTestimonials = [
   { src: asset("44c6b1_de47a60ea3d34b85af640a19d4bc5260~mv2.jpg"), alt: "המלצה על מיטל גוטמן שקד - נומרולוגית מומלצת" },
   { src: asset("44c6b1_75c12a803f574f25a7a35808f900fb13~mv2.jpg"), alt: "המלצה על מיטל גוטמן שקד - נומרולוגית מומלצת" },
   { src: asset("44c6b1_272cebdb64ea481e92ad400499223ff6~mv2.jpg"), alt: "המלצה על מיטל גוטמן שקד - נומרולוגית מומלצת" },
-  { src: asset("44c6b1_8f02b3915dd443b1a281cb79a98aea4a~mv2.jpg"), alt: "המלצה על מיטל גוטמן שקד - נומרולוגית מומלצת" }
+  { src: asset("44c6b1_8f02b3915dd443b1a281cb79a98aea4a~mv2.jpg"), alt: "המלצה על מיטל גוטמן שקד - נומרולוגית מומלצת" },
 ] as const;
 
 export const workshopTestimonials = [
@@ -55,5 +101,5 @@ export const workshopTestimonials = [
   { src: asset("44c6b1_691f88276cc24562830aec92ba2f10cf~mv2.jpg"), alt: "המלצה לגבי סדנאות נומרולוגיה של מיטל גוטמן שקד" },
   { src: asset("44c6b1_9080a4dec7b1407e97ccb22a4b7aabcd~mv2.jpeg"), alt: "המלצה לגבי סדנאות נומרולוגיה של מיטל גוטמן שקד" },
   { src: asset("44c6b1_dec68d1be0a74e6b91b563f60ea1d19d~mv2.jpeg"), alt: "המלצה לגבי סדנאות נומרולוגיה של מיטל גוטמן שקד" },
-  { src: asset("44c6b1_6fecea8b40714e17af571c563d9c7e1d~mv2.jpeg"), alt: "המלצה לגבי סדנאות נומרולוגיה של מיטל גוטמן שקד" }
+  { src: asset("44c6b1_6fecea8b40714e17af571c563d9c7e1d~mv2.jpeg"), alt: "המלצה לגבי סדנאות נומרולוגיה של מיטל גוטמן שקד" },
 ] as const;

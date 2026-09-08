@@ -6,11 +6,13 @@ export type GalleryImage = {
   src: string;
   alt: string;
   objectPosition?: string;
+  /** When set, item is a video with `src` as poster */
+  video?: string;
 };
 
 type Props = {
   images: GalleryImage[];
-  variant?: "grid" | "slider" | "masonry" | "certs";
+  variant?: "grid" | "slider" | "masonry" | "certs" | "workshops" | "workshops-sm" | "stack";
   className?: string;
 };
 
@@ -41,10 +43,10 @@ export function Gallery({ images, variant = "grid", className = "" }: Props) {
         {images.map((img, i) => (
           <button
             type="button"
-            key={`${img.src}-${i}`}
-            className="gallery__item"
+            key={`${img.video || img.src}-${i}`}
+            className={`gallery__item${img.video ? " gallery__item--video" : ""}`}
             onClick={() => setIndex(i)}
-            aria-label={img.alt || `תמונה ${i + 1}`}
+            aria-label={img.video ? `נגן וידאו: ${img.alt || ""}` : img.alt || `תמונה ${i + 1}`}
           >
             <img
               src={img.src}
@@ -52,6 +54,14 @@ export function Gallery({ images, variant = "grid", className = "" }: Props) {
               loading="lazy"
               style={img.objectPosition ? { objectPosition: img.objectPosition } : undefined}
             />
+            {img.video && (
+              <span className="gallery__play" aria-hidden="true">
+                <svg viewBox="0 0 60 60" width="60" height="60">
+                  <circle cx="30" cy="30" r="30" fill="currentColor" opacity="0.72" />
+                  <path d="M41.5 30l-17 10V20L41.5 30z" fill="#fff" />
+                </svg>
+              </span>
+            )}
           </button>
         ))}
       </div>

@@ -1,0 +1,549 @@
+{
+  "before": {
+    "transform": "none",
+    "transition": "0.3s ease-in-out, visibility",
+    "parentTransform": "none",
+    "parentTransition": "0.3s ease-in-out, visibility",
+    "parentClass": "iL7Pq5 gx51wo comp-mrdupy2f"
+  },
+  "after": {
+    "transform": "none",
+    "transition": "0.3s ease-in-out, visibility",
+    "animation": "none 0s ease 0s 1 normal none running",
+    "parentTransform": "none",
+    "parentTransition": "0.3s ease-in-out, visibility",
+    "parentAnimation": "none 0s ease 0s 1 normal none running"
+  },
+  "hoverCss": {
+    "before": {
+      "transform": "none",
+      "transition": "0.3s ease-in-out, visibility",
+      "animation": "none 0s ease 0s 1 normal none running",
+      "filter": "none"
+    },
+    "mid": {
+      "transform": "none",
+      "transition": "0.3s ease-in-out, visibility",
+      "animation": "none 0s ease 0s 1 normal none running",
+      "filter": "none"
+    },
+    "transforms": [
+      {
+        "tag": "A",
+        "id": "",
+        "cls": "IT88M3",
+        "transform": "none",
+        "animation": "none 0s ease 0s 1 normal none running",
+        "transition": "0.3s ease-in-out, visibility"
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "cls": "iL7Pq5 gx51wo comp-mrdupy2f",
+        "transform": "none",
+        "animation": "none 0s ease 0s 1 normal none running",
+        "transition": "0.3s ease-in-out, visibility"
+      },
+      {
+        "tag": "svg",
+        "id": "",
+        "cls": "[object SVGAnimatedString]",
+        "transform": "none",
+        "animation": "none 0s ease 0s 1 normal none running",
+        "transition": "0.3s ease-in-out, visibility"
+      },
+      {
+        "tag": "defs",
+        "id": "",
+        "cls": "[object SVGAnimatedString]",
+        "transform": "none",
+        "animation": "none 0s ease 0s 1 normal none running",
+        "transition": "0.3s ease-in-out, visibility"
+      },
+      {
+        "tag": "style",
+        "id": "",
+        "cls": "[object SVGAnimatedString]",
+        "transform": "none",
+        "animation": "none 0s ease 0s 1 normal none running",
+        "transition": "0.3s ease-in-out, visibility"
+      },
+      {
+        "tag": "g",
+        "id": "",
+        "cls": "[object SVGAnimatedString]",
+        "transform": "none",
+        "animation": "none 0s ease 0s 1 normal none running",
+        "transition": "0.3s ease-in-out, visibility"
+      },
+      {
+        "tag": "path",
+        "id": "",
+        "cls": "[object SVGAnimatedString]",
+        "transform": "none",
+        "animation": "none 0s ease 0s 1 normal none running",
+        "transition": "0.3s ease-in-out, visibility"
+      }
+    ],
+    "sampleId": "comp-mrdupy2f__item1",
+    "html": "<a data-testid=\"linkElement\" data-anchor=\"anchors-mrdu5pz0\" href=\"https://www.me-saperet.com/סדנאות\" target=\"_self\" class=\"IT88M3\"><div data-testid=\"svgRoot-comp-mrdupy2f__item1\" class=\"iL7Pq5 gx51wo comp-mrdupy2f\">\n<svg preserveAspectRatio=\"xMidYMid meet\" data-bbox=\"21.998 20 155.999 160.001\" viewBox=\"21.998 20 155.999 160.001\" height=\"200\" width=\"200\" xmlns=\"http://www.w3.org/2000/svg\" data-type=\"color\" role=\"img\" aria-label=\"בוקר אימהות\"><defs><style>#comp-mrdupy2f__item1 svg [data-color=\"1\"]"
+  },
+  "media": {
+    "videos": [
+      {
+        "tag": "DIV",
+        "id": null,
+        "x": 144,
+        "y": 6116.63,
+        "w": 477,
+        "h": 476,
+        "src": null,
+        "poster": null,
+        "aria": null,
+        "html": "<div class=\"gallery-item-content item-content-regular image-item gallery-item-visible gallery-item gallery-item-preloaded  load-with-color   video-item gallery-item-video\" data-hook=\"image-item\" style=\"width:477px;height:476px;margin-top:0;margin-left:0\"><picture><source srcset=\"https://static.wixst"
+      },
+      {
+        "tag": "I",
+        "id": null,
+        "x": 352.5,
+        "y": 6324.63,
+        "w": 60,
+        "h": 60,
+        "src": null,
+        "poster": null,
+        "aria": null,
+        "html": "<i data-hook=\"play-triangle\" class=\"gallery-item-video-play-triangle play-triangle \"><svg viewBox=\"0 0 60 60\" fill=\"currentColor\" width=\"60\" height=\"60\"><path d=\"M41.5,30l-17,10V20L41.5,30z\"></path></svg></i>"
+      },
+      {
+        "tag": "I",
+        "id": null,
+        "x": 352.5,
+        "y": 6324.63,
+        "w": 60,
+        "h": 60,
+        "src": null,
+        "poster": null,
+        "aria": null,
+        "html": "<i data-hook=\"play-background\" class=\"gallery-item-video-play-background play-background \"><svg viewBox=\"0 0 60 60\" fill=\"currentColor\" width=\"60\" height=\"60\"><path d=\"M30,0c16.6,0,30,13.4,30,30S46.6,60,30,60C13.4,60,0,46.6,0,30S13.4,0,30,0z\" fill-rule=\"evenodd\" clip-rule=\"evenodd\"></path></svg></i>"
+      }
+    ],
+    "mediaLinks": [
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 57.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 789.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 1521.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 2253.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 2985.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 3717.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 4449.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 5181.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 5913.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 6645.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 7377.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 8109.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 8841.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 9573.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 10305.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 11037.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 11769.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 12501.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 13233.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 13965.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 14697.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 15429.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 16161.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 16893.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 17625.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 18357.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 19089.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 19821.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 20553.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      },
+      {
+        "tag": "SOURCE",
+        "href": null,
+        "x": 21285.27,
+        "y": 608.14,
+        "w": 0,
+        "h": 0
+      }
+    ],
+    "sections": [
+      {
+        "id": "comp-lzy2uws6_r_comp-kbgajy18",
+        "text": "בית אודות סדנאות ייעוץ וטיפול שובר מתנה המלצות צור קשר",
+        "x": 0,
+        "y": 0,
+        "w": 1440,
+        "h": 133.72,
+        "hasVideo": false,
+        "imgCount": 1
+      },
+      {
+        "id": "comp-lzy2uwsa",
+        "text": "סדנאות והרצאות",
+        "x": 0,
+        "y": 173.53,
+        "w": 1440,
+        "h": 239.94,
+        "hasVideo": false,
+        "imgCount": 1
+      },
+      {
+        "id": "comp-mebrtsr8",
+        "text": "בין לקוחותי",
+        "x": 0,
+        "y": 413.47,
+        "w": 1440,
+        "h": 171.84,
+        "hasVideo": false,
+        "imgCount": 0
+      },
+      {
+        "id": "comp-meaujksw",
+        "text": "",
+        "x": 0,
+        "y": 585.31,
+        "w": 1440,
+        "h": 155.63,
+        "hasVideo": false,
+        "imgCount": 30
+      },
+      {
+        "id": "comp-lzy2uwsr",
+        "text": "לא משנה מה האירוע שלכם- ערב בנות מעצים, אירוע חברה מעשיר, מסיבת הפתעה לסבתא, מסיבת רווקות לחברה הכי טובה, ריטריט מואר או",
+        "x": 0,
+        "y": 740.94,
+        "w": 1440,
+        "h": 169.88,
+        "hasVideo": false,
+        "imgCount": 0
+      },
+      {
+        "id": "comp-mrdu197u",
+        "text": "בוקר אמהות מסיבת רווקות חוגי בית, ימי הולדת ומפגשי גיבוש ריטריטים ארועי חברה וסדנאות",
+        "x": 0,
+        "y": 910.81,
+        "w": 1440,
+        "h": 281.3,
+        "hasVideo": false,
+        "imgCount": 0
+      },
+      {
+        "id": "comp-lzy2uwtg1",
+        "text": "ארועי חברה וסדנאות",
+        "x": 0,
+        "y": 1192.11,
+        "w": 1440,
+        "h": 2631.14,
+        "hasVideo": false,
+        "imgCount": 14
+      },
+      {
+        "id": "comp-m77cc1hs",
+        "text": "ריטריטים",
+        "x": 0,
+        "y": 3823.25,
+        "w": 1440,
+        "h": 689.13,
+        "hasVideo": false,
+        "imgCount": 4
+      },
+      {
+        "id": "comp-lzy3oimd",
+        "text": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+        "x": 0,
+        "y": 4512.38,
+        "w": 1440,
+        "h": 4510.25,
+        "hasVideo": true,
+        "imgCount": 26
+      },
+      {
+        "id": "comp-lzy45fde",
+        "text": "מסיבת רווקות",
+        "x": 0,
+        "y": 9022.63,
+        "w": 1440,
+        "h": 493.25,
+        "hasVideo": false,
+        "imgCount": 4
+      },
+      {
+        "id": "comp-m5pe3rq8",
+        "text": "בוקר אמהות",
+        "x": 0,
+        "y": 9515.88,
+        "w": 1440,
+        "h": 616.25,
+        "hasVideo": false,
+        "imgCount": 4
+      },
+      {
+        "id": "comp-lzy2uwtr_r_comp-luoferrq",
+        "text": "ליצירת קשר עם מיטל",
+        "x": 0,
+        "y": 10132.13,
+        "w": 1440,
+        "h": 183,
+        "hasVideo": false,
+        "imgCount": 1
+      },
+      {
+        "id": "comp-lzy2uwts_r_comp-kbgakgyt",
+        "text": "בית אודות סדנאות ייעוץ וטיפול שובר מתנה המלצות צור קשר הצהרת נגישות מדיניות פרטיות נבנה באהבה ע\"י שגב דיגיטל",
+        "x": 0,
+        "y": 10315.13,
+        "w": 1440,
+        "h": 221.16,
+        "hasVideo": false,
+        "imgCount": 3
+      }
+    ],
+    "headings": [
+      {
+        "text": "בין לקוחותי",
+        "x": 229.91,
+        "y": 436.3,
+        "w": 980.17,
+        "h": 126.19
+      },
+      {
+        "text": "ארועי חברה וסדנאות",
+        "x": 215.34,
+        "y": 1224.55,
+        "w": 1009.31,
+        "h": 146.25
+      },
+      {
+        "text": "ריטריטים",
+        "x": 215.34,
+        "y": 3856.69,
+        "w": 1009.31,
+        "h": 146.25
+      },
+      {
+        "text": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+        "x": 215.34,
+        "y": 4512.38,
+        "w": 1009.31,
+        "h": 146.25
+      },
+      {
+        "text": "מסיבת רווקות",
+        "x": 215.36,
+        "y": 9022.63,
+        "w": 1009.28,
+        "h": 146.25
+      },
+      {
+        "text": "בוקר אמהות",
+        "x": 215.34,
+        "y": 9515.88,
+        "w": 1009.31,
+        "h": 146.25
+      }
+    ]
+  }
+}

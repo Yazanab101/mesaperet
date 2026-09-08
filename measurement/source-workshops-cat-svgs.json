@@ -1,0 +1,196 @@
+{
+  "saved": [
+    {
+      "key": "mothers",
+      "label": "בוקר אמהות",
+      "file": "workshop-cats/mothers.svg",
+      "bytes": 1502,
+      "fills": [
+        "#010101"
+      ],
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 160.109375
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "anchor": "anchors-mrdu5pz0"
+    },
+    {
+      "key": "bachelorette",
+      "label": "מסיבת רווקות",
+      "file": "workshop-cats/bachelorette.svg",
+      "bytes": 1511,
+      "fills": [
+        "#010101"
+      ],
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 392.90625
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "anchor": "anchors-mrdu5e2i"
+    },
+    {
+      "key": "home-circles",
+      "label": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+      "file": "workshop-cats/home-circles.svg",
+      "bytes": 1518,
+      "fills": [
+        "#010101"
+      ],
+      "box": {
+        "w": 183.515625,
+        "h": 201.453125,
+        "x": 625.703125
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "anchor": "anchors-mrdu4y9w"
+    },
+    {
+      "key": "retreats",
+      "label": "ריטריטים",
+      "file": "workshop-cats/retreats.svg",
+      "bytes": 1507,
+      "fills": [
+        "#010101"
+      ],
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 858.5
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "anchor": "anchors-mrdu4i0x"
+    },
+    {
+      "key": "company",
+      "label": "ארועי חברה וסדנאות",
+      "file": "workshop-cats/company.svg",
+      "bytes": 1519,
+      "fills": [
+        "#010101"
+      ],
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 1091.296875
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "anchor": "anchors-mrdu3zcy"
+    }
+  ],
+  "data": [
+    {
+      "id": "comp-mrduui0i__item1",
+      "label": "בוקר אמהות",
+      "href": "https://www.me-saperet.com/סדנאות",
+      "anchor": "anchors-mrdu5pz0",
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 160.109375
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "fills": [
+        "#010101"
+      ],
+      "viewBox": "21.998 20 155.999 160.001"
+    },
+    {
+      "id": "comp-mrduui0i__item-j9ples3e",
+      "label": "מסיבת רווקות",
+      "href": "https://www.me-saperet.com/סדנאות",
+      "anchor": "anchors-mrdu5e2i",
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 392.90625
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "fills": [
+        "#010101"
+      ],
+      "viewBox": "21.998 20 155.999 160.001"
+    },
+    {
+      "id": "comp-mrduui0i__item-j9plerjk",
+      "label": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+      "href": "https://www.me-saperet.com/סדנאות",
+      "anchor": "anchors-mrdu4y9w",
+      "box": {
+        "w": 183.515625,
+        "h": 201.453125,
+        "x": 625.703125
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "fills": [
+        "#010101"
+      ],
+      "viewBox": "21.998 20 155.999 160.001"
+    },
+    {
+      "id": "comp-mrduui0i__item-mrdu239m",
+      "label": "ריטריטים",
+      "href": "https://www.me-saperet.com/סדנאות",
+      "anchor": "anchors-mrdu4i0x",
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 858.5
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "fills": [
+        "#010101"
+      ],
+      "viewBox": "21.998 20 155.999 160.001"
+    },
+    {
+      "id": "comp-mrduui0i__item-mrdu8etw",
+      "label": "ארועי חברה וסדנאות",
+      "href": "https://www.me-saperet.com/סדנאות",
+      "anchor": "anchors-mrdu3zcy",
+      "box": {
+        "w": 183.515625,
+        "h": 169.0625,
+        "x": 1091.296875
+      },
+      "svgBox": {
+        "w": 113.90625,
+        "h": 113.90625
+      },
+      "fills": [
+        "#010101"
+      ],
+      "viewBox": "21.998 20 155.999 160.001"
+    }
+  ]
+}

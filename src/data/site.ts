@@ -37,6 +37,11 @@ export function asset(id: string): string {
   return `${base}assets/images/${id.replace(/~/g, "-")}`;
 }
 
+export function videoAsset(id: string): string {
+  const base = import.meta.env.BASE_URL || "/";
+  return `${base}assets/videos/${id}`;
+}
+
 export const ASSETS = {
   logo: asset("44c6b1_b2cda2c5e1a04c41b82f23798b40eb4c~mv2.png"),
   bannerMagic: asset("44c6b1_5bdd566bb84b4832937af1d4eb4e19e2~mv2.png"),
