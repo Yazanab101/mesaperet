@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/spa-404.mjs",
+    "build:pages": "VITE_BASE=/mesaperet/ npm run build",
+    "deploy:pages": "npm run build:pages && npx --yes gh-pages@6 -d dist -m \"Deploy preview\"",
     "lint": "oxlint",
     "preview": "vite preview"
   },
