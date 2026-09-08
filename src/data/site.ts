@@ -33,7 +33,8 @@ export const FOOTER_LEGAL = [
 ] as const;
 
 export function asset(id: string): string {
-  return `/assets/images/${id.replace(/~/g, "-")}`;
+  const base = import.meta.env.BASE_URL || "/";
+  return `${base}assets/images/${id.replace(/~/g, "-")}`;
 }
 
 export const ASSETS = {
