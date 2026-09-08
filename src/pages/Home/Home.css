@@ -9,6 +9,7 @@
 .home {
   --scene-w: 1440;
   --scene-h: 1062;
+  --home-teal: rgb(90, 184, 184);
   position: relative;
   background: #e8e9ea;
   overflow-x: clip;
@@ -215,16 +216,33 @@
   object-fit: contain;
 }
 
-/* H1 below hero — measured ~y 1085, ~91px Gulash */
-.home-title {
+/* Title band — section 1440×155.28, teal bg, H1 @ 448.05,22.83 within band */
+.home-title-band {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 155.28;
+  background: var(--home-teal);
   margin: 0;
-  padding: 1.1rem 1rem 2.5rem;
+  padding: 0;
+}
+
+.home-title {
+  position: absolute;
+  left: calc(448.05 / 1440 * 100%);
+  top: calc(22.83 / 155.28 * 100%);
+  width: calc(543.91 / 1440 * 100%);
+  height: calc(109.63 / 155.28 * 100%);
+  margin: 0;
+  padding: 0;
   text-align: center;
   font-family: var(--font-display);
   font-weight: 400;
-  font-size: clamp(2.4rem, 6.35vw, 5.71rem);
-  line-height: 1.2;
+  font-size: calc(91.356 / 1440 * 100vw);
+  line-height: calc(109.627 / 91.356);
   color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* Left social rail — FB y≈384, WA y≈459, size ≈57 @ 1440×900 viewport */
@@ -322,17 +340,28 @@
   .home-label--consult {
     font-size: calc(14 / 900 * 100vw);
   }
+
+  /* Title band mobile — measured @ 390: h≈66.86, H1 ~45.85px Gulash */
+  .home-title-band {
+    aspect-ratio: 390 / 66.86;
+    background: var(--home-teal);
+  }
+
+  .home-title {
+    position: absolute;
+    inset: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    font-size: calc(45.85 / 390 * 100vw);
+    line-height: calc(55.02 / 45.85);
+  }
 }
 
 @media (max-width: 560px) {
-  .home-title {
-    font-size: 2rem;
-    padding-inline: 0.75rem;
-  }
-
   .home-social__fb,
   .home-social__wa {
-    /* Keep usable on short phones */
     top: auto;
   }
 

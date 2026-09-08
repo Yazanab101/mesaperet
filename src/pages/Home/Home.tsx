@@ -121,9 +121,11 @@ export function HomePage() {
         </Item>
       </div>
 
-      <h1 className="home-title" data-home-item="title">
-        מיטל גוטמן שקד נומרולוגית
-      </h1>
+      <section className="home-title-band" data-home-item="title-band" aria-label="כותרת">
+        <h1 className="home-title" data-home-item="title">
+          מיטל גוטמן שקד נומרולוגית
+        </h1>
+      </section>
 
       <aside className="home-social" aria-label="רשתות חברתיות">
         <a

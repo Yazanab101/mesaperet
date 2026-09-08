@@ -1,20 +1,47 @@
-import { NavLink } from "react-router-dom";
-import { ASSETS, FACEBOOK_URL, NAV_ITEMS, SEGEV_URL, FOOTER_LEGAL, WHATSAPP_URL } from "../../data/site";
+import { NavLink, useLocation } from "react-router-dom";
+import {
+  ASSETS,
+  FACEBOOK_URL,
+  NAV_ITEMS,
+  SEGEV_URL,
+  FOOTER_LEGAL,
+  WHATSAPP_URL,
+} from "../../data/site";
 import "./Footer.css";
 
-export function Footer() {
+function SearchIcon() {
   return (
-    <footer className="site-footer">
-      <div className="site-footer__inner container">
-        <NavLink to="/" className="site-footer__logo" aria-label="מיטל גוטמן שקד - עמוד הבית">
-          <img src={ASSETS.logo} alt="מיטל גוטמן שקד - מספרת נומרולוגיה לוגו" width={125} height={125} />
+    <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+      <circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" strokeWidth="2" />
+      <path d="M15.5 15.5 21 21" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+    </svg>
+  );
+}
+
+export function Footer() {
+  const { pathname } = useLocation();
+
+  return (
+    <footer className="site-footer" data-footer="root">
+      <div className="site-footer__canvas" data-footer="canvas">
+        <NavLink to="/" className="site-footer__logo" aria-label="מיטל גוטמן שקד - עמוד הבית" data-footer="logo">
+          <img
+            src={ASSETS.logo}
+            alt="מיטל גוטמן שקד - מספרת נומרולוגיה לוגו"
+            width={197}
+            height={197}
+          />
         </NavLink>
 
-        <nav className="site-footer__nav" aria-label="ניווט תחתון">
+        <nav className="site-footer__nav" aria-label="ניווט תחתון" data-footer="nav">
           <ul>
             {NAV_ITEMS.map((item) => (
               <li key={item.to}>
-                <NavLink to={item.to} end={item.to === "/"}>
+                <NavLink
+                  to={item.to}
+                  end={item.to === "/"}
+                  className={({ isActive }) => (isActive || (item.to === "/" && pathname === "/") ? "is-active" : undefined)}
+                >
                   {item.label}
                 </NavLink>
               </li>
@@ -22,7 +49,7 @@ export function Footer() {
           </ul>
         </nav>
 
-        <nav className="site-footer__legal" aria-label="מידע משפטי">
+        <nav className="site-footer__legal" aria-label="מידע משפטי" data-footer="legal">
           <ul>
             {FOOTER_LEGAL.map((item) => (
               <li key={item.to}>
@@ -32,16 +59,12 @@ export function Footer() {
           </ul>
         </nav>
 
-        <div className="site-footer__social" aria-label="סרגל קישורים לרשתות חברתיות">
-          <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
-              <path
-                fill="currentColor"
-                d="M13.5 22v-8.1h2.7l.4-3.1h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.5c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.4v3.1h2.7V22h3.4z"
-              />
-            </svg>
-          </a>
-          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="Whatsapp">
+        <button type="button" className="site-footer__search" aria-label="Search" data-footer="search">
+          <SearchIcon />
+        </button>
+
+        <div className="site-footer__social" aria-label="סרגל קישורים לרשתות חברתיות" data-footer="social">
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="Whatsapp" data-footer="wa">
             <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
               <path
                 fill="currentColor"
@@ -49,9 +72,17 @@ export function Footer() {
               />
             </svg>
           </a>
+          <a href={FACEBOOK_URL} target="_blank" rel="noopener noreferrer" aria-label="Facebook" data-footer="fb">
+            <svg viewBox="0 0 24 24" width="28" height="28" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M13.5 22v-8.1h2.7l.4-3.1h-3.1V8.8c0-.9.3-1.5 1.6-1.5h1.7V4.5c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.4H7.4v3.1h2.7V22h3.4z"
+              />
+            </svg>
+          </a>
         </div>
 
-        <p className="site-footer__credit">
+        <p className="site-footer__credit" data-footer="credit">
           <a href={SEGEV_URL} target="_blank" rel="noopener noreferrer">
             נבנה באהבה ע&quot;י שגב דיגיטל
           </a>
