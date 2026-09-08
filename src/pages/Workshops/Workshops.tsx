@@ -63,7 +63,11 @@ export function WorkshopsPage() {
             <ScrollReveal>
               <Gallery
                 images={[...cat.images]}
-                variant={cat.gallery === "compact" ? "workshops-sm" : "workshops"}
+                variant={
+                  "gallery" in cat && cat.gallery === "compact"
+                    ? "workshops-sm"
+                    : "workshops"
+                }
               />
             </ScrollReveal>
           </div>

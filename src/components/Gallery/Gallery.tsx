@@ -12,7 +12,15 @@ export type GalleryImage = {
 
 type Props = {
   images: GalleryImage[];
-  variant?: "grid" | "slider" | "masonry" | "certs" | "workshops" | "workshops-sm" | "stack";
+  variant?:
+    | "grid"
+    | "slider"
+    | "masonry"
+    | "certs"
+    | "workshops"
+    | "workshops-sm"
+    | "stack"
+    | "consult";
   className?: string;
 };
 

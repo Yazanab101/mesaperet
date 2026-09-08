@@ -1,5 +1,6 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import { AccessibilityProvider } from "./accessibility";
 import { Layout } from "./components/Layout/Layout";
 import { ROUTES } from "./data/site";
 
@@ -44,22 +45,24 @@ const routerBasename = import.meta.env.BASE_URL.replace(/\/$/, "") || undefined;
 export default function App() {
   return (
     <BrowserRouter basename={routerBasename}>
-      <Suspense fallback={<PageFallback />}>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route index element={<HomePage />} />
-            <Route path={ROUTES.about} element={<AboutPage />} />
-            <Route path={ROUTES.workshops} element={<WorkshopsPage />} />
-            <Route path={ROUTES.consultation} element={<ConsultationPage />} />
-            <Route path={ROUTES.gift} element={<GiftPage />} />
-            <Route path={ROUTES.testimonials} element={<TestimonialsPage />} />
-            <Route path={ROUTES.contact} element={<ContactPage />} />
-            <Route path={ROUTES.accessibility} element={<AccessibilityPage />} />
-            <Route path={ROUTES.privacy} element={<PrivacyPage />} />
-            <Route path="*" element={<Navigate to="/" replace />} />
-          </Route>
-        </Routes>
-      </Suspense>
+      <AccessibilityProvider>
+        <Suspense fallback={<PageFallback />}>
+          <Routes>
+            <Route element={<Layout />}>
+              <Route index element={<HomePage />} />
+              <Route path={ROUTES.about} element={<AboutPage />} />
+              <Route path={ROUTES.workshops} element={<WorkshopsPage />} />
+              <Route path={ROUTES.consultation} element={<ConsultationPage />} />
+              <Route path={ROUTES.gift} element={<GiftPage />} />
+              <Route path={ROUTES.testimonials} element={<TestimonialsPage />} />
+              <Route path={ROUTES.contact} element={<ContactPage />} />
+              <Route path={ROUTES.accessibility} element={<AccessibilityPage />} />
+              <Route path={ROUTES.privacy} element={<PrivacyPage />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
+            </Route>
+          </Routes>
+        </Suspense>
+      </AccessibilityProvider>
     </BrowserRouter>
   );
 }

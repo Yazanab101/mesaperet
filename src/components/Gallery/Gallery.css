@@ -176,13 +176,34 @@
   transform: none;
 }
 
+/* Consultation mid gallery — 3 portrait cols ~477×714, 10px gutters */
+.gallery--consult {
+  direction: ltr;
+}
+
+.gallery--consult .gallery__track {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.gallery--consult .gallery__item {
+  border-radius: 0;
+  box-shadow: none;
+  aspect-ratio: 477 / 714;
+}
+
+.gallery--consult .gallery__item:hover img {
+  transform: scale(1.02);
+}
+
 @media (max-width: 900px) {
   .gallery--grid .gallery__track {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .gallery--workshops .gallery__track,
-  .gallery--workshops-sm .gallery__track {
+  .gallery--workshops-sm .gallery__track,
+  .gallery--consult .gallery__track {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px;
   }
@@ -198,7 +219,8 @@
   .gallery--grid .gallery__track,
   .gallery--masonry .gallery__track,
   .gallery--workshops .gallery__track,
-  .gallery--workshops-sm .gallery__track {
+  .gallery--workshops-sm .gallery__track,
+  .gallery--consult .gallery__track {
     grid-template-columns: 1fr;
   }
 

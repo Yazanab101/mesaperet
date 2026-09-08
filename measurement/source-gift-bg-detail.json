@@ -1,0 +1,228 @@
+{
+  "section": {
+    "tag": "SECTION",
+    "id": "comp-mrtmf7e0",
+    "class": "ke5pl1 comp-mrtmf7e0 wixui-section fwXYgt",
+    "w": 1440,
+    "h": 627,
+    "bg": "rgba(255, 255, 255, 0)",
+    "bgImage": "none",
+    "bgSize": "auto",
+    "bgPos": "0px 0px",
+    "bgRepeat": "repeat",
+    "children": [
+      {
+        "tag": "DIV",
+        "id": "bgLayers_comp-mrtmf7e0",
+        "class": "QG9w8P",
+        "w": 1440,
+        "h": 627,
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "bgSize": "auto",
+        "bgPos": "0px 0px",
+        "bgRepeat": "repeat",
+        "children": [
+          {
+            "tag": "DIV",
+            "id": "",
+            "class": "LNYVZi ayCf9D",
+            "w": 1440,
+            "h": 627,
+            "bg": "rgb(239, 239, 239)",
+            "bgImage": "none",
+            "bgSize": "auto",
+            "bgPos": "0px 0px",
+            "bgRepeat": "repeat",
+            "children": []
+          },
+          {
+            "tag": "DIV",
+            "id": "bgMedia_comp-mrtmf7e0",
+            "class": "ROWgFb",
+            "w": 1440,
+            "h": 627,
+            "bg": "rgba(0, 0, 0, 0)",
+            "bgImage": "none",
+            "bgSize": "auto",
+            "bgPos": "0px 0px",
+            "bgRepeat": "repeat",
+            "children": []
+          }
+        ]
+      },
+      {
+        "tag": "DIV",
+        "id": "",
+        "class": "comp-mrtmf7e0-container max-width-container",
+        "w": 1440,
+        "h": 627,
+        "bg": "rgba(0, 0, 0, 0)",
+        "bgImage": "none",
+        "bgSize": "auto",
+        "bgPos": "0px 0px",
+        "bgRepeat": "repeat",
+        "children": [
+          {
+            "tag": "DIV",
+            "id": "comp-mrtmf7eg2",
+            "class": "HFEOE3 NaeT1r comp-mrtmf7eg2 wixui-box",
+            "w": 720,
+            "h": 627,
+            "bg": "rgba(0, 0, 0, 0)",
+            "bgImage": "none",
+            "bgSize": "auto",
+            "bgPos": "0px 0px",
+            "bgRepeat": "repeat",
+            "children": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "jdJeEr NYfD3h inner-box wixui-box",
+                "w": 720,
+                "h": 627,
+                "bg": "rgba(255, 255, 255, 0)",
+                "bgImage": "none",
+                "bgSize": "auto",
+                "bgPos": "0px 0px",
+                "bgRepeat": "repeat",
+                "children": []
+              },
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "comp-mrtmf7eg2-container",
+                "w": 720,
+                "h": 627,
+                "bg": "rgba(0, 0, 0, 0)",
+                "bgImage": "none",
+                "bgSize": "auto",
+                "bgPos": "0px 0px",
+                "bgRepeat": "repeat",
+                "children": [
+                  {
+                    "tag": "DIV",
+                    "id": "comp-mrtmfx77",
+                    "class": "i4P7Vt comp-mrtmfx77 ZYZJBv wixui-image",
+                    "w": 674,
+                    "h": 582,
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "bgImage": "none",
+                    "bgSize": "auto",
+                    "bgPos": "0px 0px",
+                    "bgRepeat": "repeat",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "DIV",
+            "id": "comp-mrtmf7ef",
+            "class": "HFEOE3 NaeT1r comp-mrtmf7ef wixui-box",
+            "w": 720,
+            "h": 627,
+            "bg": "rgba(0, 0, 0, 0)",
+            "bgImage": "none",
+            "bgSize": "auto",
+            "bgPos": "0px 0px",
+            "bgRepeat": "repeat",
+            "children": [
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "jdJeEr NYfD3h inner-box wixui-box",
+                "w": 720,
+                "h": 627,
+                "bg": "rgba(255, 255, 255, 0)",
+                "bgImage": "none",
+                "bgSize": "auto",
+                "bgPos": "0px 0px",
+                "bgRepeat": "repeat",
+                "children": []
+              },
+              {
+                "tag": "DIV",
+                "id": "",
+                "class": "comp-mrtmf7ef-container",
+                "w": 720,
+                "h": 627,
+                "bg": "rgba(0, 0, 0, 0)",
+                "bgImage": "none",
+                "bgSize": "auto",
+                "bgPos": "0px 0px",
+                "bgRepeat": "repeat",
+                "children": [
+                  {
+                    "tag": "DIV",
+                    "id": "comp-mrs4zd7z",
+                    "class": "N8MGzv _v6ohL AWXfZq comp-mrs4zd7z wixui-rich-text",
+                    "w": 614,
+                    "h": 216,
+                    "bg": "rgba(0, 0, 0, 0)",
+                    "bgImage": "none",
+                    "bgSize": "auto",
+                    "bgPos": "0px 0px",
+                    "bgRepeat": "repeat",
+                    "children": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "bgs": [],
+  "chain": [
+    {
+      "tag": "IMG",
+      "id": "",
+      "br": "0px",
+      "overflow": "clip",
+      "w": 674,
+      "h": 582,
+      "transform": "none"
+    },
+    {
+      "tag": "PICTURE",
+      "id": "",
+      "br": "0px",
+      "overflow": "visible",
+      "w": 674,
+      "h": 582,
+      "transform": "none"
+    },
+    {
+      "tag": "WOW-IMAGE",
+      "id": "img-comp-mrtmfx77",
+      "br": "0px",
+      "overflow": "clip",
+      "w": 674,
+      "h": 582,
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "br": "0px",
+      "overflow": "visible",
+      "w": 674,
+      "h": 0,
+      "transform": "none"
+    },
+    {
+      "tag": "DIV",
+      "id": "",
+      "br": "30px",
+      "overflow": "hidden",
+      "w": 674,
+      "h": 582,
+      "transform": "none"
+    }
+  ],
+  "bodyBg": "none",
+  "htmlBg": "none"
+}

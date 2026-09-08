@@ -159,21 +159,6 @@ export function HomePage() {
           </svg>
         </a>
       </aside>
-
-      <Link
-        to={ROUTES.accessibility}
-        aria-label="הצהרת נגישות"
-        className="home-a11y"
-        data-home-item="a11y"
-      >
-        <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true">
-          <circle cx="12" cy="4" r="2" fill="currentColor" />
-          <path
-            fill="currentColor"
-            d="M19 9h-4.5l-.7-2.1A2 2 0 0 0 12 5.5h0a2 2 0 0 0-1.8 1.4L9.5 9H5a1 1 0 0 0 0 2h3.2l-.4 1.3L5.5 18a1 1 0 1 0 1.9.6l2.1-5.1h2.9l2.1 5.1a1 1 0 1 0 1.9-.6l-2.3-5.7L15.8 11H19a1 1 0 0 0 0-2z"
-          />
-        </svg>
-      </Link>
     </div>
   );
 }

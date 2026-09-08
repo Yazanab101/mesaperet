@@ -1,0 +1,277 @@
+{
+  "sectionHtmlHead": "<div id=\"bgLayers_comp-mrdu197u\" data-hook=\"bgLayers\" data-motion-part=\"BG_LAYER comp-mrdu197u\" class=\"QG9w8P\"><div data-testid=\"colorUnderlay\" class=\"LNYVZi ayCf9D\"></div><div id=\"bgMedia_comp-mrdu197u\" data-motion-part=\"BG_MEDIA comp-mrdu197u\" class=\"ROWgFb\"></div></div><div data-testid=\"responsive-container-content\" role=\"group\" class=\"comp-mrdu197u-container max-width-container\"><!--$--><div id=\"comp-mrdu20lr\" class=\"ArRNfA comp-mrdu20lr wixui-repeater\"><div data-testid=\"responsive-container",
+  "media": [],
+  "imageItems": [
+    {
+      "id": "comp-mrduui0i__item1",
+      "text": "בוקר אמהות",
+      "x": 160,
+      "y": 950,
+      "w": 184,
+      "h": 169,
+      "img": null,
+      "deepSrc": null,
+      "html": "<div aria-hidden=\"true\" class=\"jdJeEr NYfD3h inner-box wixui-box\"></div><!--$--><div id=\"comp-mrdupy2f__item1\" class=\"comp-mrdupy2f wixui-vector-image\"><a data-testid=\"linkElement\" data-anchor=\"anchors-mrdu5pz0\" href=\"https://www.me-saperet.com/סדנאות\" target=\"_self\" class=\"IT88M3\"><div data-testid=\"svgRoot-comp-mrdupy2f__item1\" class=\"iL7Pq5 gx51wo comp-mrdupy2f\">\n<svg preserveAspectRatio=\"xMidYM"
+    },
+    {
+      "id": "comp-mrduui0i__item-j9ples3e",
+      "text": "מסיבת רווקות",
+      "x": 393,
+      "y": 950,
+      "w": 184,
+      "h": 169,
+      "img": null,
+      "deepSrc": null,
+      "html": "<div aria-hidden=\"true\" class=\"jdJeEr NYfD3h inner-box wixui-box\"></div><!--$--><div id=\"comp-mrdupy2f__item-j9ples3e\" class=\"comp-mrdupy2f wixui-vector-image\"><a data-testid=\"linkElement\" data-anchor=\"anchors-mrdu5e2i\" href=\"https://www.me-saperet.com/סדנאות\" target=\"_self\" class=\"IT88M3\"><div data-testid=\"svgRoot-comp-mrdupy2f__item-j9ples3e\" class=\"iL7Pq5 gx51wo comp-mrdupy2f\">\n<svg preserveAsp"
+    },
+    {
+      "id": "comp-mrduui0i__item-j9plerjk",
+      "text": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+      "x": 626,
+      "y": 950,
+      "w": 184,
+      "h": 201,
+      "img": null,
+      "deepSrc": null,
+      "html": "<div aria-hidden=\"true\" class=\"jdJeEr NYfD3h inner-box wixui-box\"></div><!--$--><div id=\"comp-mrdupy2f__item-j9plerjk\" class=\"comp-mrdupy2f wixui-vector-image\"><a data-testid=\"linkElement\" data-anchor=\"anchors-mrdu4y9w\" href=\"https://www.me-saperet.com/סדנאות\" target=\"_self\" class=\"IT88M3\"><div data-testid=\"svgRoot-comp-mrdupy2f__item-j9plerjk\" class=\"iL7Pq5 gx51wo comp-mrdupy2f\">\n<svg preserveAsp"
+    },
+    {
+      "id": "comp-mrduui0i__item-mrdu239m",
+      "text": "ריטריטים",
+      "x": 859,
+      "y": 950,
+      "w": 184,
+      "h": 169,
+      "img": null,
+      "deepSrc": null,
+      "html": "<div aria-hidden=\"true\" class=\"jdJeEr NYfD3h inner-box wixui-box\"></div><!--$--><div id=\"comp-mrdupy2f__item-mrdu239m\" class=\"comp-mrdupy2f wixui-vector-image\"><a data-testid=\"linkElement\" data-anchor=\"anchors-mrdu4i0x\" href=\"https://www.me-saperet.com/סדנאות\" target=\"_self\" class=\"IT88M3\"><div data-testid=\"svgRoot-comp-mrdupy2f__item-mrdu239m\" class=\"iL7Pq5 gx51wo comp-mrdupy2f\">\n<svg preserveAsp"
+    },
+    {
+      "id": "comp-mrduui0i__item-mrdu8etw",
+      "text": "ארועי חברה וסדנאות",
+      "x": 1091,
+      "y": 950,
+      "w": 184,
+      "h": 169,
+      "img": null,
+      "deepSrc": null,
+      "html": "<div aria-hidden=\"true\" class=\"jdJeEr NYfD3h inner-box wixui-box\"></div><!--$--><div id=\"comp-mrdupy2f__item-mrdu8etw\" class=\"comp-mrdupy2f wixui-vector-image\"><a data-testid=\"linkElement\" data-anchor=\"anchors-mrdu3zcy\" href=\"https://www.me-saperet.com/סדנאות\" target=\"_self\" class=\"IT88M3\"><div data-testid=\"svgRoot-comp-mrdupy2f__item-mrdu8etw\" class=\"iL7Pq5 gx51wo comp-mrdupy2f\">\n<svg preserveAsp"
+    }
+  ],
+  "tree": {
+    "tag": "SECTION",
+    "id": "comp-mrdu197u",
+    "cls": "ke5pl1 comp-mrdu197u wixui-section fwXYgt",
+    "text": "בוקר אמהות מסיבת רווקות חוגי בית, ימי הולדת ומפגשי גיבוש ריט",
+    "x": 0,
+    "y": 911,
+    "w": 1440,
+    "h": 281,
+    "kids": [
+      {
+        "tag": "DIV",
+        "cls": "comp-mrdu197u-container max-width-container",
+        "text": "בוקר אמהות מסיבת רווקות חוגי בית, ימי הולדת ומפגשי גיבוש ריט",
+        "x": 0,
+        "y": 911,
+        "w": 1440,
+        "h": 281,
+        "kids": [
+          {
+            "tag": "DIV",
+            "id": "comp-mrdu20lr",
+            "cls": "ArRNfA comp-mrdu20lr wixui-repeater",
+            "text": "בוקר אמהות מסיבת רווקות חוגי בית, ימי הולדת ומפגשי גיבוש ריט",
+            "x": 144,
+            "y": 940,
+            "w": 1152,
+            "h": 224,
+            "kids": [
+              {
+                "tag": "DIV",
+                "cls": "comp-mrdu20lr-container",
+                "text": "בוקר אמהות מסיבת רווקות חוגי בית, ימי הולדת ומפגשי גיבוש ריט",
+                "x": 144,
+                "y": 940,
+                "w": 1152,
+                "h": 224,
+                "kids": [
+                  {
+                    "tag": "DIV",
+                    "id": "comp-mrdu20m1__item1",
+                    "cls": "HFEOE3 NaeT1r comp-mrdu20m1-container comp-mrdu20m1 wixui-repeater__item",
+                    "text": "בוקר אמהות",
+                    "x": 144,
+                    "y": 940,
+                    "w": 216,
+                    "h": 224,
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "id": "comp-mrduui0i__item1",
+                        "cls": "HFEOE3 NaeT1r comp-mrduui0i-container comp-mrduui0i wixui-box",
+                        "text": "בוקר אמהות",
+                        "x": 160,
+                        "y": 950,
+                        "w": 184,
+                        "h": 169,
+                        "kids": [
+                          {
+                            "tag": "DIV",
+                            "id": "comp-mrdusfmn__item1",
+                            "cls": "N8MGzv _v6ohL AWXfZq comp-mrdusfmn wixui-rich-text",
+                            "text": "בוקר אמהות",
+                            "x": 160,
+                            "y": 1087,
+                            "w": 184,
+                            "h": 32
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "DIV",
+                    "id": "comp-mrdu20m1__item-j9ples3e",
+                    "cls": "HFEOE3 NaeT1r comp-mrdu20m1-container comp-mrdu20m1 wixui-repeater__item",
+                    "text": "מסיבת רווקות",
+                    "x": 377,
+                    "y": 940,
+                    "w": 216,
+                    "h": 224,
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "id": "comp-mrduui0i__item-j9ples3e",
+                        "cls": "HFEOE3 NaeT1r comp-mrduui0i-container comp-mrduui0i wixui-box",
+                        "text": "מסיבת רווקות",
+                        "x": 393,
+                        "y": 950,
+                        "w": 184,
+                        "h": 169,
+                        "kids": [
+                          {
+                            "tag": "DIV",
+                            "id": "comp-mrdusfmn__item-j9ples3e",
+                            "cls": "N8MGzv _v6ohL AWXfZq comp-mrdusfmn wixui-rich-text",
+                            "text": "מסיבת רווקות",
+                            "x": 393,
+                            "y": 1087,
+                            "w": 184,
+                            "h": 32
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "DIV",
+                    "id": "comp-mrdu20m1__item-j9plerjk",
+                    "cls": "HFEOE3 NaeT1r comp-mrdu20m1-container comp-mrdu20m1 wixui-repeater__item",
+                    "text": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+                    "x": 610,
+                    "y": 940,
+                    "w": 216,
+                    "h": 224,
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "id": "comp-mrduui0i__item-j9plerjk",
+                        "cls": "HFEOE3 NaeT1r comp-mrduui0i-container comp-mrduui0i wixui-box",
+                        "text": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+                        "x": 626,
+                        "y": 950,
+                        "w": 184,
+                        "h": 201,
+                        "kids": [
+                          {
+                            "tag": "DIV",
+                            "id": "comp-mrdusfmn__item-j9plerjk",
+                            "cls": "N8MGzv _v6ohL AWXfZq comp-mrdusfmn wixui-rich-text",
+                            "text": "חוגי בית, ימי הולדת ומפגשי גיבוש",
+                            "x": 626,
+                            "y": 1087,
+                            "w": 184,
+                            "h": 65
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "DIV",
+                    "id": "comp-mrdu20m1__item-mrdu239m",
+                    "cls": "HFEOE3 NaeT1r comp-mrdu20m1-container comp-mrdu20m1 wixui-repeater__item",
+                    "text": "ריטריטים",
+                    "x": 842,
+                    "y": 940,
+                    "w": 216,
+                    "h": 224,
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "id": "comp-mrduui0i__item-mrdu239m",
+                        "cls": "HFEOE3 NaeT1r comp-mrduui0i-container comp-mrduui0i wixui-box",
+                        "text": "ריטריטים",
+                        "x": 859,
+                        "y": 950,
+                        "w": 184,
+                        "h": 169,
+                        "kids": [
+                          {
+                            "tag": "DIV",
+                            "id": "comp-mrdusfmn__item-mrdu239m",
+                            "cls": "N8MGzv _v6ohL AWXfZq comp-mrdusfmn wixui-rich-text",
+                            "text": "ריטריטים",
+                            "x": 859,
+                            "y": 1087,
+                            "w": 184,
+                            "h": 32
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "DIV",
+                    "id": "comp-mrdu20m1__item-mrdu8etw",
+                    "cls": "HFEOE3 NaeT1r comp-mrdu20m1-container comp-mrdu20m1 wixui-repeater__item",
+                    "text": "ארועי חברה וסדנאות",
+                    "x": 1075,
+                    "y": 940,
+                    "w": 216,
+                    "h": 224,
+                    "kids": [
+                      {
+                        "tag": "DIV",
+                        "id": "comp-mrduui0i__item-mrdu8etw",
+                        "cls": "HFEOE3 NaeT1r comp-mrduui0i-container comp-mrduui0i wixui-box",
+                        "text": "ארועי חברה וסדנאות",
+                        "x": 1091,
+                        "y": 950,
+                        "w": 184,
+                        "h": 169,
+                        "kids": [
+                          {
+                            "tag": "DIV",
+                            "id": "comp-mrdusfmn__item-mrdu8etw",
+                            "cls": "N8MGzv _v6ohL AWXfZq comp-mrdusfmn wixui-rich-text",
+                            "text": "ארועי חברה וסדנאות",
+                            "x": 1091,
+                            "y": 1087,
+                            "w": 184,
+                            "h": 32
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

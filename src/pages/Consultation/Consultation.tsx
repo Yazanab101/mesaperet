@@ -13,12 +13,12 @@ export function ConsultationPage() {
 
   return (
     <div className="consultation-page">
-      <PageHero title="ייעוץ וטיפול" breadcrumb="ייעוץ וטיפול" />
+      <PageHero title="ייעוץ וטיפול" breadcrumb="ייעוץ וטיפול" bannerAlt="הקסם של נומרולוגיה" />
 
-      <section className="section consultation-page__main">
-        <div className="container consultation-page__grid">
+      <section className="consultation-page__intro" aria-label="ייעוץ נומרולוגי">
+        <div className="consultation-page__intro-grid">
           <ScrollReveal>
-            <div className="consultation-page__media">
+            <div className="consultation-page__portrait">
               <img
                 src={ASSETS.consultationMain}
                 alt="מיטל בטיפול נומרולוגי"
@@ -26,41 +26,61 @@ export function ConsultationPage() {
               />
             </div>
           </ScrollReveal>
-          <ScrollReveal delay={100}>
-            <div className="prose">
+          <ScrollReveal delay={80}>
+            <div className="consultation-page__copy">
               {paragraphs.map((p) => (
+                <p key={p} className={p === "וגם-" ? "consultation-page__also" : undefined}>
+                  {p}
+                </p>
+              ))}
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      <section className="consultation-page__gallery" aria-label="תמונות מהמפגשים">
+        <Gallery images={[...gallery]} variant="consult" />
+      </section>
+
+      <PageHero
+        title={pastLife.title}
+        as="h2"
+        titleSize="md"
+        bannerAlt="הקסם של נומרולוגיה"
+      />
+
+      <section className="consultation-page__past" aria-label={pastLife.title}>
+        <div className="consultation-page__past-grid">
+          <ScrollReveal>
+            <div className="consultation-page__past-media">
+              <img
+                src={pastLife.image.src}
+                alt={pastLife.image.alt}
+                loading="lazy"
+                style={{ objectPosition: pastLife.image.objectPosition }}
+              />
+            </div>
+          </ScrollReveal>
+          <ScrollReveal delay={80}>
+            <div className="consultation-page__past-copy">
+              <p className="consultation-page__lead">{pastLife.lead}</p>
+              {pastLife.paragraphs.map((p) => (
                 <p key={p}>{p}</p>
               ))}
             </div>
           </ScrollReveal>
         </div>
-        <div className="container" style={{ marginTop: "2rem" }}>
-          <Gallery images={gallery} variant="slider" />
-        </div>
       </section>
 
-      <section className="section consultation-page__past">
-        <div className="container consultation-page__grid">
-          <ScrollReveal>
-            <div>
-              <h2 className="section-subtitle" style={{ textAlign: "start" }}>
-                {pastLife.title}
-              </h2>
-              <div className="prose">
-                {pastLife.paragraphs.map((p) => (
-                  <p key={p}>{p}</p>
-                ))}
-              </div>
-            </div>
-          </ScrollReveal>
-          <ScrollReveal delay={120}>
-            <div className="consultation-page__media">
-              <img src={pastLife.image.src} alt={pastLife.image.alt} loading="lazy" />
-            </div>
-          </ScrollReveal>
-        </div>
-        <div className="consultation-page__cta">
-          <WhatsAppButton />
+      <section className="consultation-page__cta-band" aria-label="יצירת קשר">
+        <div className="consultation-page__cta-band-inner">
+          <img
+            className="consultation-page__cta-bg"
+            src={ASSETS.bannerMagic}
+            alt=""
+            aria-hidden="true"
+          />
+          <WhatsAppButton className="whatsapp-btn--site" />
         </div>
       </section>
     </div>
