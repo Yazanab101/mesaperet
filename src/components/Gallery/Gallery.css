@@ -15,6 +15,29 @@
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+/* About certificates — Wix layout 3 + 2 centered @ ~425×562 */
+.gallery--certs {
+  direction: ltr;
+}
+
+.gallery--certs .gallery__track {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 23px;
+  max-width: 1321px;
+  margin-inline: auto;
+}
+
+.gallery--certs .gallery__item {
+  flex: 0 0 425px;
+  width: 425px;
+  max-width: 100%;
+  aspect-ratio: 425 / 562;
+  border-radius: 0;
+  box-shadow: none;
+}
+
 .gallery--slider {
   padding-inline: 2.5rem;
 }
@@ -82,12 +105,27 @@
   .gallery--grid .gallery__track {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+
+  .gallery--certs .gallery__item {
+    flex: 0 0 calc(50% - 12px);
+    width: calc(50% - 12px);
+    max-width: 220px;
+  }
 }
 
 @media (max-width: 560px) {
   .gallery--grid .gallery__track,
   .gallery--masonry .gallery__track {
     grid-template-columns: 1fr;
+  }
+
+  .gallery--certs .gallery__track {
+    gap: 12px;
+  }
+
+  .gallery--certs .gallery__item {
+    flex: 0 1 calc(50% - 6px);
+    width: calc(50% - 6px);
   }
 
   .gallery--slider {

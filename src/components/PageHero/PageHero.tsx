@@ -1,34 +1,44 @@
 import { ASSETS } from "../../data/site";
-import { ScrollReveal } from "../ScrollReveal/ScrollReveal";
 import "./PageHero.css";
 
 type Props = {
   title: string;
   breadcrumb?: string;
   bannerAlt?: string;
+  /** Heading level — certificates section uses h2 */
+  as?: "h1" | "h2";
+  /** object-position for banner crop */
+  objectPosition?: string;
+  className?: string;
 };
 
 export function PageHero({
   title,
   breadcrumb,
   bannerAlt = "הקסם של נומרולוגיה",
+  as = "h1",
+  objectPosition = "50% 70%",
+  className = "",
 }: Props) {
+  const Heading = as;
+
   return (
-    <section className="page-hero">
-      <div className="page-hero__banner decorative-overlay" aria-hidden="true">
-        <img src={ASSETS.bannerMagic} alt="" />
-      </div>
-      <div className="container page-hero__content">
-        {breadcrumb && (
-          <p className="page-hero__crumb">
-            <span>{breadcrumb}</span>
-            <span aria-hidden="true"> ›</span>
-          </p>
-        )}
-        <ScrollReveal>
-          <h1 className="section-title">{title}</h1>
-        </ScrollReveal>
-        <img className="page-hero__ornament" src={ASSETS.bannerMagic} alt={bannerAlt} />
+    <section className={`page-hero ${className}`.trim()} aria-label={title}>
+      {breadcrumb && (
+        <p className="page-hero__crumb container">
+          <span aria-hidden="true">⌂</span>
+          <span aria-hidden="true"> › </span>
+          <span>{breadcrumb}</span>
+        </p>
+      )}
+      <div className="page-hero__band">
+        <img
+          className="page-hero__bg"
+          src={ASSETS.bannerMagic}
+          alt={bannerAlt}
+          style={{ objectPosition }}
+        />
+        <Heading className="page-hero__title">{title}</Heading>
       </div>
     </section>
   );

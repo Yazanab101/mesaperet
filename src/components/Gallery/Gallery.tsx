@@ -10,7 +10,7 @@ export type GalleryImage = {
 
 type Props = {
   images: GalleryImage[];
-  variant?: "grid" | "slider" | "masonry";
+  variant?: "grid" | "slider" | "masonry" | "certs";
   className?: string;
 };
 

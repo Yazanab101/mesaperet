@@ -14,8 +14,8 @@ export function AboutPage() {
     <div className="about-page">
       <PageHero title="אודות" breadcrumb="אודות" bannerAlt="הקסם של נומרולוגיה" />
 
-      <section className="section about-page__intro">
-        <div className="container about-page__grid">
+      <section className="about-page__intro" aria-label="אודות מיטל">
+        <div className="about-page__grid">
           <ScrollReveal>
             <div className="about-page__portrait">
               <img
@@ -25,8 +25,8 @@ export function AboutPage() {
               />
             </div>
           </ScrollReveal>
-          <ScrollReveal delay={120}>
-            <div className="prose about-page__copy">
+          <ScrollReveal delay={100}>
+            <div className="about-page__copy">
               {aboutParagraphs.map((p) => (
                 <p key={p}>{p}</p>
               ))}
@@ -35,17 +35,23 @@ export function AboutPage() {
         </div>
       </section>
 
-      <section className="section about-page__certs">
-        <div className="container">
-          <ScrollReveal>
-            <h2 className="section-subtitle">התעודות שלי</h2>
-          </ScrollReveal>
-          <ScrollReveal delay={100}>
-            <Gallery images={[...certificates]} variant="slider" />
-          </ScrollReveal>
-          <div className="about-page__cta">
-            <WhatsAppButton />
-          </div>
+      <PageHero title="התעודות שלי" as="h2" bannerAlt="הקסם של נומרולוגיה" />
+
+      <section className="about-page__certs" aria-label="התעודות שלי">
+        <ScrollReveal>
+          <Gallery images={[...certificates]} variant="certs" />
+        </ScrollReveal>
+      </section>
+
+      <section className="about-page__cta-band" aria-label="יצירת קשר">
+        <div className="about-page__cta-band-inner">
+          <img
+            className="about-page__cta-bg"
+            src={ASSETS.bannerMagic}
+            alt=""
+            aria-hidden="true"
+          />
+          <WhatsAppButton className="whatsapp-btn--site" />
         </div>
       </section>
     </div>
