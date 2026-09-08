@@ -1,0 +1,953 @@
+{
+  "viewport": {
+    "w": 1440,
+    "h": 900
+  },
+  "section": {
+    "id": "comp-kbgaghri",
+    "className": "ke5pl1 comp-kbgaghri-container comp-kbgaghri wixui-section undefined fwXYgt",
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 1062
+    },
+    "css": {
+      "position": "relative",
+      "display": "grid",
+      "width": "1440px",
+      "height": "1062px",
+      "maxWidth": "99999px",
+      "minWidth": "0px",
+      "transform": "none",
+      "overflow": "visible",
+      "gridTemplateColumns": "1440px",
+      "gridTemplateRows": "1062px"
+    },
+    "styleAttr": null,
+    "childPositions": [
+      {
+        "tag": "DIV",
+        "id": "bgLayers_comp-kbgaghri",
+        "className": "QG9w8P",
+        "position": "absolute",
+        "display": "block",
+        "transform": "none",
+        "width": "1440px",
+        "height": "1062px"
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-lzy6b7c6",
+        "className": "i4P7Vt comp-lzy6b7c6 ZYZJBv wixui-image",
+        "position": "relative",
+        "display": "block",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "width": "117.844px",
+        "height": "111.719px"
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-meepdva1",
+        "className": "i4P7Vt comp-meepdva1 ZYZJBv wixui-image",
+        "position": "relative",
+        "display": "block",
+        "transform": "none",
+        "width": "488.25px",
+        "height": "606.766px"
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-meepcjt5",
+        "className": "i4P7Vt comp-meepcjt5 ZYZJBv wixui-image",
+        "position": "relative",
+        "display": "block",
+        "transform": "none",
+        "width": "372.438px",
+        "height": "350.812px"
+      },
+      {
+        "tag": "DIV",
+        "id": "comp-luod3uiz",
+        "className": "i4P7Vt comp-luod3uiz ZYZJBv wixui-image",
+        "position": "relative",
+        "display": "block",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "width": "233.875px",
+        "height": "155.828px"
+      }
+    ]
+  },
+  "meshInfo": null,
+  "components": [
+    {
+      "id": "comp-meepcjt5",
+      "className": "i4P7Vt comp-meepcjt5 ZYZJBv wixui-image",
+      "rect": {
+        "x": 533.78,
+        "y": 146.47,
+        "w": 372.44,
+        "h": 350.81
+      },
+      "rel": {
+        "x": 533.78,
+        "y": 146.47,
+        "w": 372.44,
+        "h": 350.81,
+        "xPct": 37.07,
+        "yPct": 13.79,
+        "wPct": 25.86,
+        "hPct": 33.03
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "372.438px",
+        "height": "350.812px",
+        "transform": "none",
+        "transformOrigin": "186.219px 175.406px",
+        "zIndex": "auto",
+        "margin": "146.475px 0px 0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "תמונה",
+        "src": "https://static.wixstatic.com/media/44c6b1_03ac711762a844f28ac106bee24f6642~mv2.png/v1/fill/w_372,h_351,fp_0.50_0.43,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%AA%D7%9E%D7%95%D7%A0%D7%94%20%D7%9C%D7%90%D7%95%D7%93%D7%95%D7%AA%20(1).png",
+        "naturalWidth": 372,
+        "naturalHeight": 351,
+        "objectFit": "cover",
+        "objectPosition": "50% 43%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "all"
+      }
+    },
+    {
+      "id": "comp-mebp2g7x",
+      "className": "i4P7Vt comp-mebp2g7x ZYZJBv wixui-image",
+      "rect": {
+        "x": 232.38,
+        "y": 189.78,
+        "w": 204.45,
+        "h": 170.75
+      },
+      "rel": {
+        "x": 232.38,
+        "y": 189.78,
+        "w": 204.45,
+        "h": 170.75,
+        "xPct": 16.14,
+        "yPct": 17.87,
+        "wPct": 14.2,
+        "hPct": 16.08
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "204.453px",
+        "height": "170.75px",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transformOrigin": "102.227px 85.375px",
+        "zIndex": "auto",
+        "margin": "189.783px 0px 0px 232.381px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "עציץ",
+        "src": "https://static.wixstatic.com/media/44c6b1_7fffbc4591f143baa4c1e7a74a1660b3~mv2.png/v1/fill/w_204,h_171,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%A2%D7%A6%D7%99%D7%A5.png",
+        "naturalWidth": 204,
+        "naturalHeight": 171,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "0.3s ease-in-out, visibility"
+      }
+    },
+    {
+      "id": "comp-mrs7224f",
+      "className": "N8MGzv _v6ohL AWXfZq comp-mrs7224f wixui-rich-text",
+      "rect": {
+        "x": 967.06,
+        "y": 235.89,
+        "w": 124.84,
+        "h": 15.19
+      },
+      "rel": {
+        "x": 967.06,
+        "y": 235.89,
+        "w": 124.84,
+        "h": 15.19,
+        "xPct": 67.16,
+        "yPct": 22.21,
+        "wPct": 8.67,
+        "hPct": 1.43
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "124.844px",
+        "height": "15.1875px",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transformOrigin": "62.4219px 7.59375px",
+        "zIndex": "auto",
+        "margin": "235.903px 348.101px 0px 0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": null,
+      "texts": [
+        "שובר מתנה"
+      ],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "ease-in-out, visibility"
+      }
+    },
+    {
+      "id": "comp-mrtilwv4",
+      "className": "comp-mrtilwv4 wixui-vector-image",
+      "rect": {
+        "x": 943.31,
+        "y": 243.89,
+        "w": 94.5,
+        "h": 84.13
+      },
+      "rel": {
+        "x": 943.31,
+        "y": 243.89,
+        "w": 94.5,
+        "h": 84.13,
+        "xPct": 65.51,
+        "yPct": 22.97,
+        "wPct": 6.56,
+        "hPct": 7.92
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "77.875px",
+        "height": "57.4219px",
+        "transform": "matrix(0.913545, 0.406737, -0.406737, 0.913545, 0, 0)",
+        "transformOrigin": "38.9375px 28.7109px",
+        "zIndex": "auto",
+        "margin": "257.265px 410.514px 0px 0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "none",
+        "minWidth": "auto"
+      },
+      "vars": {},
+      "img": null,
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "ease-in-out, visibility"
+      }
+    },
+    {
+      "id": "comp-lzy6b7c6",
+      "className": "i4P7Vt comp-lzy6b7c6 ZYZJBv wixui-image",
+      "rect": {
+        "x": 1125.28,
+        "y": 251.08,
+        "w": 117.84,
+        "h": 111.72
+      },
+      "rel": {
+        "x": 1125.28,
+        "y": 251.08,
+        "w": 117.84,
+        "h": 111.72,
+        "xPct": 78.14,
+        "yPct": 23.64,
+        "wPct": 8.18,
+        "hPct": 10.52
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "117.844px",
+        "height": "111.719px",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transformOrigin": "58.9219px 55.8594px",
+        "zIndex": "auto",
+        "margin": "251.078px 196.875px 0px 0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "סדנאות",
+        "src": "https://static.wixstatic.com/media/44c6b1_0ddc95d3a86d4b05af6b3581283de31c~mv2.png/v1/fill/w_118,h_112,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%A1%D7%93%D7%A0%D7%90%D7%95%D7%AA%20(4).png",
+        "naturalWidth": 118,
+        "naturalHeight": 112,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "0.3s ease-in-out, visibility"
+      }
+    },
+    {
+      "id": "comp-mrbsaffe",
+      "className": "i4P7Vt comp-mrbsaffe ZYZJBv wixui-image",
+      "rect": {
+        "x": 1015.27,
+        "y": 275.34,
+        "w": 99.92,
+        "h": 99.84
+      },
+      "rel": {
+        "x": 1015.27,
+        "y": 275.34,
+        "w": 99.92,
+        "h": 99.84,
+        "xPct": 70.5,
+        "yPct": 25.93,
+        "wPct": 6.94,
+        "hPct": 9.4
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "99.9219px",
+        "height": "99.8438px",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transformOrigin": "49.9609px 49.9219px",
+        "zIndex": "auto",
+        "margin": "275.354px 324.818px 0px 0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "שובר מתנה",
+        "src": "https://static.wixstatic.com/media/44c6b1_9616ba53425c449b8a76947d47141bcc~mv2.png/v1/fill/w_100,h_100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/23754_edited.png",
+        "naturalWidth": 100,
+        "naturalHeight": 100,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "0.3s ease-in-out, visibility"
+      }
+    },
+    {
+      "id": "comp-mebrbatl",
+      "className": "N8MGzv _v6ohL AWXfZq comp-mebrbatl wixui-rich-text",
+      "rect": {
+        "x": 310.64,
+        "y": 321.5,
+        "w": 47.91,
+        "h": 34.72
+      },
+      "rel": {
+        "x": 310.64,
+        "y": 321.5,
+        "w": 47.91,
+        "h": 34.72,
+        "xPct": 21.57,
+        "yPct": 30.27,
+        "wPct": 3.33,
+        "hPct": 3.27
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "47.9062px",
+        "height": "34.7188px",
+        "transform": "none",
+        "transformOrigin": "23.9531px 17.3594px",
+        "zIndex": "auto",
+        "margin": "321.51px 0px 0px 310.642px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": null,
+      "texts": [
+        "ייעוץ"
+      ],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "all"
+      }
+    },
+    {
+      "id": "comp-meepdva1",
+      "className": "i4P7Vt comp-meepdva1 ZYZJBv wixui-image",
+      "rect": {
+        "x": 30.17,
+        "y": 321.91,
+        "w": 488.25,
+        "h": 606.77
+      },
+      "rel": {
+        "x": 30.17,
+        "y": 321.91,
+        "w": 488.25,
+        "h": 606.77,
+        "xPct": 2.1,
+        "yPct": 30.31,
+        "wPct": 33.91,
+        "hPct": 57.13
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "488.25px",
+        "height": "606.766px",
+        "transform": "none",
+        "transformOrigin": "244.125px 303.383px",
+        "zIndex": "auto",
+        "margin": "321.91px 0px 0px 30.1769px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "כורסא ",
+        "src": "https://static.wixstatic.com/media/44c6b1_574579e277144f9a89863710fc70f3cc~mv2.png/v1/crop/x_189,y_0,w_567,h_705/fill/w_488,h_607,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%9B%D7%95%D7%A8%D7%A1%D7%90%20%D7%A9%D7%9E%D7%90%D7%9C.png",
+        "naturalWidth": 488,
+        "naturalHeight": 607,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "all"
+      }
+    },
+    {
+      "id": "comp-msvpjomp",
+      "className": "i4P7Vt comp-msvpjomp ZYZJBv wixui-image",
+      "rect": {
+        "x": 906.27,
+        "y": 338.66,
+        "w": 488.25,
+        "h": 606.77
+      },
+      "rel": {
+        "x": 906.27,
+        "y": 338.66,
+        "w": 488.25,
+        "h": 606.77,
+        "xPct": 62.94,
+        "yPct": 31.89,
+        "wPct": 33.91,
+        "hPct": 57.13
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "488.25px",
+        "height": "606.766px",
+        "transform": "none",
+        "transformOrigin": "244.125px 303.383px",
+        "zIndex": "auto",
+        "margin": "338.665px 45.498px 0px 0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "כורסא ",
+        "src": "https://static.wixstatic.com/media/44c6b1_71326677b0434f4b9f10aff22a384c9d~mv2.png/v1/crop/x_189,y_0,w_567,h_705/fill/w_488,h_607,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%9B%D7%95%D7%A8%D7%A1%D7%90%20%D7%A9%D7%9E%D7%90%D7%9C.png",
+        "naturalWidth": 488,
+        "naturalHeight": 607,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "all"
+      }
+    },
+    {
+      "id": "comp-luod3uiz",
+      "className": "i4P7Vt comp-luod3uiz ZYZJBv wixui-image",
+      "rect": {
+        "x": 486.11,
+        "y": 486.2,
+        "w": 233.88,
+        "h": 155.83
+      },
+      "rel": {
+        "x": 486.11,
+        "y": 486.2,
+        "w": 233.88,
+        "h": 155.83,
+        "xPct": 33.76,
+        "yPct": 45.78,
+        "wPct": 16.24,
+        "hPct": 14.67
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "233.875px",
+        "height": "155.828px",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transformOrigin": "116.938px 77.9141px",
+        "zIndex": "auto",
+        "margin": "486.203px 0px 0px 486.109px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "צרו קשר",
+        "src": "https://static.wixstatic.com/media/44c6b1_7a1fb78d838349dca980081907b95c30~mv2.png/v1/fill/w_234,h_156,al_c,lg_1,q_85,enc_avif,quality_auto/2.png",
+        "naturalWidth": 234,
+        "naturalHeight": 156,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "0.3s ease-in-out, visibility"
+      }
+    },
+    {
+      "id": "comp-luod25tu",
+      "className": "i4P7Vt comp-luod25tu ZYZJBv wixui-image",
+      "rect": {
+        "x": 714.59,
+        "y": 497.25,
+        "w": 191.66,
+        "h": 127.67
+      },
+      "rel": {
+        "x": 714.59,
+        "y": 497.25,
+        "w": 191.66,
+        "h": 127.67,
+        "xPct": 49.62,
+        "yPct": 46.82,
+        "wPct": 13.31,
+        "hPct": 12.02
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "191.656px",
+        "height": "127.672px",
+        "transform": "matrix(1, 0, 0, 1, 0, 0)",
+        "transformOrigin": "95.8281px 63.8359px",
+        "zIndex": "auto",
+        "margin": "497.25px 533.75px 0px 0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "99999px",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "קישור להמלצות",
+        "src": "https://static.wixstatic.com/media/44c6b1_2bbede6699704c909a004d1c4e2387ae~mv2.png/v1/fill/w_192,h_128,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%D7%A1%D7%A4%D7%A8%20%D7%94%D7%9E%D7%9C%D7%A6%D7%95%D7%AA.png",
+        "naturalWidth": 192,
+        "naturalHeight": 128,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "0.3s ease-in-out, visibility"
+      }
+    },
+    {
+      "id": "comp-meepnv7a",
+      "className": "i4P7Vt comp-meepnv7a ZYZJBv wixui-image",
+      "rect": {
+        "x": 0,
+        "y": 893.7,
+        "w": 168.3,
+        "h": 168.3
+      },
+      "rel": {
+        "x": 0,
+        "y": 893.7,
+        "w": 168.3,
+        "h": 168.3,
+        "xPct": 0,
+        "yPct": 84.15,
+        "wPct": 11.69,
+        "hPct": 15.85
+      },
+      "css": {
+        "position": "relative",
+        "top": "0px",
+        "left": "0px",
+        "right": "0px",
+        "bottom": "0px",
+        "width": "168.297px",
+        "height": "168.297px",
+        "transform": "none",
+        "transformOrigin": "84.1484px 84.1484px",
+        "zIndex": "auto",
+        "margin": "0px",
+        "padding": "0px",
+        "gridArea": "1 / 1 / 2 / 2",
+        "inset": "0px",
+        "maxWidth": "none",
+        "minWidth": "0px"
+      },
+      "vars": {},
+      "img": {
+        "alt": "מיטל גוטמן שקד - מספרת נומרולוגיה לוגו",
+        "src": "https://static.wixstatic.com/media/44c6b1_b2cda2c5e1a04c41b82f23798b40eb4c~mv2.png/v1/fill/w_168,h_168,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/44c6b1_b2cda2c5e1a04c41b82f23798b40eb4c~mv2.png",
+        "naturalWidth": 168,
+        "naturalHeight": 168,
+        "objectFit": "cover",
+        "objectPosition": "50% 50%"
+      },
+      "texts": [],
+      "animation": {
+        "name": "none",
+        "duration": "0s",
+        "delay": "0s",
+        "timing": "ease",
+        "transition": "all"
+      }
+    }
+  ],
+  "textHits": [
+    {
+      "text": "ייעוץ",
+      "tag": "DIV",
+      "id": "comp-mebrbatl",
+      "rect": {
+        "x": 310.64,
+        "y": 321.5,
+        "w": 47.91,
+        "h": 34.72
+      },
+      "rel": {
+        "x": 310.64,
+        "y": 321.5,
+        "xPct": 21.57,
+        "yPct": 30.27
+      },
+      "css": {
+        "position": "relative",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "text": "ייעוץ",
+      "tag": "P",
+      "id": "comp-mebrbatl",
+      "rect": {
+        "x": 310.64,
+        "y": 321.5,
+        "w": 47.91,
+        "h": 34.72
+      },
+      "rel": {
+        "x": 310.64,
+        "y": 321.5,
+        "xPct": 21.57,
+        "yPct": 30.27
+      },
+      "css": {
+        "position": "static",
+        "fontFamily": "almoni-dl-aaa-400, sans-serif",
+        "fontSize": "21.6971px",
+        "fontWeight": "400",
+        "lineHeight": "34.7153px",
+        "letterSpacing": "normal",
+        "color": "rgb(255, 255, 255)",
+        "transform": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "text": "מיטל גוטמן שקד נומרולוגית",
+      "tag": "DIV",
+      "id": "comp-mkvjy95i",
+      "rect": {
+        "x": 0,
+        "y": 1062,
+        "w": 1440,
+        "h": 155.28
+      },
+      "rel": {
+        "x": 0,
+        "y": 1062,
+        "xPct": 0,
+        "yPct": 100
+      },
+      "css": {
+        "position": "relative",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "text": "מיטל גוטמן שקד נומרולוגית",
+      "tag": "DIV",
+      "id": "comp-mkvjqmhm",
+      "rect": {
+        "x": 448.05,
+        "y": 1084.83,
+        "w": 543.91,
+        "h": 109.63
+      },
+      "rel": {
+        "x": 448.05,
+        "y": 1084.83,
+        "xPct": 31.11,
+        "yPct": 102.15
+      },
+      "css": {
+        "position": "relative",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "text": "מיטל גוטמן שקד נומרולוגית",
+      "tag": "H1",
+      "id": "comp-mkvjqmhm",
+      "rect": {
+        "x": 448.05,
+        "y": 1084.83,
+        "w": 543.91,
+        "h": 109.63
+      },
+      "rel": {
+        "x": 448.05,
+        "y": 1084.83,
+        "xPct": 31.11,
+        "yPct": 102.15
+      },
+      "css": {
+        "position": "static",
+        "fontFamily": "gulash-w26-regular, cursive",
+        "fontSize": "91.356px",
+        "fontWeight": "400",
+        "lineHeight": "109.627px",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "text": "שובר מתנה",
+      "tag": "DIV",
+      "id": null,
+      "rect": {
+        "x": 828.97,
+        "y": 1343.66,
+        "w": 142,
+        "h": 31.59
+      },
+      "rel": {
+        "x": 828.97,
+        "y": 1343.66,
+        "xPct": 57.57,
+        "yPct": 126.52
+      },
+      "css": {
+        "position": "relative",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "zIndex": "auto"
+      }
+    },
+    {
+      "text": "שובר מתנה",
+      "tag": "SPAN",
+      "id": null,
+      "rect": {
+        "x": 828.97,
+        "y": 1343.66,
+        "w": 142,
+        "h": 31.59
+      },
+      "rel": {
+        "x": 828.97,
+        "y": 1343.66,
+        "xPct": 57.57,
+        "yPct": 126.52
+      },
+      "css": {
+        "position": "relative",
+        "fontFamily": "Arial, Helvetica, sans-serif",
+        "fontSize": "10px",
+        "fontWeight": "400",
+        "lineHeight": "normal",
+        "letterSpacing": "normal",
+        "color": "rgb(0, 0, 0)",
+        "transform": "none",
+        "zIndex": "auto"
+      }
+    }
+  ],
+  "socialsInViewport": [
+    {
+      "label": "Facebook",
+      "href": "https://www.facebook.com/meytal.guttmanshaked",
+      "rect": {
+        "x": 0,
+        "y": 383.91,
+        "w": 57.09,
+        "h": 57.09
+      },
+      "position": "static",
+      "transform": "none",
+      "zIndex": "auto"
+    },
+    {
+      "label": "Whatsapp",
+      "href": "https://wa.me/+972527500098",
+      "rect": {
+        "x": 0,
+        "y": 459,
+        "w": 57.09,
+        "h": 57.09
+      },
+      "position": "static",
+      "transform": "none",
+      "zIndex": "auto"
+    }
+  ]
+}

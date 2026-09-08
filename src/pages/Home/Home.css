@@ -1,0 +1,346 @@
+/*
+  Homepage scene — positions from live Wix DOM @ 1440×900
+  Source of truth: measurement/SOURCE_HOME_MEASUREMENTS_1440x900.md
+
+  Wix model: relative section 1440×1062, single grid cell, items placed in px.
+  We reproduce with % of a full-bleed 1440/1062 scene (no page-level scale()).
+*/
+
+.home {
+  --scene-w: 1440;
+  --scene-h: 1062;
+  position: relative;
+  background: #e8e9ea;
+  overflow-x: clip;
+}
+
+/* Full-bleed scene matching Wix section #comp-kbgaghri */
+.home-scene {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1440 / 1062;
+  overflow: visible;
+}
+
+.home-scene__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.home-item {
+  position: absolute;
+  z-index: 2;
+  margin: 0;
+}
+
+.home-item__motion {
+  width: 100%;
+  height: 100%;
+}
+
+.home-item img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.home-hotspot {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.25s ease;
+}
+
+.home-hotspot:hover {
+  transform: scale(1.03);
+}
+
+/* Portrait — 533.78,146.47,372.44×350.81 */
+.home-item--portrait {
+  left: calc(533.78 / 1440 * 100%);
+  top: calc(146.47 / 1062 * 100%);
+  width: calc(372.44 / 1440 * 100%);
+  height: calc(350.81 / 1062 * 100%);
+  z-index: 4;
+}
+
+.home-item--portrait img {
+  object-position: 50% 43%;
+}
+
+/* Left chair — 30.17,321.91,488.25×606.77 */
+.home-item--chair-l {
+  left: calc(30.17 / 1440 * 100%);
+  top: calc(321.91 / 1062 * 100%);
+  width: calc(488.25 / 1440 * 100%);
+  height: calc(606.77 / 1062 * 100%);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Right chair — 906.27,338.66,488.25×606.77 */
+.home-item--chair-r {
+  left: calc(906.27 / 1440 * 100%);
+  top: calc(338.66 / 1062 * 100%);
+  width: calc(488.25 / 1440 * 100%);
+  height: calc(606.77 / 1062 * 100%);
+  z-index: 3;
+  pointer-events: none;
+}
+
+/* Plant — 232.38,189.78,204.45×170.75 */
+.home-item--plant {
+  left: calc(232.38 / 1440 * 100%);
+  top: calc(189.78 / 1062 * 100%);
+  width: calc(204.45 / 1440 * 100%);
+  height: calc(170.75 / 1062 * 100%);
+  z-index: 5;
+}
+
+/* ייעוץ — 310.64,321.50,47.91×34.72 */
+.home-label--consult {
+  position: absolute;
+  left: calc(310.64 / 1440 * 100%);
+  top: calc(321.5 / 1062 * 100%);
+  width: calc(47.91 / 1440 * 100%);
+  height: calc(34.72 / 1062 * 100%);
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: calc(21.7 / 1440 * 100vw);
+  font-weight: 400;
+  line-height: 1.6;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+  white-space: nowrap;
+}
+
+/* שובר מתנה label — 967.06,235.89,124.84×15.19 */
+.home-label--gift {
+  position: absolute;
+  left: calc(967.06 / 1440 * 100%);
+  top: calc(235.89 / 1062 * 100%);
+  width: calc(124.84 / 1440 * 100%);
+  height: calc(15.19 / 1062 * 100%);
+  z-index: 6;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-body);
+  font-size: calc(21.7 / 1440 * 100vw);
+  font-weight: 700;
+  line-height: 1;
+  color: rgb(76, 51, 35);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Rotated arrow — 943.31,243.89,94.5×84.13, ~24° */
+.home-item--gift-arrow {
+  left: calc(943.31 / 1440 * 100%);
+  top: calc(243.89 / 1062 * 100%);
+  width: calc(77.875 / 1440 * 100%);
+  height: calc(57.422 / 1062 * 100%);
+  z-index: 5;
+  transform: rotate(24deg);
+  transform-origin: center center;
+  pointer-events: none;
+}
+
+.home-gift-arrow {
+  width: 100%;
+  height: 100%;
+  display: block;
+  overflow: visible;
+}
+
+/* Gift — 1015.27,275.34,99.92×99.84 */
+.home-item--gift {
+  left: calc(1015.27 / 1440 * 100%);
+  top: calc(275.34 / 1062 * 100%);
+  width: calc(99.92 / 1440 * 100%);
+  height: calc(99.84 / 1062 * 100%);
+  z-index: 5;
+}
+
+/* Workshops — 1125.28,251.08,117.84×111.72 */
+.home-item--workshops {
+  left: calc(1125.28 / 1440 * 100%);
+  top: calc(251.08 / 1062 * 100%);
+  width: calc(117.84 / 1440 * 100%);
+  height: calc(111.72 / 1062 * 100%);
+  z-index: 5;
+}
+
+/* Phone — 486.11,483.11,233.88×155.83 */
+.home-item--phone {
+  left: calc(486.11 / 1440 * 100%);
+  top: calc(483.11 / 1062 * 100%);
+  width: calc(233.88 / 1440 * 100%);
+  height: calc(155.83 / 1062 * 100%);
+  z-index: 6;
+}
+
+/* Books — 714.59,497.25,191.66×127.67 */
+.home-item--books {
+  left: calc(714.59 / 1440 * 100%);
+  top: calc(497.25 / 1062 * 100%);
+  width: calc(191.66 / 1440 * 100%);
+  height: calc(127.67 / 1062 * 100%);
+  z-index: 6;
+}
+
+/* Logo — 0,893.70,168.30×168.30 */
+.home-item--logo {
+  left: 0;
+  top: calc(893.7 / 1062 * 100%);
+  width: calc(168.3 / 1440 * 100%);
+  height: calc(168.3 / 1062 * 100%);
+  z-index: 7;
+}
+
+.home-item--logo img {
+  object-fit: contain;
+}
+
+/* H1 below hero — measured ~y 1085, ~91px Gulash */
+.home-title {
+  margin: 0;
+  padding: 1.1rem 1rem 2.5rem;
+  text-align: center;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(2.4rem, 6.35vw, 5.71rem);
+  line-height: 1.2;
+  color: #000;
+}
+
+/* Left social rail — FB y≈384, WA y≈459, size ≈57 @ 1440×900 viewport */
+.home-social {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 40;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
+
+.home-social a {
+  pointer-events: auto;
+  position: fixed;
+  left: 0;
+  width: calc(57.09 / 1440 * 100vw);
+  height: calc(57.09 / 1440 * 100vw);
+  max-width: 57px;
+  max-height: 57px;
+  border-radius: 999px;
+  background: #1a1a1a;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease;
+}
+
+.home-social a:hover {
+  transform: scale(1.06);
+}
+
+.home-social__fb {
+  top: calc(383.91 / 900 * 100vh);
+}
+
+.home-social__wa {
+  top: calc(459 / 900 * 100vh);
+}
+
+/* Accessibility FAB — ~20,825,55×55 @ 1440×900 */
+.home-a11y {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  z-index: 45;
+  width: 55px;
+  height: 55px;
+  border-radius: 999px;
+  background: #7ec8d4;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+}
+
+/* Home header: logo is in-scene; Wix uses drawer menu (no top link row) */
+.page--home .site-header--home .site-header__logo {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.page--home .site-header--home .site-header__desktop {
+  display: none;
+}
+
+.page--home .site-header--home .site-header__burger {
+  display: inline-block;
+  margin-inline-start: auto;
+}
+
+.page--home .site-header--home .mobile-menu {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .home-social a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .home-a11y {
+    width: 48px;
+    height: 48px;
+    left: 12px;
+    bottom: 12px;
+  }
+
+  .home-label--gift {
+    font-size: calc(14 / 900 * 100vw);
+  }
+
+  .home-label--consult {
+    font-size: calc(14 / 900 * 100vw);
+  }
+}
+
+@media (max-width: 560px) {
+  .home-title {
+    font-size: 2rem;
+    padding-inline: 0.75rem;
+  }
+
+  .home-social__fb,
+  .home-social__wa {
+    /* Keep usable on short phones */
+    top: auto;
+  }
+
+  .home-social__fb {
+    bottom: 120px;
+  }
+
+  .home-social__wa {
+    bottom: 72px;
+  }
+}

@@ -1,0 +1,97 @@
+:root {
+  /* Wix theme colors (RGB channels) */
+  --color-0: 255, 255, 255;
+  --color-1: 255, 255, 255;
+  --color-2: 0, 0, 0;
+  --color-8: 255, 255, 255;
+  --color-11: 255, 255, 255;
+  --color-12: 240, 240, 240;
+  --color-14: 110, 110, 110;
+  --color-15: 0, 0, 0;
+  --color-16: 192, 231, 231;
+  --color-17: 155, 208, 208;
+  --color-18: 90, 184, 184;
+  --color-19: 60, 123, 123;
+  --color-20: 30, 61, 61;
+  --color-21: 210, 193, 182;
+  --color-22: 166, 147, 136;
+  --color-23: 121, 101, 88;
+  --color-24: 76, 51, 35;
+  --color-25: 38, 26, 18;
+  --color-26: 242, 234, 231;
+  --color-27: 229, 206, 192;
+  --color-28: 169, 128, 111;
+  --color-29: 139, 97, 79;
+  --color-30: 99, 60, 43;
+  --color-31: 255, 233, 223;
+  --color-32: 255, 191, 161;
+  --color-33: 250, 133, 79;
+  --color-34: 234, 96, 32;
+
+  --bg-page: rgb(var(--color-26));
+  --bg-section: rgb(var(--color-31));
+  --bg-cream: #f7f1ec;
+  --bg-soft: #f2eae7;
+  --text-main: rgb(var(--color-25));
+  --text-muted: rgb(var(--color-23));
+  --accent: rgb(var(--color-28));
+  --accent-strong: rgb(var(--color-29));
+  --teal: rgb(var(--color-18));
+  --teal-dark: rgb(var(--color-19));
+  --header-height: 88px;
+  --content-max: 980px;
+  --page-pad: clamp(1rem, 4vw, 3rem);
+  --font-body: "Almoni DL", "Assistant", "Arial Hebrew", Arial, sans-serif;
+  --font-display: "Gulash", "Almoni DL", "Assistant", Arial, sans-serif;
+  --font-ui: "Madefor Text", "Almoni DL", Arial, sans-serif;
+  --shadow-soft: 0 8px 28px rgba(38, 26, 18, 0.12);
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --z-header: 1000;
+  --z-menu: 1100;
+  --z-lightbox: 1200;
+  --z-whatsapp: 1050;
+}
+
+@font-face {
+  font-family: "Almoni DL";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/almoni-dl-aaa-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Gulash";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/gulash-w26-regular.hebrew.woff2") format("woff2");
+  unicode-range: U+05B0-05C7, U+05D0-05EA, U+05F0-05F4, U+200C-200F, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+@font-face {
+  font-family: "Gulash";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/gulash-w26-regular.latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F;
+}
+
+@font-face {
+  font-family: "Madefor Text";
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url("/assets/fonts/madefor-text.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Karantina";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/assets/fonts/karantina-light.woff2") format("woff2");
+}

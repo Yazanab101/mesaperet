@@ -1,0 +1,57 @@
+.testimonials-page__top {
+  background: rgb(var(--color-26));
+}
+
+.testimonials-page__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.testimonials-page__tabs a {
+  padding: 0.55rem 1.1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(var(--color-28), 0.25);
+}
+
+.testimonials-page__tabs a:hover {
+  background: rgb(var(--color-28));
+  color: #fff;
+}
+
+.testimonials-page__block {
+  background: linear-gradient(180deg, rgb(var(--color-31)), rgb(var(--color-26)));
+  scroll-margin-top: calc(var(--header-height) + 12px);
+}
+
+.testimonials-page__block--alt {
+  background: rgb(var(--color-26));
+}
+
+.testimonials-page__h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.35rem, 3vw, 1.9rem);
+  font-weight: 400;
+  text-align: center;
+  margin: 0 0 1.25rem;
+}
+
+.testimonials-page__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.testimonials-page .gallery--masonry .gallery__item {
+  aspect-ratio: auto;
+}
+
+.testimonials-page .gallery--masonry .gallery__item img {
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+  background: #fff;
+}

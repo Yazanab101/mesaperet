@@ -1,0 +1,35 @@
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  min-height: 48px;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  background: #25d366;
+  color: #fff;
+  font-size: 1.05rem;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.whatsapp-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.05);
+}
+
+.whatsapp-btn--floating {
+  position: fixed;
+  inset-inline-start: 1rem;
+  bottom: 1rem;
+  z-index: var(--z-whatsapp);
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border-radius: 999px;
+}
+
+.whatsapp-btn--floating svg {
+  width: 28px;
+  height: 28px;
+}

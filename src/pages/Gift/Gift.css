@@ -1,0 +1,32 @@
+.gift-page__body {
+  background: linear-gradient(180deg, rgb(var(--color-31)), rgb(var(--color-26)));
+}
+
+.gift-page__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: center;
+}
+
+.gift-page__image {
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+  background: #fff;
+}
+
+.gift-page__image img {
+  width: 100%;
+  display: block;
+}
+
+.gift-page__cta {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 860px) {
+  .gift-page__grid {
+    grid-template-columns: 1fr;
+  }
+}

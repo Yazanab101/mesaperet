@@ -1,0 +1,48 @@
+.about-page__intro {
+  background: rgb(var(--color-26));
+}
+
+.about-page__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+}
+
+.about-page__portrait {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: var(--shadow-soft);
+}
+
+.about-page__portrait img {
+  width: 100%;
+  aspect-ratio: 5 / 6;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.about-page__copy {
+  max-width: 42rem;
+}
+
+.about-page__certs {
+  background: linear-gradient(180deg, rgb(var(--color-31)), rgb(var(--color-26)));
+}
+
+.about-page__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 860px) {
+  .about-page__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-page__portrait {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+}
