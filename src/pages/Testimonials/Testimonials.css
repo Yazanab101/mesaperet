@@ -1,12 +1,12 @@
 /* Testimonials — measured from live Wix @ 1440×900 */
 
 .testimonials-page {
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .testimonials-page__featured {
   padding: 1rem 0 0.5rem;
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .testimonials-page__stack {
@@ -131,7 +131,7 @@
 
 .testimonials-page__block {
   padding: 0.85rem 0 1.5rem;
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .testimonials-page__cta-band {

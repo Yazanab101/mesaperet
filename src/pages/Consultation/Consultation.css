@@ -1,12 +1,12 @@
 /* Consultation — measured from live Wix @ 1440×900 */
 
 .consultation-page {
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .consultation-page__intro {
   padding: clamp(1.25rem, 2.5vw, 2rem) 0 0.5rem;
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .consultation-page__intro-grid {
@@ -67,7 +67,7 @@
 
 .consultation-page__past {
   padding: clamp(1.25rem, 2.5vw, 2rem) 0 0.75rem;
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .consultation-page__past-grid {

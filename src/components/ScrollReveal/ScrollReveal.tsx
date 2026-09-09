@@ -17,6 +17,7 @@ export function ScrollReveal({ children, className = "", delay = 0 }: Props) {
       setVisible(true);
       return;
     }
+    const scrollRoot = document.getElementById("site-scroll");
     const io = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
@@ -24,7 +25,11 @@ export function ScrollReveal({ children, className = "", delay = 0 }: Props) {
           io.disconnect();
         }
       },
-      { threshold: 0, rootMargin: "120px 0px 120px 0px" },
+      {
+        root: scrollRoot,
+        threshold: 0,
+        rootMargin: "120px 0px 120px 0px",
+      },
     );
     io.observe(node);
     return () => io.disconnect();

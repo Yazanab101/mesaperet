@@ -1,12 +1,12 @@
 /* About page — measured from live Wix @ 1440×900 */
 
 .about-page {
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .about-page__intro {
   padding: clamp(1.5rem, 3vw, 2.5rem) 0;
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .about-page__grid {
@@ -52,7 +52,7 @@
 
 .about-page__certs {
   padding: clamp(1.25rem, 3vw, 2.75rem) 1rem 1rem;
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
 .about-page__cta-band {

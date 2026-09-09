@@ -1,5 +1,9 @@
+.contact-page {
+  background: rgb(240, 240, 240);
+}
+
 .contact-page__body {
-  background: linear-gradient(180deg, rgb(var(--color-31)), rgb(var(--color-26)));
+  background: rgb(240, 240, 240);
 }
 
 .contact-page__grid {

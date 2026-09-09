@@ -31,7 +31,7 @@ export function PageHero({
   as = "h1",
   band = "hero",
   titleSize,
-  objectPosition = "50% 70%",
+  objectPosition,
   className = "",
   id,
 }: Props) {
@@ -53,6 +53,13 @@ export function PageHero({
         ? "page-hero__title page-hero__title--md"
         : "page-hero__title";
 
+  /* Live Wix: page H1 uses fp_0.50_0.70; category/section bands use fp_0.50_0.13 */
+  const resolvedPosition =
+    objectPosition ??
+    (band === "section" || band === "section-short" || band === "bleed"
+      ? "50% 13%"
+      : "50% 70%");
+
   return (
     <section
       id={id}
@@ -71,7 +78,7 @@ export function PageHero({
           className="page-hero__bg"
           src={ASSETS.bannerMagic}
           alt={bannerAlt}
-          style={{ objectPosition }}
+          style={{ objectPosition: resolvedPosition }}
         />
         <Heading className={titleClass}>{title}</Heading>
       </div>

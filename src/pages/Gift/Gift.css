@@ -1,12 +1,12 @@
 /* Gift / שובר — measured from live Wix @ 1440×900 */
 
 .gift-page {
-  background: #fff;
+  background: rgb(240, 240, 240);
 }
 
-/* Content section: solid #efefef, ~627px tall @ 1440 */
+/* Content section — same underlay as Workshops */
 .gift-page__body {
-  background: rgb(239, 239, 239);
+  background: rgb(240, 240, 240);
   padding: 0;
 }
 

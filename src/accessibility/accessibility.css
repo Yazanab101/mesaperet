@@ -182,9 +182,14 @@ html.a11y-enabled.a11y-highlight-links .page-main [role="link"] {
   background-color: rgba(33, 150, 243, 0.12) !important;
 }
 
-/* Apply grayscale to page shell only — widget is a sibling outside .page */
+/* Apply grayscale to page shell only — header/widget are siblings outside .page */
 html.a11y-enabled.a11y-grayscale .page {
   filter: grayscale(1);
+}
+
+/* Keep fixed header from inheriting page grayscale when it was nested historically */
+html.a11y-enabled.a11y-grayscale .site-header {
+  filter: none;
 }
 
 html.a11y-enabled.a11y-stop-motion *,

@@ -58,4 +58,6 @@ export const ASSETS = {
   giftVoucher: asset("44c6b1_5b6e5a78cb0a486c9cc2ac17d555f4f6~mv2.jpg"),
   consultationMain: asset("44c6b1_8862bb24c91048d79934a925b5e671a8~mv2.jpeg"),
   pastLife: asset("44c6b1_2e18af6245da4c5d9e96e60c8e20e55e~mv2.jpg"),
+  socialFacebook: asset("social-facebook.png"),
+  socialWhatsapp: asset("social-whatsapp.png"),
 } as const;

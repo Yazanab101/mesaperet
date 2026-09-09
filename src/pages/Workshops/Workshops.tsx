@@ -23,7 +23,7 @@ export function WorkshopsPage() {
           <div className="workshops-page__logos-track">
             {[...clientLogos, ...clientLogos, ...clientLogos].map((logo, i) => (
               <div className="workshops-page__logo" key={`${logo.src}-${i}`}>
-                <img src={logo.src} alt={logo.alt} loading="lazy" />
+                <img src={logo.src} alt={logo.alt} loading="lazy" decoding="async" />
               </div>
             ))}
           </div>
