@@ -1,0 +1,213 @@
+{
+  "comp-meepdva1": {
+    "viewport-enter": {
+      "comp-meepdva1": [
+        {
+          "triggerBpRange": {
+            "max": 319
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-meepmjae",
+                "id": "reactions-meepmjag",
+                "once": true
+              }
+            }
+          ]
+        },
+        {
+          "triggerBpRange": {
+            "min": 320,
+            "max": 750
+          },
+          "reactions": []
+        },
+        {
+          "triggerBpRange": {
+            "min": 751
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-meepmjae",
+                "id": "reactions-meepmjag",
+                "once": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "comp-meepcjt5": {
+    "viewport-enter": {
+      "comp-meepcjt5": [
+        {
+          "triggerBpRange": {
+            "max": 319
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-meepl4wp",
+                "id": "reactions-meepl4x5",
+                "once": true
+              }
+            }
+          ]
+        },
+        {
+          "triggerBpRange": {
+            "min": 320,
+            "max": 750
+          },
+          "reactions": []
+        },
+        {
+          "triggerBpRange": {
+            "min": 751
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-meepl4wp",
+                "id": "reactions-meepl4x5",
+                "once": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "comp-msvpjomp": {
+    "viewport-enter": {
+      "comp-msvpjomp": [
+        {
+          "triggerBpRange": {
+            "max": 319
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-msvpjoor",
+                "id": "reactions-msvpjoov1",
+                "once": true
+              }
+            }
+          ]
+        },
+        {
+          "triggerBpRange": {
+            "min": 320,
+            "max": 750
+          },
+          "reactions": []
+        },
+        {
+          "triggerBpRange": {
+            "min": 751
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-msvpjoor",
+                "id": "reactions-msvpjoov1",
+                "once": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "comp-luod3uiz": {
+    "hover": {
+      "comp-luod3uiz": [
+        {
+          "triggerBpRange": {
+            "max": 319
+          },
+          "reactions": [
+            {
+              "type": "AddState",
+              "reactionData": {
+                "name": "variants-luodc0y6",
+                "id": "reactions-luodc0y9"
+              }
+            }
+          ]
+        },
+        {
+          "triggerBpRange": {
+            "min": 320,
+            "max": 750
+          },
+          "reactions": []
+        },
+        {
+          "triggerBpRange": {
+            "min": 751
+          },
+          "reactions": [
+            {
+              "type": "AddState",
+              "reactionData": {
+                "name": "variants-luodc0y6",
+                "id": "reactions-luodc0y9"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "viewport-enter": {
+      "comp-luod3uiz": [
+        {
+          "triggerBpRange": {
+            "max": 319
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-meepwnq9",
+                "id": "reactions-meepwnqc",
+                "once": true
+              }
+            }
+          ]
+        },
+        {
+          "triggerBpRange": {
+            "min": 320,
+            "max": 750
+          },
+          "reactions": []
+        },
+        {
+          "triggerBpRange": {
+            "min": 751
+          },
+          "reactions": [
+            {
+              "type": "Play",
+              "reactionData": {
+                "effect": "effects-meepwnq9",
+                "id": "reactions-meepwnqc",
+                "once": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

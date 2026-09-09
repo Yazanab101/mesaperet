@@ -72,6 +72,7 @@
   width: calc(372.44 / 1440 * 100%);
   height: calc(350.81 / 1062 * 100%);
   z-index: 4;
+  overflow: hidden; /* RevealIn wipe only — box size unchanged */
 }
 
 .home-item--portrait img {

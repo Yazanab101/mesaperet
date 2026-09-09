@@ -1,31 +1,76 @@
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+import { motion, useReducedMotion } from "framer-motion";
 import type { ReactNode } from "react";
 import { ASSETS, FACEBOOK_URL, ROUTES, WHATSAPP_URL } from "../../data/site";
 import { usePageMeta } from "../../hooks/usePageMeta";
 import "./Home.css";
 
+/** Wix Motions cubicInOut */
+const WIX_EASE = [0.645, 0.045, 0.355, 1] as const;
+
+type MotionPreset = "fadeUp" | "slideLeft" | "slideRight" | "revealTop" | "bounceTop";
+
 function Item({
   className,
   delay = 0,
+  preset = "fadeUp",
   children,
 }: {
   className: string;
   delay?: number;
+  preset?: MotionPreset;
   children: ReactNode;
 }) {
+  const reduceMotion = useReducedMotion();
+  const props = reduceMotion ? {} : motionProps(preset, delay);
+
   return (
     <div className={`home-item ${className}`} data-home-item={className.replace("home-item--", "")}>
-      <motion.div
-        className="home-item__motion"
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] }}
-      >
+      <motion.div className="home-item__motion" {...(props as object)}>
         {children}
       </motion.div>
     </div>
   );
+}
+
+/**
+ * Live me-saperet.com entrance (thunderbolt motion):
+ * chairs SlideIn L/R 3s · portrait RevealIn top 1.2s · phone BounceIn top @ 3.4s
+ * Animates transform/opacity/clip-path only — layout boxes stay identical.
+ */
+function motionProps(preset: MotionPreset, delay: number) {
+  switch (preset) {
+    case "slideLeft":
+      return {
+        initial: { x: "-100%" },
+        animate: { x: "0%" },
+        transition: { duration: 3, delay, ease: WIX_EASE },
+      };
+    case "slideRight":
+      return {
+        initial: { x: "100%" },
+        animate: { x: "0%" },
+        transition: { duration: 3, delay, ease: WIX_EASE },
+      };
+    case "revealTop":
+      return {
+        initial: { clipPath: "inset(0 0 100% 0)" },
+        animate: { clipPath: "inset(0 0 0% 0)" },
+        transition: { duration: 1.2, delay, ease: WIX_EASE },
+      };
+    case "bounceTop":
+      return {
+        initial: { y: "-100%", opacity: 0 },
+        animate: { y: ["-100%", "12%", "-4%", "0%"], opacity: [0, 1, 1, 1] },
+        transition: { duration: 1.2, delay, ease: WIX_EASE, times: [0, 0.55, 0.78, 1] },
+      };
+    default:
+      return {
+        initial: { opacity: 0, y: 10 },
+        animate: { opacity: 1, y: 0 },
+        transition: { duration: 0.65, delay, ease: [0.22, 1, 0.36, 1] as const },
+      };
+  }
 }
 
 /** Decorative Wix vector “חץ למטה” near gift — rotate ~24° */
@@ -61,16 +106,16 @@ export function HomePage() {
           data-home-item="bg"
         />
 
-        <Item className="home-item--portrait" delay={0.06}>
+        <Item className="home-item--portrait" preset="revealTop">
           <Link to={ROUTES.about} aria-label="אודות" className="home-hotspot">
             <img src={ASSETS.portraitHome} alt="תמונה" />
           </Link>
         </Item>
 
-        <Item className="home-item--chair-l" delay={0.12}>
+        <Item className="home-item--chair-l" preset="slideLeft">
           <img src={ASSETS.chairLeft} alt="" aria-hidden="true" className="decorative-overlay" />
         </Item>
-        <Item className="home-item--chair-r" delay={0.14}>
+        <Item className="home-item--chair-r" preset="slideRight">
           <img src={ASSETS.chairRight} alt="" aria-hidden="true" className="decorative-overlay" />
         </Item>
 
@@ -102,7 +147,7 @@ export function HomePage() {
           </Link>
         </Item>
 
-        <Item className="home-item--phone" delay={0.36}>
+        <Item className="home-item--phone" preset="bounceTop" delay={3.4}>
           <Link to={ROUTES.contact} className="home-hotspot">
             <img src={ASSETS.contactOrb} alt="צרו קשר" />
           </Link>
