@@ -147,13 +147,14 @@ export const clientLogos = [
   { src: asset("44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg"), alt: "אמן" },
 ];
 
-/** Category jump cards — LTR order as measured on source (mothers leftmost) */
+/** Category jump cards — LTR order as measured on source (mothers leftmost)
+ *  ?v=2 busts CDN/browser cache after teal/brown fill update */
 export const workshopNavCards = [
-  { id: "mothers", title: "בוקר אמהות", icon: asset("workshop-cats/mothers.svg") },
-  { id: "bachelorette", title: "מסיבת רווקות", icon: asset("workshop-cats/bachelorette.svg") },
-  { id: "home-circles", title: "חוגי בית, ימי הולדת ומפגשי גיבוש", icon: asset("workshop-cats/home-circles.svg") },
-  { id: "retreats", title: "ריטריטים", icon: asset("workshop-cats/retreats.svg") },
-  { id: "company", title: "ארועי חברה וסדנאות", icon: asset("workshop-cats/company.svg") },
+  { id: "mothers", title: "בוקר אמהות", icon: `${asset("workshop-cats/mothers.svg")}?v=2` },
+  { id: "bachelorette", title: "מסיבת רווקות", icon: `${asset("workshop-cats/bachelorette.svg")}?v=2` },
+  { id: "home-circles", title: "חוגי בית, ימי הולדת ומפגשי גיבוש", icon: `${asset("workshop-cats/home-circles.svg")}?v=2` },
+  { id: "retreats", title: "ריטריטים", icon: `${asset("workshop-cats/retreats.svg")}?v=2` },
+  { id: "company", title: "ארועי חברה וסדנאות", icon: `${asset("workshop-cats/company.svg")}?v=2` },
 ] as const;
 
 export const workshopCategories = [
