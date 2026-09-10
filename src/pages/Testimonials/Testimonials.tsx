@@ -57,7 +57,7 @@ export function TestimonialsPage() {
       <PageHero
         title="איך היה?"
         as="h2"
-        band="section"
+        band="bleed"
         titleSize="md"
         className="testimonials-page__how-was"
       />
@@ -83,7 +83,7 @@ export function TestimonialsPage() {
       />
 
       <section className="testimonials-page__block" aria-label="המלצות ממפגשים אישיים">
-        <div className="testimonials-page__stack">
+        <div className="testimonials-page__stack testimonials-page__stack--screens">
           <Gallery images={[...personalTestimonials]} variant="stack" />
         </div>
       </section>
@@ -98,7 +98,7 @@ export function TestimonialsPage() {
       />
 
       <section className="testimonials-page__block" aria-label="המלצות מסדנאות">
-        <div className="testimonials-page__stack">
+        <div className="testimonials-page__stack testimonials-page__stack--screens">
           <Gallery images={[...workshopTestimonials]} variant="stack" />
         </div>
       </section>
