@@ -147,8 +147,7 @@ export const clientLogos = [
   { src: asset("44c6b1_9dc1dd5140aa413da88708d553154097~mv2.jpeg"), alt: "אמן" },
 ];
 
-/** Category jump cards — LTR order as measured on source (mothers leftmost)
- *  ?v=2 busts CDN/browser cache after teal/brown fill update */
+/** Category jump cards — kept for assets/reference; UI removed per client */
 export const workshopNavCards = [
   { id: "mothers", title: "בוקר אמהות", icon: `${asset("workshop-cats/mothers.svg")}?v=2` },
   { id: "bachelorette", title: "מסיבת רווקות", icon: `${asset("workshop-cats/bachelorette.svg")}?v=2` },

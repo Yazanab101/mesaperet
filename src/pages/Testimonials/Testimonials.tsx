@@ -54,7 +54,13 @@ export function TestimonialsPage() {
         </div>
       </section>
 
-      <PageHero title="איך היה?" as="h2" band="bleed" titleSize="md" />
+      <PageHero
+        title="איך היה?"
+        as="h2"
+        band="section"
+        titleSize="md"
+        className="testimonials-page__how-was"
+      />
 
       <nav className="testimonials-page__cats" aria-label="סוגי המלצות">
         {testimonialNavCards.map((cat) => (

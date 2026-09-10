@@ -144,11 +144,11 @@
   transform: scale(1.02);
 }
 
-/* Testimonials screenshot stacks — single column, natural height */
+/* Testimonials screenshot stacks — soft delicate frames */
 .gallery--stack .gallery__track {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 
 .gallery--stack .gallery__item {
@@ -156,10 +156,12 @@
   width: 100%;
   height: auto;
   aspect-ratio: unset;
-  border-radius: 0;
-  box-shadow: none;
+  border-radius: 2px;
+  border: 1px solid rgba(38, 26, 18, 0.14);
+  box-shadow: 0 1px 4px rgba(38, 26, 18, 0.06);
   cursor: zoom-in;
   overflow: hidden;
+  background: #fff;
 }
 
 .gallery--stack .gallery__item img {

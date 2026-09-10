@@ -1,22 +1,21 @@
-/* Consultation — measured from live Wix @ 1440×900 */
+/* Consultation — wider side margins (client): content ≤1100, inset ~170 @1440 */
 
 .consultation-page {
   background: rgb(240, 240, 240);
 }
 
 .consultation-page__intro {
-  padding: clamp(1.25rem, 2.5vw, 2rem) 0 0.5rem;
+  padding: clamp(1.25rem, 2.5vw, 2rem) clamp(1rem, 6vw, 170px) 0.5rem;
   background: rgb(240, 240, 240);
 }
 
 .consultation-page__intro-grid {
-  /* Source: portrait left, copy right (LTR coords) */
   direction: ltr;
-  width: min(100% - 2rem, 1210px);
+  width: min(100%, 1100px);
   margin-inline: auto;
   display: grid;
-  grid-template-columns: minmax(0, 605px) minmax(0, 551px);
-  gap: 28px;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: clamp(1.25rem, 2.5vw, 29px);
   align-items: start;
   justify-content: center;
 }
@@ -38,9 +37,11 @@
 .consultation-page__copy {
   direction: rtl;
   font-family: var(--font-body);
-  font-size: clamp(1rem, 1.27vw, 1.142rem);
+  font-size: 18.2709px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.75;
+  letter-spacing: 0.015em;
+  word-spacing: 0.04em;
   color: #000;
   text-align: right;
   padding-top: 0.35rem;
@@ -48,6 +49,12 @@
 
 .consultation-page__copy p {
   margin: 0 0 0.85em;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
 }
 
 .consultation-page__copy p:last-child {
@@ -59,24 +66,23 @@
 }
 
 .consultation-page__gallery {
-  width: min(100% - 2rem, 1450px);
-  max-width: 1210px;
+  width: min(100% - clamp(2rem, 12vw, 340px), 1100px);
   margin: 1.25rem auto 1.75rem;
   padding-inline: 0;
 }
 
 .consultation-page__past {
-  padding: clamp(1.25rem, 2.5vw, 2rem) 0 0.75rem;
+  padding: clamp(1.25rem, 2.5vw, 2rem) clamp(1rem, 6vw, 170px) 0.75rem;
   background: rgb(240, 240, 240);
 }
 
 .consultation-page__past-grid {
   direction: ltr;
-  width: min(100% - 2rem, 1180px);
+  width: min(100%, 1100px);
   margin-inline: auto;
   display: grid;
-  grid-template-columns: minmax(0, 560px) minmax(0, 561px);
-  gap: 46px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: clamp(1.5rem, 3.2vw, 46px);
   align-items: start;
   justify-content: center;
 }
@@ -96,9 +102,11 @@
 .consultation-page__past-copy {
   direction: rtl;
   font-family: var(--font-body);
-  font-size: clamp(1rem, 1.27vw, 1.142rem);
+  font-size: 18.2709px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 1.75;
+  letter-spacing: 0.015em;
+  word-spacing: 0.04em;
   color: #000;
   text-align: right;
   padding-top: 0.15rem;
@@ -106,12 +114,24 @@
 
 .consultation-page__past-copy p {
   margin: 0 0 0.85em;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
 }
 
 .consultation-page__lead {
   font-size: clamp(1.25rem, 1.98vw, 1.784rem) !important;
   line-height: 1.45 !important;
   margin-bottom: 1.1em !important;
+}
+
+/* Past-life section hero: keep same side inset rhythm */
+.consultation-page .page-hero:not(:first-child) .page-hero__band {
+  width: min(100% - clamp(2rem, 12vw, 340px), 1100px);
+  margin-inline: auto;
 }
 
 .consultation-page__cta-band {
@@ -144,11 +164,16 @@
 }
 
 @media (max-width: 900px) {
+  .consultation-page__intro,
+  .consultation-page__past {
+    padding-inline: 1rem;
+  }
+
   .consultation-page__intro-grid,
   .consultation-page__past-grid {
     grid-template-columns: 1fr;
     direction: rtl;
-    width: min(100% - 2rem, 420px);
+    width: min(100%, 420px);
     gap: 1.25rem;
   }
 
@@ -158,18 +183,10 @@
     margin-inline: auto;
   }
 
-  .consultation-page__portrait img {
-    aspect-ratio: 605 / 679;
-  }
-
-  .consultation-page__past-media img {
-    aspect-ratio: 560 / 823;
-  }
-
   .consultation-page__copy,
   .consultation-page__past-copy {
     font-size: 18px;
-    line-height: 28.8px;
+    line-height: 1.7;
   }
 
   .consultation-page__lead {
@@ -178,6 +195,10 @@
 
   .consultation-page__gallery {
     width: min(100% - 1.25rem, 720px);
+  }
+
+  .consultation-page .page-hero:not(:first-child) .page-hero__band {
+    width: 100%;
   }
 
   .consultation-page__cta-band-inner {

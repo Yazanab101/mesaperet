@@ -1,8 +1,11 @@
 import { useState, type FormEvent } from "react";
+import { asset } from "../../data/site";
 import { submitContactForm } from "../../services/contact";
 import "./ContactForm.css";
 
 type Status = "idle" | "submitting" | "success" | "error";
+
+const FLAG_IL = asset("contact/flag-il.png");
 
 export function ContactForm() {
   const [fullName, setFullName] = useState("");
@@ -48,8 +51,10 @@ export function ContactForm() {
 
   return (
     <form className="contact-form" onSubmit={onSubmit} noValidate>
+      <h2 className="contact-form__title">צרו קשר</h2>
+
       <div className="contact-form__field">
-        <label htmlFor="contact-name">שם פרטי ומשפחה *</label>
+        <label htmlFor="contact-name">שם פרטי ומשפחה*</label>
         <input
           id="contact-name"
           type="text"
@@ -64,22 +69,28 @@ export function ContactForm() {
       </div>
 
       <div className="contact-form__field">
-        <label htmlFor="contact-phone">טלפון *</label>
-        <input
-          id="contact-phone"
-          type="tel"
-          name="phone"
-          placeholder="טלפון"
-          aria-label="טלפון. מספר טלפון"
-          value={phone}
-          onChange={(e) => setPhone(e.target.value)}
-          required
-          autoComplete="tel"
-        />
+        <label htmlFor="contact-phone">טלפון*</label>
+        <div className="contact-form__phone-wrap">
+          <span className="contact-form__flag" aria-hidden="true">
+            <img src={FLAG_IL} alt="" width={22} height={22} />
+            <span className="contact-form__flag-caret">▾</span>
+          </span>
+          <input
+            id="contact-phone"
+            type="tel"
+            name="phone"
+            placeholder="טלפון"
+            aria-label="טלפון. מספר טלפון"
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            required
+            autoComplete="tel"
+          />
+        </div>
       </div>
 
       <div className="contact-form__field">
-        <label htmlFor="contact-email">אימייל *</label>
+        <label htmlFor="contact-email">אימייל*</label>
         <input
           id="contact-email"
           type="email"
@@ -100,13 +111,13 @@ export function ContactForm() {
           name="message"
           placeholder="הודעה"
           aria-label="הודעה"
-          rows={5}
+          rows={4}
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
       </div>
 
-      <button type="submit" className="cta-pill" disabled={status === "submitting"}>
+      <button type="submit" className="contact-form__submit" disabled={status === "submitting"}>
         {status === "submitting" ? "שולח..." : "שליחה"}
       </button>
 

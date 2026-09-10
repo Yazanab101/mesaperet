@@ -42,9 +42,10 @@
   --header-height-mobile: 96px;
   --content-max: 980px;
   --page-pad: clamp(1rem, 4vw, 3rem);
-  --font-body: "Almoni DL", "Assistant", "Arial Hebrew", Arial, sans-serif;
-  --font-display: "Gulash", "Almoni DL", "Assistant", Arial, sans-serif;
-  --font-ui: "Madefor Text", "Almoni DL", Arial, sans-serif;
+  /* Exact Wix face names first so computed font matches me-saperet.com */
+  --font-body: "almoni-dl-aaa-400", "Almoni DL", "Assistant", "Arial Hebrew", Arial, sans-serif;
+  --font-display: "gulash-w26-regular", "Gulash", "almoni-dl-aaa-400", "Almoni DL", Arial, sans-serif;
+  --font-ui: "Madefor Text", "almoni-dl-aaa-400", "Almoni DL", Arial, sans-serif;
   --shadow-soft: 0 8px 28px rgba(38, 26, 18, 0.12);
   --radius-sm: 8px;
   --radius-md: 16px;
@@ -62,11 +63,37 @@
 }
 
 @font-face {
+  font-family: "almoni-dl-aaa-400";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/almoni-dl-aaa-400.woff2") format("woff2");
+}
+
+@font-face {
   font-family: "Almoni DL";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
   src: url("/assets/fonts/almoni-dl-aaa-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "gulash-w26-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/gulash-w26-regular.hebrew.woff2") format("woff2");
+  unicode-range: U+05B0-05C7, U+05D0-05EA, U+05F0-05F4, U+200C-200F, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+@font-face {
+  font-family: "gulash-w26-regular";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/gulash-w26-regular.latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F;
 }
 
 @font-face {

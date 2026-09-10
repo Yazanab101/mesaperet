@@ -1,4 +1,4 @@
-import { clientLogos, workshopCategories, workshopNavCards, workshopsIntro } from "../../data/content";
+import { clientLogos, workshopCategories, workshopsIntro } from "../../data/content";
 import { ASSETS } from "../../data/site";
 import { PageHero } from "../../components/PageHero/PageHero";
 import { ScrollReveal } from "../../components/ScrollReveal/ScrollReveal";
@@ -36,17 +36,6 @@ export function WorkshopsPage() {
             ))}
           </div>
         </ScrollReveal>
-
-        <nav className="workshops-page__cats" aria-label="קטגוריות סדנאות">
-          {workshopNavCards.map((cat) => (
-            <a key={cat.id} className="workshops-page__cat" href={`#${cat.id}`}>
-              <span className="workshops-page__cat-icon" aria-hidden="true">
-                <img src={cat.icon} alt="" />
-              </span>
-              <span className="workshops-page__cat-label">{cat.title}</span>
-            </a>
-          ))}
-        </nav>
       </section>
 
       {workshopCategories.map((cat) => (
