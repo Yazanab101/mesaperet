@@ -1,8 +1,9 @@
-/* Testimonials — measured from live me-saperet.com @ 1440×900
+/* Testimonials — measured from live me-saperet.com @ 1440×900 + 390
  * Videos: 720×406 @ x360
  * Screenshot stacks: 432 @ x504
- * Cats: 477 @ x481
- * Section banners: full-bleed ~211px
+ * Cats desktop: 477 / cards 226×169 / svg 91 / gap 23
+ * Cats mobile:  335 / cards 162×103 / svg 67 / gap 10.4
+ * Titles mobile: איך היה 60/78 band 211; H3 50/65 bands 122 & 104
  */
 
 .testimonials-page {
@@ -80,24 +81,63 @@
   transform: scale(1.06);
 }
 
-/* «איך היה?» — full-bleed band like original (~211px) */
+/* Testimonials H1 — measured hero-short */
+.testimonials-page > .page-hero--hero-short .page-hero__band {
+  height: 140.4px;
+  min-height: 140.4px;
+  max-height: 140.4px;
+}
+
+.testimonials-page > .page-hero--hero-short .page-hero__title {
+  font-size: 148.454px;
+  line-height: 178.144px;
+  padding: 0 0.5rem;
+}
+/* «איך היה?» — full-bleed ~211 @1440; title 112.5 / 146.25
+ * Live Wix: title sits near bottom of band (not vertically centered) */
 .testimonials-page__how-was.page-hero--bleed .page-hero__band {
   width: 100%;
-  height: calc(210.8 / 1440 * 100vw);
+  height: 210.8px;
   max-height: 211px;
-  min-height: 140px;
+  min-height: 210.8px;
+  place-items: end center;
+  padding-bottom: 8px;
+  box-sizing: border-box;
 }
 
-.testimonials-page__how-was .page-hero__title {
-  font-size: clamp(2.75rem, 7.8vw, 7.03125rem);
+.testimonials-page__how-was .page-hero__title,
+.testimonials-page__how-was .page-hero__title--md,
+html.a11y-enabled .page-main .testimonials-page__how-was .page-hero__title {
+  font-size: 112.5px;
+  line-height: 146.25px;
+  padding: 0;
 }
 
-/* Category jump cards — measured Wix @1440: container 477, cards 226×169, gap 23
- * סדנאות brown #4C3323 · מפגשים teal #5AB8B8 · soft raised tile shadow */
+/* H3 section titles — desktop full-bleed 210.8, title 78.75; bottom-weighted like Wix */
+.testimonials-page__anchor.page-hero--bleed .page-hero__band {
+  width: 100%;
+  height: 210.8px;
+  max-height: 211px;
+  min-height: 210.8px;
+  place-items: end center;
+  padding-bottom: 0;
+  box-sizing: border-box;
+}
+
+.testimonials-page__anchor .page-hero__title,
+.testimonials-page__anchor .page-hero__title--sm,
+html.a11y-enabled .page-main .testimonials-page__anchor .page-hero__title {
+  font-size: 78.75px;
+  line-height: 102.375px;
+  padding: 0;
+}
+
+/* Category jump cards — desktop Wix: container 477, cards 226×169, svg 91, gap 23 */
 .testimonials-page__cats {
   direction: ltr;
-  width: min(100% - 2rem, 477px);
-  margin: 0.85rem auto 1.5rem;
+  width: min(100% - 2rem, 477.4px);
+  /* Live gap band→cards / cards→next ≈ 8px */
+  margin: 8px auto 8px;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 22.77px;
@@ -109,10 +149,12 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 0.35rem;
+  gap: 0.2rem;
   box-sizing: border-box;
-  min-height: 169px;
-  padding: 11.38px 0.5rem 0.85rem;
+  height: 168.5px;
+  min-height: 168.5px;
+  max-height: 168.5px;
+  padding: 11.38px 0.35rem;
   text-align: center;
   color: #000;
   text-decoration: none;
@@ -130,14 +172,14 @@
 .testimonials-page__cat-icon {
   display: grid;
   place-items: center;
-  width: 91px;
-  height: 91px;
+  width: 91.1px;
+  height: 91.1px;
   flex-shrink: 0;
 }
 
 .testimonials-page__cat-icon img {
-  width: 91px;
-  height: 91px;
+  width: 91.1px;
+  height: 91.1px;
   object-fit: contain;
   display: block;
   transform-origin: center center;
@@ -164,8 +206,8 @@
 
 .testimonials-page__cat-label {
   font-family: var(--font-body);
-  font-size: clamp(1rem, 1.4vw, 1.266rem);
-  line-height: 1.6;
+  font-size: 20.25px;
+  line-height: 32.4px;
 }
 
 .testimonials-page__anchor {
@@ -214,26 +256,94 @@
 }
 
 @media (max-width: 900px) {
-  /* Same mobile inset as Workshops galleries: ~39px sides @390 (20vw) */
+  /* H1 המלצות — 90 / 108, band 108 */
+  .testimonials-page > .page-hero--hero-short .page-hero__band {
+    height: 108px;
+    min-height: 108px;
+    max-height: 108px;
+  }
+
+  .testimonials-page > .page-hero--hero-short .page-hero__title {
+    font-size: 90px;
+    line-height: 108px;
+  }
+
+  /* Same mobile inset as Workshops galleries for media stacks */
   .testimonials-page__stack,
   .testimonials-page__stack--screens {
     width: min(100% - clamp(1.5rem, 20vw, 288px), 720px);
   }
 
+  /* «איך היה?» — tall band; title near bottom (Wix offset ~125 / pad-bottom ~8) */
+  .testimonials-page__how-was.page-hero--bleed .page-hero__band {
+    width: 100%;
+    height: 210.8px;
+    min-height: 210.8px;
+    max-height: 210.8px;
+    place-items: end center;
+    padding-bottom: 8px;
+  }
+
+  .testimonials-page__how-was .page-hero__title,
+  .testimonials-page__how-was .page-hero__title--md,
+  html.a11y-enabled .page-main .testimonials-page__how-was .page-hero__title {
+    font-size: 60px;
+    line-height: 78px;
+  }
+
+  /* H3 personal — band 121.7; workshops — band 104; title bottom-aligned */
+  .testimonials-page__anchor.page-hero--bleed .page-hero__band {
+    width: 100%;
+    place-items: end center;
+    padding-bottom: 0;
+  }
+
+  .testimonials-page__anchor--personal.page-hero--bleed .page-hero__band {
+    height: 121.7px;
+    min-height: 121.7px;
+    max-height: 121.7px;
+  }
+
+  .testimonials-page__anchor--workshops.page-hero--bleed .page-hero__band {
+    height: 104px;
+    min-height: 104px;
+    max-height: 104px;
+  }
+
+  .testimonials-page__anchor .page-hero__title,
+  .testimonials-page__anchor .page-hero__title--sm,
+  html.a11y-enabled .page-main .testimonials-page__anchor .page-hero__title {
+    font-size: 50px;
+    line-height: 65px;
+    max-width: none;
+    white-space: nowrap;
+  }
+
+  /* Cats mobile — gaps ~8px like live (was 0.55rem / 1rem → too open) */
   .testimonials-page__cats {
-    width: min(100% - clamp(1.5rem, 20vw, 288px), 420px);
-    gap: 0.85rem;
+    width: min(100% - 54.6px, 335.4px);
+    gap: 10.4px;
+    margin: 8px auto 8px;
   }
 
   .testimonials-page__cat {
-    min-height: 148px;
-    padding: 0.65rem 0.35rem 0.7rem;
+    height: 102.5px;
+    min-height: 102.5px;
+    max-height: 102.5px;
+    padding: 3.08px 0.25rem;
+    gap: 0;
+    box-shadow: rgba(0, 0, 0, 0.6) 0 0.5px 1.23px 0;
   }
 
   .testimonials-page__cat-icon,
   .testimonials-page__cat-icon img {
-    width: 72px;
-    height: 72px;
+    width: 67.3px;
+    height: 67.3px;
+  }
+
+  .testimonials-page__cat-label {
+    font-size: 16.64px;
+    line-height: 26.62px;
   }
 
   .testimonials-page__cta-band-inner {

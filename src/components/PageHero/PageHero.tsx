@@ -3,6 +3,8 @@ import "./PageHero.css";
 
 type Props = {
   title: string;
+  /** Soft break after this prefix on small screens only (workshops long titles) */
+  mobileBreakAfter?: string;
   breadcrumb?: string;
   bannerAlt?: string;
   /** Heading level — certificates / workshop / testimonial sections */
@@ -24,8 +26,23 @@ type Props = {
   id?: string;
 };
 
+function TitleText({ title, mobileBreakAfter }: { title: string; mobileBreakAfter?: string }) {
+  if (!mobileBreakAfter || !title.startsWith(mobileBreakAfter)) {
+    return <>{title}</>;
+  }
+  const rest = title.slice(mobileBreakAfter.length).replace(/^\s+/, "");
+  return (
+    <>
+      {mobileBreakAfter}
+      <span className="page-hero__mbreak" aria-hidden="true" />{" "}
+      {rest}
+    </>
+  );
+}
+
 export function PageHero({
   title,
+  mobileBreakAfter,
   breadcrumb,
   bannerAlt = "הקסם של נומרולוגיה",
   as = "h1",
@@ -80,7 +97,9 @@ export function PageHero({
           alt={bannerAlt}
           style={{ objectPosition: resolvedPosition }}
         />
-        <Heading className={titleClass}>{title}</Heading>
+        <Heading className={titleClass}>
+          <TitleText title={title} mobileBreakAfter={mobileBreakAfter} />
+        </Heading>
       </div>
     </section>
   );

@@ -190,7 +190,9 @@ export const workshopCategories = [
   {
     id: "home-circles",
     title: "חוגי בית, ימי הולדת ומפגשי גיבוש",
+    /* Mobile Wix: wraps via max-width (lh 42, band ~135); desktop 1 line */
     band: "section-short" as const,
+    multiline: true as const,
     images: [
       { src: asset("44c6b1_88a240aae49343d8916a4511c7d91698~mv2.jpeg"), alt: "סדנת נומרולוגיה ביום הולדת", objectPosition: "51% 37%" },
       { src: asset("44c6b1_cf56cda3b6624636afc8090f07a3c6e3~mv2.jpeg"), alt: "חוגי בית נומרולוגיה", objectPosition: "28% 21%" },

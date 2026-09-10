@@ -46,7 +46,14 @@ export function WorkshopsPage() {
             as="h2"
             band={cat.band}
             bannerAlt="הדרכות נומרולוגיה"
-            className="workshops-page__cat-hero"
+            className={[
+              "workshops-page__cat-hero",
+              "multiline" in cat && cat.multiline
+                ? "workshops-page__cat-hero--multiline"
+                : "",
+            ]
+              .filter(Boolean)
+              .join(" ")}
           />
           <div className="workshops-page__gallery-wrap">
             <ScrollReveal>

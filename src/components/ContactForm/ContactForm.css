@@ -187,15 +187,24 @@
 }
 
 @media (max-width: 900px) {
+  .contact-form {
+    max-width: 256px;
+    margin-inline: auto;
+  }
+
   .contact-form__title {
-    flex: none;
-    height: auto;
-    font-size: clamp(2.4rem, 14vw, 4rem);
-    line-height: 1.35;
-    margin-bottom: 1rem;
+    flex: 0 0 150px;
+    height: 150px;
+    font-size: 100px;
+    line-height: 150px;
+    margin-bottom: 24px;
+  }
+
+  .contact-form__submit {
+    width: min(100%, 248px);
   }
 
   .contact-form__field textarea {
-    resize: vertical;
+    resize: none;
   }
 }

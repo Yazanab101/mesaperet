@@ -79,7 +79,7 @@ export function TestimonialsPage() {
         as="h3"
         band="bleed"
         titleSize="sm"
-        className="testimonials-page__anchor"
+        className="testimonials-page__anchor testimonials-page__anchor--personal"
       />
 
       <section className="testimonials-page__block" aria-label="המלצות ממפגשים אישיים">
@@ -94,7 +94,7 @@ export function TestimonialsPage() {
         as="h3"
         band="bleed"
         titleSize="sm"
-        className="testimonials-page__anchor"
+        className="testimonials-page__anchor testimonials-page__anchor--workshops"
       />
 
       <section className="testimonials-page__block" aria-label="המלצות מסדנאות">
