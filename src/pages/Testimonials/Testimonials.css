@@ -1,4 +1,4 @@
-/* Testimonials — soft frames + framed «איך היה» banner */
+/* Testimonials — soft frames + framed «איך היה» + wider side margins */
 
 .testimonials-page {
   background: rgb(240, 240, 240);
@@ -9,19 +9,19 @@
   background: rgb(240, 240, 240);
 }
 
-/* Match original gallery wrapper ~720 with quieter side air */
+/* Quieter side air (~260px @1440), stack stays centered and narrow */
 .testimonials-page__stack {
-  width: min(100% - clamp(2rem, 22vw, 360px), 680px);
+  width: min(100% - clamp(2.5rem, 30vw, 520px), 640px);
   margin-inline: auto;
 }
 
-/* Soft delicate frame — not heavy black (client: ממסוגרים קצת בעדינות) */
+/* Soft delicate frame — thin edge + light lift (client: ממסוגרים קצת בעדינות) */
 .testimonials-page__video-card {
   margin: 0 0 20px;
-  border: 1px solid rgba(38, 26, 18, 0.14);
-  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  border-radius: 0;
   background: #fff;
-  box-shadow: 0 1px 4px rgba(38, 26, 18, 0.06);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
   overflow: hidden;
   padding: 0;
 }
@@ -71,7 +71,7 @@
 
 /* «איך היה?» — framed banner like section heroes (inset + banner media) */
 .testimonials-page__how-was.page-hero--section .page-hero__band {
-  width: min(100% - clamp(2rem, 18vw, 288px), 1000px);
+  width: min(100% - clamp(2.5rem, 30vw, 520px), 920px);
   margin-inline: auto;
   height: calc(211 / 1440 * 100vw);
   max-height: 211px;
@@ -86,7 +86,7 @@
 
 .testimonials-page__cats {
   direction: ltr;
-  width: min(100% - clamp(2rem, 22vw, 360px), 520px);
+  width: min(100% - clamp(2.5rem, 30vw, 520px), 480px);
   margin: 0.85rem auto 1.5rem;
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -154,7 +154,7 @@
 
 .testimonials-page .page-hero--bleed .page-hero__band,
 .testimonials-page .testimonials-page__anchor.page-hero--bleed .page-hero__band {
-  width: min(100% - clamp(2rem, 18vw, 288px), 1000px);
+  width: min(100% - clamp(2.5rem, 30vw, 520px), 920px);
   margin-inline: auto;
 }
 

@@ -1,17 +1,17 @@
-/* Consultation — wider side margins (client): content ≤1100, inset ~170 @1440 */
+/* Consultation — wider side margins (client): content ≤920, inset ~260 @1440 */
 
 .consultation-page {
   background: rgb(240, 240, 240);
 }
 
 .consultation-page__intro {
-  padding: clamp(1.25rem, 2.5vw, 2rem) clamp(1rem, 6vw, 170px) 0.5rem;
+  padding: clamp(1.25rem, 2.5vw, 2rem) clamp(1.5rem, 10vw, 260px) 0.5rem;
   background: rgb(240, 240, 240);
 }
 
 .consultation-page__intro-grid {
   direction: ltr;
-  width: min(100%, 1100px);
+  width: min(100%, 920px);
   margin-inline: auto;
   display: grid;
   grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
@@ -66,19 +66,19 @@
 }
 
 .consultation-page__gallery {
-  width: min(100% - clamp(2rem, 12vw, 340px), 1100px);
+  width: min(100% - clamp(2.5rem, 30vw, 520px), 920px);
   margin: 1.25rem auto 1.75rem;
   padding-inline: 0;
 }
 
 .consultation-page__past {
-  padding: clamp(1.25rem, 2.5vw, 2rem) clamp(1rem, 6vw, 170px) 0.75rem;
+  padding: clamp(1.25rem, 2.5vw, 2rem) clamp(1.5rem, 10vw, 260px) 0.75rem;
   background: rgb(240, 240, 240);
 }
 
 .consultation-page__past-grid {
   direction: ltr;
-  width: min(100%, 1100px);
+  width: min(100%, 920px);
   margin-inline: auto;
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
@@ -130,7 +130,7 @@
 
 /* Past-life section hero: keep same side inset rhythm */
 .consultation-page .page-hero:not(:first-child) .page-hero__band {
-  width: min(100% - clamp(2rem, 12vw, 340px), 1100px);
+  width: min(100% - clamp(2.5rem, 30vw, 520px), 920px);
   margin-inline: auto;
 }
 

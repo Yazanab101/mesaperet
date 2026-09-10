@@ -90,8 +90,8 @@
  * Slightly open tracking for "מרווח יותר" feel while keeping metrics.
  */
 .workshops-page__intro {
-  /* Force side inset ≥ ~180px @1440 → quieter, narrower content */
-  width: min(100% - clamp(2rem, 25vw, 360px), 1000px);
+  /* Client: wider side margins (~260px @1440) for a quieter feel */
+  width: min(100% - clamp(2.5rem, 30vw, 480px), 920px);
   margin: 1.15rem auto 1.75rem;
   font-family: var(--font-body);
   font-size: 18.2716px;
@@ -128,14 +128,14 @@
 }
 
 .workshops-page__gallery-wrap {
-  width: min(100% - clamp(2rem, 25vw, 360px), 1000px);
+  width: min(100% - clamp(2.5rem, 30vw, 480px), 920px);
   margin: 0.65rem auto 1.75rem;
 }
 
 /* Match narrower content: category banners inset like galleries */
 .workshops-page .page-hero--section .page-hero__band,
 .workshops-page .page-hero--section-short .page-hero__band {
-  width: min(100% - clamp(2rem, 25vw, 360px), 1000px);
+  width: min(100% - clamp(2.5rem, 30vw, 480px), 920px);
 }
 
 .workshops-page__cta-band {

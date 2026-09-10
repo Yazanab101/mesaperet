@@ -145,26 +145,26 @@
 }
 
 /* Testimonials screenshot stacks — soft delicate frames */
-.gallery--stack .gallery__track {
+.testimonials-page .gallery--stack .gallery__track {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.gallery--stack .gallery__item {
+.testimonials-page .gallery--stack .gallery__item {
   position: relative;
   width: 100%;
   height: auto;
   aspect-ratio: unset;
-  border-radius: 2px;
-  border: 1px solid rgba(38, 26, 18, 0.14);
-  box-shadow: 0 1px 4px rgba(38, 26, 18, 0.06);
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.22);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.08);
   cursor: zoom-in;
   overflow: hidden;
   background: #fff;
 }
 
-.gallery--stack .gallery__item img {
+.testimonials-page .gallery--stack .gallery__item img {
   width: 100%;
   height: auto;
   max-height: none;
@@ -174,7 +174,7 @@
   background: #fff;
 }
 
-.gallery--stack .gallery__item:hover img {
+.testimonials-page .gallery--stack .gallery__item:hover img {
   transform: none;
 }
 
