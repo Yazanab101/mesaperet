@@ -21,52 +21,62 @@
 }
 
 /*
- * Logo strip — matches live look:
- * white strip background, logos as-is (no forced cards),
- * overflow hidden so side logos clip, gap ~32, h≈156.
+ * Logo strip — measured from live me-saperet.com DOM
+ * Desktop 1440: white strip 155.625 × logos 110×110 × gap 32
+ * Mobile 390:   white strip 75.828  × logos 65×65  × gap 32
+ * Tablet 768:   white strip 138     × logos 122×122 × gap 32
+ * Edges clip (overflow hidden); wrappers radius 0 (radius is in assets).
  */
 .workshops-page__logos {
   width: 100%;
-  height: 156px;
+  height: 155.625px;
+  /* Hard side clip — logos cut mid-frame at left/right edges */
   overflow: hidden;
-  margin: 0.15rem 0 0;
+  overflow-x: clip;
+  contain: paint;
+  margin: 0;
   direction: ltr;
   background: #fff;
+  border-radius: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
 }
 
 .workshops-page__logos-track {
   display: flex;
   align-items: center;
-  gap: 48px;
+  gap: 32px;
   width: max-content;
   height: 100%;
+  /* Start partially off-screen so both edges always show a cut logo */
+  margin-inline-start: -55px;
   padding-inline: 0;
   animation: workshops-logos-marquee 28s linear infinite;
+  will-change: transform;
 }
 
 .workshops-page__logo {
   flex: 0 0 auto;
-  width: 140px;
-  height: 120px;
-  display: grid;
-  place-items: center;
+  width: 110px;
+  height: 110px;
+  display: block;
   box-sizing: border-box;
   padding: 0;
   background: transparent;
-  border-radius: 16px;
+  border-radius: 0;
   overflow: hidden;
 }
 
 .workshops-page__logo img {
-  width: auto;
-  height: auto;
-  max-width: 140px;
-  max-height: 110px;
-  object-fit: contain;
+  width: 110px;
+  height: 110px;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
   display: block;
   opacity: 1;
-  border-radius: 16px;
+  border-radius: 0;
 }
 
 @keyframes workshops-logos-marquee {
@@ -128,14 +138,15 @@
 }
 
 .workshops-page__gallery-wrap {
-  width: min(100% - clamp(2.5rem, 30vw, 480px), 920px);
+  /* Original DOM: 1152 @1440 (sides 144); 312 @390 (sides 39) → 20vw inset */
+  width: min(100% - clamp(1.5rem, 20vw, 288px), 1152px);
   margin: 0.65rem auto 1.75rem;
 }
 
-/* Match narrower content: category banners inset like galleries */
+/* Category banners — same side inset as galleries (1152 / 144 @1440) */
 .workshops-page .page-hero--section .page-hero__band,
 .workshops-page .page-hero--section-short .page-hero__band {
-  width: min(100% - clamp(2.5rem, 30vw, 480px), 920px);
+  width: min(100% - clamp(1.5rem, 20vw, 288px), 1152px);
 }
 
 .workshops-page__cta-band {
@@ -167,34 +178,31 @@
   z-index: 1;
 }
 
+@media (max-width: 1024px) and (min-width: 701px) {
+  /* Tablet ~768 measured */
+  .workshops-page__logos {
+    height: 138px;
+  }
+
+  .workshops-page__logo,
+  .workshops-page__logo img {
+    width: 122px;
+    height: 122px;
+  }
+
+  .workshops-page__logos-track {
+    margin-inline-start: -61px;
+  }
+}
+
 @media (max-width: 900px) {
   .workshops-page__clients-title {
     font-size: clamp(2.4rem, 14vw, 3.8rem);
   }
 
-  .workshops-page__logos {
-    height: 120px;
-  }
-
-  .workshops-page__logo {
-    width: 110px;
-    height: 96px;
-    border-radius: 14px;
-  }
-
-  .workshops-page__logo img {
-    max-width: 110px;
-    max-height: 88px;
-    border-radius: 14px;
-  }
-
-  .workshops-page__logos-track {
-    gap: 32px;
-  }
-
   .workshops-page__intro,
   .workshops-page__gallery-wrap {
-    width: min(100% - 1.5rem, 1000px);
+    width: min(100% - clamp(1.5rem, 20vw, 288px), 1152px);
     letter-spacing: 0.01em;
   }
 
@@ -205,5 +213,23 @@
 
   .workshops-page__cta-band-inner {
     aspect-ratio: 390 / 112;
+  }
+}
+
+@media (max-width: 700px) {
+  /* Mobile ~390 measured */
+  .workshops-page__logos {
+    height: 75.828px;
+  }
+
+  .workshops-page__logo,
+  .workshops-page__logo img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .workshops-page__logos-track {
+    gap: 32px;
+    margin-inline-start: -32px;
   }
 }

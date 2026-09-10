@@ -48,12 +48,14 @@ export const testimonialNavCards = [
   {
     id: "workshops-recs",
     title: "סדנאות",
-    icon: asset("testimonial-cats/workshops.svg"),
+    /* Original Wix fill #4C3323 (brown) */
+    icon: `${asset("testimonial-cats/workshops.svg")}?v=2`,
   },
   {
     id: "personal",
     title: "מפגשים אישיים",
-    icon: asset("testimonial-cats/personal.svg"),
+    /* Original Wix fill #5AB8B8 (teal) */
+    icon: `${asset("testimonial-cats/personal.svg")}?v=2`,
   },
 ] as const;
 
